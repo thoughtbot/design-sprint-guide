@@ -6,7 +6,7 @@
     "watch:eleventy": "eleventy --serve",
     "build:eleventy": "eleventy",
     "watch:sass": "sass --watch _includes/assets/sass:./css",
-    "build:sass": "sass _includes/assets/sass:./css",
+    "build:sass": "sass --include-path='node_modules' _includes/assets/sass:./css",
     "start": "npm-run-all build:sass --parallel watch:*",
     "build": "npm-run-all build:*",
     "debug": "DEBUG=* eleventy"
@@ -35,6 +35,7 @@
     "markdown-it-anchor": "^8.1.2"
   },
   "dependencies": {
+    "@thoughtbot/design-system": "^0.7.2",
     "npm-run-all": "^4.1.5",
     "sass": "^1.44.0"
   }
