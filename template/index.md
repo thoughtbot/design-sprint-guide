@@ -1,10 +1,10 @@
 ---
-layout: layouts/post.njk
-title: pizza
+layout: layouts/page.njk
+title: Template
 templateClass: tmpl-post
 eleventyNavigation:
-  key: Template
-  order: 3
+  key: 
+  order: 
 ---
 
 # Title
