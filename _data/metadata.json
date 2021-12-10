@@ -1,6 +1,6 @@
 {
-  "title": "Your Blog Name",
-  "url": "https://example.com/",
+ "title": "Product Design Sprint Guide",
+  "url": "https://thoughtbot.com/product-design-sprint/guide",
   "language": "en",
   "description": "I am writing about my experiences as a naval navel-gazer.",
   "feed": {
@@ -14,8 +14,8 @@
     "url": "https://example.com/feed/feed.json"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com",
-    "url": "https://example.com/about-me/"
+    "name": "thoughtbot Design",
+    "email": "design@thoughtbot.com",
+    "url": "https://thoughtbot.com/our-company"
   }
 }
