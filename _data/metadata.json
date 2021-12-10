@@ -2,16 +2,16 @@
  "title": "Product Design Sprint Guide",
   "url": "https://thoughtbot.com/product-design-sprint/guide",
   "language": "en",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "description": "thoughtbot's guide to product design sprints of all kinds.",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "How to run design sprints.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://example.com/"
+    "id": "https://thoughtbot.com/product-design-sprint/guide"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://example.com/feed/feed.json"
+    "url": "https://thoughtbot.com/product-design-sprint/guide/feed/feed.json"
   },
   "author": {
     "name": "thoughtbot Design",
