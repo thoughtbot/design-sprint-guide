@@ -5,8 +5,8 @@
   "scripts": {
     "watch:eleventy": "eleventy --serve",
     "build:eleventy": "eleventy",
-    "watch:sass": "sass --watch _includes/assets/sass:./css",
-    "build:sass": "sass --include-path='node_modules' _includes/assets/sass:./css",
+    "watch:sass": "sass --load-path='node_modules/@thoughtbot' --watch _includes/assets/sass:./css",
+    "build:sass": "sass --load-path='node_modules/@thoughtbot' _includes/assets/sass:./css",
     "start": "npm-run-all build:sass --parallel watch:*",
     "build": "npm-run-all build:*",
     "debug": "DEBUG=* eleventy"
