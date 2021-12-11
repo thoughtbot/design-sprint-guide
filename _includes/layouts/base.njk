@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
     <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
   </head>
   <body>
     <header>
@@ -45,4 +47,16 @@
 
     <!-- Current page: {{ page.url | url }} -->
   </body>
+  
+  <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
 </html>
