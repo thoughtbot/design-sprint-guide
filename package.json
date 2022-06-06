@@ -1,42 +1,27 @@
 {
-  "name": "eleventy-base-blog",
-  "version": "5.0.2",
-  "description": "A starter repository for a blog web site using the Eleventy static site generator.",
+  "name": "design-sprint-guide",
+  "version": "1.0.0",
+  "description": "A guide to design sprints by thoughtbot",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thoughtbot/design-sprint-guide.git"
+  },
   "scripts": {
     "watch:eleventy": "eleventy --serve",
     "build:eleventy": "eleventy",
     "watch:sass": "sass --load-path='node_modules/@thoughtbot' --watch _includes/assets/sass:./css",
     "build:sass": "sass --load-path='node_modules/@thoughtbot' _includes/assets/sass:./css",
     "start": "npm-run-all build:sass --parallel watch:*",
-    "build": "npm-run-all build:*",
-    "debug": "DEBUG=* eleventy"
+    "build": "npm-run-all build:*"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/11ty/eleventy-base-blog.git"
-  },
-  "author": {
-    "name": "Zach Leatherman",
-    "email": "zachleatherman@gmail.com",
-    "url": "https://zachleat.com/"
-  },
+  "author": "thoughtbot",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/11ty/eleventy-base-blog/issues"
-  },
-  "homepage": "https://github.com/11ty/eleventy-base-blog#readme",
   "devDependencies": {
+    "@11ty/eleventy": "^1.0.1",
     "npm-run-all": "^4.1.5"
   },
   "dependencies": {
-    "@11ty/eleventy": "^1.0.1",
-    "@11ty/eleventy-navigation": "^0.3.2",
-    "@11ty/eleventy-plugin-rss": "^1.1.1",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
     "@thoughtbot/design-system": "^0.7.2",
-    "luxon": "^2.4.0",
-    "markdown-it": "^12.1.0",
-    "markdown-it-anchor": "^8.1.2",
-    "sass": "^1.44.0"
+    "sass": "^1.52.2"
   }
 }
