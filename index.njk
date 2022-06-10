@@ -2,42 +2,43 @@
 layout: 'layouts/base.njk'
 ---
 
-<div class="tbds-app-frame">
+<main class="tbds-app-frame" "tbds-block-stack" "tbds-block-stack--bordered">
   
-  <div class="tbds-app-frame__header">
-    <div class="tbds-inline-stack tbds-inline-stack--gap-6">
+  <header class="tbds-app-frame__header  tbds-margin-block-6">
+    <section class="tbds-inline-stack tbds-inline-stack--gap-6 tbds-inline-size-80%">
       <div class="tbds-inline-stack__item">
-        <h3>Design Sprint Guide</h2>
-        <h5>by <a class="tbds-skip-link" href="#">thoughtbot</a></h5>
+        <h5 class="tbds-brand-red">Design Sprint Guide <br/>
+            by <a class="#" href="#">thoughtbot</a></h5>
       </div>
 
-      <div class="tbds-inline-stack__item">
+      <div class="tbds-inline-stack__item tbds-inline-stack__item--push-start tbds-inline-stack--gap-6 tbds-font-style-normal">
+       <span class="">
         <a href="#">Schedules</a>
         <a href="#">Exercises</a>
         <a href="#">FAQs</a>
         <a href="#">Resources and Glossary</a>
+        </span>
       </div>
-    </div>
-  </div>
+    </section>
+  </header>
 
 
-<div class="tbds-app-frame__body">
-  <h1>
+<body class="tbds-app-frame__body">
+
+    <h1 class="tbds-padding-inline-auto">
     <span class="eyebrow">Design Sprint Guide</span>
-    Design, prototype, and test ideas quickly.
-  </h1>
+    <span class="tbds-font-weight-bold">Design, prototype, and <br/> test ideas quickly.</span></h1>
 
-  <div class="tbds-inline-stack tbds-inline-stack--gap-6">  
-    <div class="tbds-inline-stack__items">
-      <p class="tbds-font-weight-bold">Design, prototype and test ideas quickly.</p>
+  <section class="tbds-inline-stack tbds-inline-stack--gap-6 tbds-inline-size-60%">  
+    <div class="tbds-inline-stack__item tbds-inline-size-60%">
       <p>What is a design sprint?</p>
       <p>A Product Design Sprint is a technique to quickly design, prototype, and test the viability of an idea, product, or feature. 
          The design sprint consists of 5 phases (typically days), starting with design thinking and ending with a user-tested prototype.
       </p>
     </div>
 
-    <div class="tbds-inline-stack__items">
-      <p>WHERE TO?</p>
+    <div class="tbds-inline-stack__item tbds-inline-stack__item--push-start">
+      <p class="eyebrow">WHERE TO?</p>
       <ul>
         <li>Schedules</li>
         <li>Phases</li>
@@ -45,10 +46,10 @@ layout: 'layouts/base.njk'
         <li>Resources and Glossary</li>
       </ul> 
     </div>
-  </div>
-</div>
+  </section>
+</body>
     
-  <div class="tbds-app-frame__footer">
+  <Footer class="tbds-app-frame__footer">
     Footer
-  </div>
-</div>
+  </Footer>
+</main>
