@@ -1,0 +1,23 @@
+<h1>Exercises</h1>
+
+<h2>Understand</h2>
+<ul>
+  {% for exercise in collections.understand %}
+  <li><a href="{{ exercise.data.page.url }}">{{ exercise.data.title }}</a></li>
+  {% endfor %}
+</ul>
+<a href="/exercises/understand">See all</a>
+
+<h2>Diverge</h2>
+<ul>
+  {% for exercise in collections.diverge %}
+  <li><a href="{{ exercise.data.page.url }}">{{ exercise.data.title }}</a></li>
+  {% endfor %}
+</ul>
+
+<h2>Converge</h2>
+<ul>
+  {% for exercise in collections.converge %}
+  <li><a href="{{ exercise.data.page.url }}">{{ exercise.data.title }}</a></li>
+  {% endfor %}
+</ul>

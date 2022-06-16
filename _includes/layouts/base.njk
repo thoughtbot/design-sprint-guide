@@ -3,9 +3,30 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
+    <header class="tbds-app-frame__header  tbds-margin-block-6">
+      <section class="tbds-inline-stack">
+        <div class="logo tbds-inline-stack__item">
+          <a href="/">
+            <img src="/images/logo.svg" alt="thoughtbot logo" />
+          </a>
+          <p class="tbds-brand-red">
+            Design Sprint Guide <br/>
+            by <a class="tbds-brand-red" href="https://thoughtbot.com">thoughtbot</a>
+          </p>
+        </div>
+
+        <ul class="inline-list tbds-inline-stack tbds-inline-stack__item--push-start">
+          <li class="tbds-inline-stack__item"><a href="#">Schedules</a></li>
+          <li class="tbds-inline-stack__item"><a href="/exercises">Exercises</a></li>
+          <li class="tbds-inline-stack__item"><a href="#">FAQs</a></li>
+          <li class="tbds-inline-stack__item"><a href="#">Resources and Glossary</a></li>
+        </ul>
+      </section>
+    </header> 
+
     {{ content | safe }}
   </body>
 </html>

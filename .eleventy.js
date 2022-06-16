@@ -4,4 +4,5 @@ module.exports = function (eleventyConfig) {
   // Copy the `css` folders to the output
   eleventyConfig.addPassthroughCopy("./css");
   eleventyConfig.addPassthroughCopy({ "_includes/assets/fonts": "fonts" });
+  eleventyConfig.addPassthroughCopy({ "_includes/assets/images": "images" });
 };
