@@ -1,0 +1,22 @@
+.phase-rows {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template:
+    "a . ."
+    "b b b"
+    "c c ."
+    "d . .";
+
+  *:nth-child(n + 2) {
+    grid-area: b / auto;
+  }
+
+  *:nth-child(n + 5) {
+    grid-area: c / auto;
+  }
+
+  *:nth-child(n + 7) {
+    grid-area: d / auto;
+  }
+}

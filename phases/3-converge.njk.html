@@ -1,0 +1,13 @@
+---
+number: 3
+title: Converge
+permalink: "phases/converge.html"
+---
+
+<h1>{{ title }}</h1>
+
+<ul id="exercises">
+  {% for exercise in collections.converge %}
+    <li><a href="{{ exercise.data.page.url }}">{{ exercise.data.title }}</a></li>
+  {% endfor %}
+</ul>

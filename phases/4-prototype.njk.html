@@ -1,0 +1,13 @@
+---
+number: 4
+title: Prototype
+permalink: "phases/prototype.html"
+---
+
+<h1>{{ title }}</h1>
+
+<ul>
+  {% for exercise in collections.prototype %}
+    <li><a href="{{ exercise.data.page.url }}">{{ exercise.data.title }}</a></li>
+  {% endfor %}
+</ul>

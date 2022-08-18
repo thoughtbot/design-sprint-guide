@@ -1,6 +1,12 @@
-<h1>Understand</h1>
+---
+number: 1
+title: Understand
+permalink: "phases/understand.html"
+---
 
-<ul>
+<h1>{{ title }}</h1>
+
+<ul id="exercises">
   {% for exercise in collections.understand %}
     <li><a href="{{ exercise.data.page.url }}">{{ exercise.data.title }}</a></li>
   {% endfor %}

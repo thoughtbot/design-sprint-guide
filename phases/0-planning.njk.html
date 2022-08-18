@@ -1,0 +1,13 @@
+---
+number: 0
+title: Planning
+permalink: "phases/planning.html"
+---
+
+<h1>{{ title }}</h1>
+
+<ul id="exercises">
+  {% for exercise in collections.planning %}
+    <li><a href="{{ exercise.data.page.url }}">{{ exercise.data.title }}</a></li>
+  {% endfor %}
+</ul>

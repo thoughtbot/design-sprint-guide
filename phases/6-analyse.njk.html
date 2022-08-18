@@ -1,0 +1,13 @@
+---
+number: 6
+title: Analyse
+permalink: "phases/analyse.html"
+---
+
+<h1>{{ title }}</h1>
+
+<ul>
+  {% for exercise in collections.analyse %}
+    <li><a href="{{ exercise.data.page.url }}">{{ exercise.data.title }}</a></li>
+  {% endfor %}
+</ul>
