@@ -10,9 +10,9 @@
     "watch:eleventy": "eleventy --serve",
     "build:eleventy": "eleventy",
     "watch:sass": "sass --load-path='node_modules/@thoughtbot' --watch _includes/assets/sass:./css",
-    "build:sass": "sass --load-path='node_modules/@thoughtbot' _includes/assets/sass:./css",
+    "build:sass": "sass --load-path='node_modules/@thoughtbot' _includes/assets/sass:./css --style compressed --no-source-map",
     "start": "npm-run-all build:sass --parallel watch:*",
-    "build": "npm-run-all build:*",
+    "build": "DEBUG=* npm-run-all build:sass build:eleventy",
     "lint:sass": "stylelint ./_includes/assets/sass/**/*.scss",
     "lint:js": "eslint ./**/*.js"
   },
