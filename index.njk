@@ -1,118 +1,116 @@
 ---
 layout: 'layouts/base'
 ---
-<div class="tbds-app-frame__body">
-  <h1>
-    <span class="eyebrow">
-      Design Sprint Guide
-    </span>
-    <span class="tbds-font-weight-bold">
-      Design, prototype, and <br/> test ideas quickly.
-    </span>
-  </h1>
+<h1>
+  <span class="eyebrow">
+    Design Sprint Guide
+  </span>
+  <span class="headline | tbds-font-weight-bold">
+    Design, prototype & test ideas quickly.
+  </span>
+</h1>
 
-  <section class="tbds-inline-stack">
-    <div class="tbds-inline-stack__item tbds-inline-size-50%">
-      <h2>What is a design sprint?</h2>
-      <p>
-        A Product Design Sprint is a technique to quickly design,
-        prototype, and test the viability of an idea, product, or feature.
-        The design sprint consists of 5 phases (typically days),
-        starting with design thinking and ending with a user-tested prototype.
-        <a href="/introduction">Read more</a>
-      </p>
-    </div>
+<section class="tbds-inline-stack tbds-inline-stack--gap-6">
+  <div class="tbds-inline-stack__item tbds-inline-size-40%">
+    <h2>What is a design sprint?</h2>
+    <p class="measure">
+      A Product Design Sprint is a technique to quickly design,
+      prototype, and test the viability of an idea, product, or feature.
+      The design sprint consists of 5 phases (typically days),
+      starting with design thinking and ending with a user-tested prototype.
+      <a href="/introduction">Read more</a>
+    </p>
+  </div>
 
-    <div class="tbds-inline-stack__item tbds-inline-size-50%">
-      <p class="eyebrow">Where to?</p>
-      <nav>
-        <ul>
-          <li><a href="#schedules">Schedules</a></li>
-          <li><a href="#phases">Phases</a></li>
-          <li><a href="#faqs">FAQs</a></li>
-          <li><a href="#resources">Resources & Glossary</a></li>
-        </ul>
-      </nav>
-    </div>
-  </section>
-  <section>
-    <h2>Methodology</h2>
+  <div class="tbds-inline-stack__item tbds-inline-size-20%">
+    <p class="eyebrow">Where to?</p>
+    <nav>
+      <ul>
+        <li><a href="#schedules">Schedules</a></li>
+        <li><a href="#phases">Phases</a></li>
+        <li><a href="#faqs">FAQs</a></li>
+        <li><a href="#resources">Resources & Glossary</a></li>
+      </ul>
+    </nav>
+  </div>
+</section>
+<section>
+  <h2>Methodology</h2>
 
-    <ul class="phase-rows" id="phases">
-      {% for phase in collections.phase %}
-        <li>
-          <a href="{{ phase.data.page.url }}">
-            <img src="#" alt="">
-            <span class="eyebrow">Phase {{ phase.data.number }}</span>
-            <h3>{{ phase.data.title }}</h3>
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
-  </section>
-
-  <section>
-    <h2>Planning</h2>
-
-    <h3 id="schedules">Schedules</h3>
-    <ul>
-      {% for schedule in collections.schedule %}
-        <li><a href="{{ schedule.data.page.url }}">{{ schedule.data.title }}</a></li>
-      {% endfor %}
-    </ul>
-
-    <h3>Exercises</h3>
-    <a href="/exercises">See all</a>
-
-    <div class="tbds-inline-stack tbds-inline-stack--gap-6">
-      <div class="tbds-inline-stack__item">
-        <h4>Understand</h4>
-        <ul>
-          {% for exercise in collections.understand %}
-            <li><a href="{{ exercise.data.page.url }}">{{ exercise.data.title }}</a></li>
-          {% endfor %}
-        </ul>
-        <a href="/phases/understand#exercises">See all</a>
-      </div>
-
-      <div class="tbds-inline-stack__item">
-        <h4>Diverge</h4>
-        <ul>
-          {% for exercise in collections.diverge %}
-            <li><a href="{{ exercise.data.page.url }}">{{ exercise.data.title }}</a></li>
-          {% endfor %}
-        </ul>
-        <a href="/phases/diverge#exercises">See all</a>
-      </div>
-
-      <div class="tbds-inline-stack__item">
-        <h4>Converge</h4>
-        <ul>
-          {% for exercise in collections.converge %}
-            <li><a href="{{ exercise.data.page.url }}">{{ exercise.data.title }}</a></li>
-          {% endfor %}
-        </ul>
-        <a href="/phases/converge#exercises">See all</a>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <h2 id="resources">Resources & Glossary</h2>
-
-    <h3>Resources</h3>
-    {% for resource in collections.resource %}
-      <li><a href="{{ resource.data.page.url }}">{{ resource.data.title }}</a></li>
+  <ul class="phase-rows" id="phases">
+    {% for phase in collections.phase %}
+      <li>
+        <a href="{{ phase.data.page.url }}">
+          <img src="#" alt="">
+          <span class="eyebrow">Phase {{ phase.data.number }}</span>
+          <h3>{{ phase.data.title }}</h3>
+        </a>
+      </li>
     {% endfor %}
+  </ul>
+</section>
 
-    <h3>Glossary</h3>
-    {% for term in collections.glossary %}
-      <li><a href="{{ term.data.page.url }}">{{ term.data.title }}</a></li>
+<section>
+  <h2>Planning</h2>
+
+  <h3 id="schedules">Schedules</h3>
+  <ul>
+    {% for schedule in collections.schedule %}
+      <li><a href="{{ schedule.data.page.url }}">{{ schedule.data.title }}</a></li>
     {% endfor %}
-  </section>
+  </ul>
 
-  <section>
-    <h2 id="faqs">FAQs</h2>
-    {% include 'faq.njk' %}
-  </section>
-</div>
+  <h3>Exercises</h3>
+  <a href="/exercises">See all</a>
+
+  <div class="tbds-inline-stack tbds-inline-stack--gap-6">
+    <div class="tbds-inline-stack__item">
+      <h4>Understand</h4>
+      <ul>
+        {% for exercise in collections.understand %}
+          <li><a href="{{ exercise.data.page.url }}">{{ exercise.data.title }}</a></li>
+        {% endfor %}
+      </ul>
+      <a href="/phases/understand#exercises">See all</a>
+    </div>
+
+    <div class="tbds-inline-stack__item">
+      <h4>Diverge</h4>
+      <ul>
+        {% for exercise in collections.diverge %}
+          <li><a href="{{ exercise.data.page.url }}">{{ exercise.data.title }}</a></li>
+        {% endfor %}
+      </ul>
+      <a href="/phases/diverge#exercises">See all</a>
+    </div>
+
+    <div class="tbds-inline-stack__item">
+      <h4>Converge</h4>
+      <ul>
+        {% for exercise in collections.converge %}
+          <li><a href="{{ exercise.data.page.url }}">{{ exercise.data.title }}</a></li>
+        {% endfor %}
+      </ul>
+      <a href="/phases/converge#exercises">See all</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2 id="resources">Resources & Glossary</h2>
+
+  <h3>Resources</h3>
+  {% for resource in collections.resource %}
+    <li><a href="{{ resource.data.page.url }}">{{ resource.data.title }}</a></li>
+  {% endfor %}
+
+  <h3>Glossary</h3>
+  {% for term in collections.glossary %}
+    <li><a href="{{ term.data.page.url }}">{{ term.data.title }}</a></li>
+  {% endfor %}
+</section>
+
+<section>
+  <h2 id="faqs">FAQs</h2>
+  {% include 'faq.njk' %}
+</section>

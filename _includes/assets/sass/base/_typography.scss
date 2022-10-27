@@ -37,3 +37,11 @@ h4 {
 p {
   font-size: 1.2rem;
 }
+
+ul {
+  padding-inline-start: 2ch;
+}
+
+li {
+  padding-left: $tbds-space-2;
+}
