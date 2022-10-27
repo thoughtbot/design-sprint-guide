@@ -17,11 +17,11 @@
   "author": "thoughtbot",
   "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.1",
+    "@11ty/eleventy": "^1.0.2",
     "npm-run-all": "^4.1.5"
   },
   "dependencies": {
     "@thoughtbot/design-system": "^0.7.2",
-    "sass": "^1.52.2"
+    "sass": "^1.55.0"
   }
 }
