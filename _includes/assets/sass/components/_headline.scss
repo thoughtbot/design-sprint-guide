@@ -1,6 +1,6 @@
 .headline {
-  font-size: clamp(6rem,8vw, 7rem);
+  display: block;
+  font-size: clamp(6rem, 8vw, 7rem);
   line-height: 1;
   max-width: 15ch;
-  display: block;
 }

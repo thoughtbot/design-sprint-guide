@@ -1,8 +1,8 @@
 .eyebrow {
-  text-transform: uppercase;
+  color: $tbds-brand-gray-light;
+  display: block;
   font-size: 1rem;
   font-weight: 500;
   letter-spacing: 0.25em;
-  display: block;
-  color: $tbds-brand-gray-light;
+  text-transform: uppercase;
 }

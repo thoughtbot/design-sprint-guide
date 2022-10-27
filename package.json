@@ -12,16 +12,39 @@
     "watch:sass": "sass --load-path='node_modules/@thoughtbot' --watch _includes/assets/sass:./css",
     "build:sass": "sass --load-path='node_modules/@thoughtbot' _includes/assets/sass:./css",
     "start": "npm-run-all build:sass --parallel watch:*",
-    "build": "npm-run-all build:*"
+    "build": "npm-run-all build:*",
+    "lint:sass": "stylelint ./_includes/assets/sass/**/*.scss",
+    "lint:js": "eslint ./**/*.js"
   },
   "author": "thoughtbot",
   "license": "MIT",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
-    "npm-run-all": "^4.1.5"
+    "@thoughtbot/stylelint-config": "^3.0.0",
+    "eslint": "^8.26.0",
+    "npm-run-all": "^4.1.5",
+    "stylelint": "^14.14.0"
   },
   "dependencies": {
     "@thoughtbot/design-system": "^0.7.2",
     "sass": "^1.55.0"
+  },
+  "stylelint": {
+    "extends": "@thoughtbot/stylelint-config"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "commonjs": true,
+      "es2021": true
+    },
+    "extends": "eslint:recommended",
+    "overrides": [
+    ],
+    "parserOptions": {
+      "ecmaVersion": "latest"
+    },
+    "rules": {
+    }
   }
 }

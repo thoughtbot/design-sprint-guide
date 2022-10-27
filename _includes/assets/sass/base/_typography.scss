@@ -1,7 +1,7 @@
 html {
+  color: $tbds-color-text-default;
   font-family: $font-family-sans;
   font-size: 100%;
-  color: $tbds-color-text-default;
   padding: 0 $tbds-space-6;
 
   @media (min-width: $tbds-breakpoint-large) {
@@ -14,8 +14,8 @@ h2,
 h3,
 h4 {
   font-family: $font-family-sans;
-  font-weight: $font-weight-heading;
   font-size: 1.2rem;
+  font-weight: $font-weight-heading;
 }
 
 h1 {
@@ -26,7 +26,8 @@ h2 {
   font-size: 3em;
 }
 
-h3, h4 {
+h3,
+h4 {
   font-size: 2em;
 }
 

@@ -1,12 +1,12 @@
 .phase-rows {
-  list-style: none;
-  padding: 0;
   display: grid;
   grid-template:
     "a . ."
     "b b b"
     "c c ."
     "d . .";
+  list-style: none;
+  padding: 0;
 
   *:nth-child(n + 2) {
     grid-area: b / auto;

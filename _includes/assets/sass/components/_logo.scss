@@ -1,10 +1,10 @@
 .logo {
-  display: flex;
   align-items: center;
+  display: flex;
 
   img {
-    width: 55px;
     margin-right: $tbds-space-3;
+    width: 55px;
   }
 
   p {
