@@ -1,6 +1,6 @@
 ---
 layout: 'layouts/base.njk'
----  
+---
 <div class="tbds-app-frame__body">
   <h1>
     <span class="eyebrow">
@@ -11,11 +11,11 @@ layout: 'layouts/base.njk'
     </span>
   </h1>
 
-  <section class="tbds-inline-stack">  
+  <section class="tbds-inline-stack">
     <div class="tbds-inline-stack__item tbds-inline-size-50%">
       <h2>What is a design sprint?</h2>
-      <p>A Product Design Sprint is a technique to quickly design, 
-         prototype, and test the viability of an idea, product, or feature. 
+      <p>A Product Design Sprint is a technique to quickly design,
+         prototype, and test the viability of an idea, product, or feature.
          The design sprint consists of 5 phases (typically days),
          starting with design thinking and ending with a user-tested prototype.
       </p>
@@ -28,7 +28,7 @@ layout: 'layouts/base.njk'
         <li>Phases</li>
         <li>FAQs</li>
         <li>Resources and Glossary</li>
-      </ul> 
+      </ul>
     </div>
   </section>
   <section>
@@ -91,6 +91,21 @@ layout: 'layouts/base.njk'
         <a href="/phases/converge#exercises">See all</a>
       </div>
     </div>
+  </section>
+
+  <section>
+    <h2>Resources & Glossary</h2>
+
+    <h3>Resources</h3>
+    {% for resource in collections.resource %}
+      <li><a href="{{ resource.data.page.url }}">{{ resource.data.title }}</a></li>
+    {% endfor %}
+
+    <h3>Glossary</h3>
+    {% for term in collections.glossary %}
+      <li><a href="{{ term.data.page.url }}">{{ term.data.title }}</a></li>
+    {% endfor %}
+
   </section>
 
   <section>
