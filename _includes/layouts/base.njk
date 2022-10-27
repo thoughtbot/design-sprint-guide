@@ -7,7 +7,7 @@
   </head>
   <body>
     <header class="tbds-app-frame__header tbds-margin-block-6">
-      <nav class="tbds-inline-stack">
+      <nav class="tbds-inline-stack" aria-labelledby="primary navigation">
         <div class="logo tbds-inline-stack__item">
           <a href="/">
             <img src="/images/logo.svg" alt="thoughtbot logo" />
@@ -27,7 +27,7 @@
       </nav>
     </header>
     {% if page.url !== "/" %}
-      <a href="/">Back</a>
+      <nav aria-labelledby="navigate back to the previous pages">{% breadcrumbs page.url %}</nav>
     {% endif %}
 
     {{ content | safe }}

@@ -15,4 +15,19 @@ module.exports = function(eleventyConfig) {
       return a.data.number - b.data.number
     });
   });
+  // Generate a simple breadcrumb
+  // Usage: {% breacrumbs page.url %}
+  eleventyConfig.addShortcode("breadcrumbs", function(url) {
+    const parts = url.split("/").filter((part) => { return part.length })
+    const links = ['<a href="/">Home</a>']
+    parts.forEach((route, i) => {
+      const title = route.charAt(0).toUpperCase() + route.substr(1);
+      if (i > 0) {
+        return links.push(`<a href="/${[parts[i - 1], route].join('/')}">${title}</a>`);
+      }
+      links.push(`<a href="/${route}">${title}</a>`);
+    })
+
+    return links.join("<span aria-hidden='true'> / </span>");
+  })
 };
