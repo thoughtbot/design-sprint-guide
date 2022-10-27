@@ -6,6 +6,10 @@ permalink: "phases/converge/index.html"
 
 <h1>{{ title }}</h1>
 
+{% renderFile './phases/converge/_introduction.md' %}
+
+<h2>Exercises</h2>
+
 <ul id="exercises">
   {% for exercise in collections.converge %}
     <li><a href="{{ exercise.data.page.url }}">{{ exercise.data.title }}</a></li>

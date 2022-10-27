@@ -6,6 +6,10 @@ permalink: "phases/prototype/index.html"
 
 <h1>{{ title }}</h1>
 
+{% renderFile './phases/prototype/_introduction.md' %}
+
+<h2>Exercises</h2>
+
 <ul>
   {% for exercise in collections.prototype %}
     <li><a href="{{ exercise.data.page.url }}">{{ exercise.data.title }}</a></li>
