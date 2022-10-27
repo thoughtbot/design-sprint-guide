@@ -1,0 +1,7 @@
+  <h1>Schedules</h1>
+
+  <ul>
+    {% for schedule in collections.schedule %}
+      <li><a href="{{ schedule.data.page.url }}">{{ schedule.data.title }}</a></li>
+    {% endfor %}
+  </ul>

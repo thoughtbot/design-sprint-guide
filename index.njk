@@ -25,18 +25,20 @@ layout: 'layouts/base'
 
     <div class="tbds-inline-stack__item tbds-inline-size-50%">
       <p class="eyebrow">Where to?</p>
-      <ul>
-        <li>Schedules</li>
-        <li>Phases</li>
-        <li>FAQs</li>
-        <li>Resources and Glossary</li>
-      </ul>
+      <nav>
+        <ul>
+          <li><a href="#schedules">Schedules</a></li>
+          <li><a href="#phases">Phases</a></li>
+          <li><a href="#faqs">FAQs</a></li>
+          <li><a href="#resources">Resources & Glossary</a></li>
+        </ul>
+      </nav>
     </div>
   </section>
   <section>
     <h2>Methodology</h2>
 
-    <ul class="phase-rows">
+    <ul class="phase-rows" id="phases">
       {% for phase in collections.phase %}
         <li>
           <a href="{{ phase.data.page.url }}">
@@ -52,7 +54,7 @@ layout: 'layouts/base'
   <section>
     <h2>Planning</h2>
 
-    <h3>Schedules</h3>
+    <h3 id="schedules">Schedules</h3>
     <ul>
       {% for schedule in collections.schedule %}
         <li><a href="{{ schedule.data.page.url }}">{{ schedule.data.title }}</a></li>
@@ -96,7 +98,7 @@ layout: 'layouts/base'
   </section>
 
   <section>
-    <h2>Resources & Glossary</h2>
+    <h2 id="resources">Resources & Glossary</h2>
 
     <h3>Resources</h3>
     {% for resource in collections.resource %}
@@ -107,11 +109,10 @@ layout: 'layouts/base'
     {% for term in collections.glossary %}
       <li><a href="{{ term.data.page.url }}">{{ term.data.title }}</a></li>
     {% endfor %}
-
   </section>
 
   <section>
-    <h2>FAQs</h2>
+    <h2 id="faqs">FAQs</h2>
     {% include 'faq.njk' %}
   </section>
 </div>
