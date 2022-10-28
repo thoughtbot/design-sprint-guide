@@ -6,30 +6,42 @@
     <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
-    <header class="tbds-app-frame__header tbds-margin-block-6">
-      <nav class="tbds-inline-stack" aria-labelledby="primary navigation">
-        <div class="logo tbds-inline-stack__item">
-          <a href="/">
-            <img src="/images/logo.svg" alt="thoughtbot logo" />
-          </a>
-          <p class="tbds-brand-red">
-            Design Sprint Guide <br/>
-            by <a class="tbds-brand-red" href="https://thoughtbot.com">thoughtbot</a>
-          </p>
-        </div>
+    <nav class="tbds-inline-stack tbds-margin-block-6" aria-labelledby="primary navigation">
+      <div class="logo tbds-inline-stack__item">
+        <a href="/">
+          <img src="/images/logo.svg" alt="thoughtbot logo" />
+        </a>
+        <p class="tbds-brand-red">
+          Design Sprint Guide <br/>
+          by <a class="tbds-brand-red" href="https://thoughtbot.com">thoughtbot</a>
+        </p>
+      </div>
 
-        <ul class="inline-list tbds-inline-stack tbds-inline-stack__item--push-start">
-          <li class="tbds-inline-stack__item"><a href="/schedules">Schedules</a></li>
-          <li class="tbds-inline-stack__item"><a href="/exercises">Exercises</a></li>
-          <li class="tbds-inline-stack__item"><a href="/#faqs">FAQs</a></li>
-          <li class="tbds-inline-stack__item"><a href="/resources">Resources</a></li>
-        </ul>
-      </nav>
-    </header>
+      <ul class="inline-list tbds-inline-stack tbds-inline-stack__item--push-start">
+        <li class="tbds-inline-stack__item"><a href="/schedules">Schedules</a></li>
+        <li class="tbds-inline-stack__item"><a href="/exercises">Exercises</a></li>
+        <li class="tbds-inline-stack__item"><a href="/#faqs">FAQs</a></li>
+        <li class="tbds-inline-stack__item"><a href="/resources">Resources</a></li>
+      </ul>
+    </nav>
+
     {% if page.url !== "/" %}
       <nav aria-labelledby="navigate back to the previous pages">{% breadcrumbs page.url %}</nav>
     {% endif %}
 
     {{ content | safe }}
+
+    <nav class="tbds-inline-stack tbds-margin-block-6" aria-labelledby="footer navigation">
+      <div class="logo tbds-inline-stack__item">
+        <p>&copy; 2022 thoughtbot, inc.</p>
+      </div>
+
+      <ul class="inline-list tbds-inline-stack tbds-inline-stack__item--push-start">
+        <li class="tbds-inline-stack__item"><a href="/schedules">Schedules</a></li>
+        <li class="tbds-inline-stack__item"><a href="/exercises">Exercises</a></li>
+        <li class="tbds-inline-stack__item"><a href="/#faqs">FAQs</a></li>
+        <li class="tbds-inline-stack__item"><a href="/resources">Resources</a></li>
+      </ul>
+    </nav>
   </body>
 </html>
