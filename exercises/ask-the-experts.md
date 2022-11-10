@@ -31,7 +31,7 @@ Read our tips below to help you conduct your interviews well.
 
 ## Tips
 
-- Make ‘How Might We’ notes as we listen.
+- Make [‘How Might We’](/exercises/how-might-we) notes as we listen.
 - Have one person asking the questions and another listening, watching the clock and taking notes.
 - Ask the expert if it is ok to record the interview. Having a recording is a great way to go back over conversations to see if there is anything you missed and to generate follow-up questions.
 - Try to avoid asking yes/no questions. Instead aim for open ended questions designed to keep the expert talking and to gain insight. Rather than asking "Do you like the gym?" try something more like "Tell me about your relationship with exercise?". With the latter, the expert might bring up something you had never even thought to ask about.
