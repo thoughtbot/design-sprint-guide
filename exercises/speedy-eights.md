@@ -3,7 +3,8 @@ tags: ['exercise', 'diverge']
 title: Speedy Eights
 ---
 
-The goal of this exercise is to push you outside your comfort zone, add more variety to your thoughts, and surface ideas that you would otherwise dismiss.
+The goal of this exercise is to push you outside your comfort zone, add more
+variety to your thoughts, and surface ideas that you would otherwise dismiss.
 
 ## Requirements
 
