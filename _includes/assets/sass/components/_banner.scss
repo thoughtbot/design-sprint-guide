@@ -1,0 +1,39 @@
+.banner {
+  background: $tbds-brand-yellow-light;
+  border: {
+    // color: $tbds-brand-yellow;
+    color: transparent;
+    image: repeating-linear-gradient(
+      45deg,
+      $tbds-brand-yellow,
+      $tbds-brand-yellow, 10px,
+      $tbds-brand-gray-dark 10px,
+      $tbds-brand-gray-dark 20px
+    ) 5;
+    radius: 0.25rem;
+    style: solid;
+    // top: none;
+    // top-left-radius: 0;
+    // top-right-radius: 0;
+    width: 4px;
+    // width: 2px;
+  }
+  color: $tbds-brand-gray-dark;
+  // left: 50%;
+  margin-inline: auto;
+  padding: {
+    block: $tbds-space-4;
+    inline: $tbds-space-4;
+  };
+  // position: absolute;
+  // right: 50%;
+  text-align: center;
+  // top: 0;
+  // transform: translateX(-50%);
+  width: 50rem;
+}
+
+.banner > p {
+  font-size: 1rem;
+  margin: 0;
+}
