@@ -3,6 +3,9 @@ eleventyExcludeFromCollections: true
 ---
 
 <h1>Resources & Glossary</h1>
+<article class="measure">
+  {% renderFile './resources/_introduction.md' %}
+</article>
 
 <h2>Resources</h2>
 {% for resource in collections.resource %}
