@@ -1,7 +1,11 @@
-  <h1>Schedules</h1>
+<h1>Schedules</h1>
 
-  <ul>
-    {% for schedule in collections.schedule %}
-      <li><a href="{{ schedule.data.page.url }}">{{ schedule.data.title }}</a></li>
-    {% endfor %}
-  </ul>
+<article class="measure">
+  {% renderFile './schedules/_introduction.md' %}
+</article?
+
+<ul>
+  {% for schedule in collections.schedule %}
+    <li><a href="{{ schedule.data.page.url }}">{{ schedule.data.title }}</a></li>
+  {% endfor %}
+</ul>

@@ -25,8 +25,8 @@ layout: 'layouts/base'
     <p class="eyebrow">Where to?</p>
     <nav aria-labelledby="navigate sections of this page">
       <ul>
-        <li><a href="#schedules">Schedules</a></li>
         <li><a href="#phases">Phases</a></li>
+        <li><a href="#schedules">Schedules</a></li>
         <li><a href="#faqs">FAQs</a></li>
         <li><a href="#resources">Resources & Glossary</a></li>
       </ul>
@@ -35,7 +35,7 @@ layout: 'layouts/base'
 </section>
 
 <section>
-  <h2>Methodology</h2>
+  <h2>Design sprint phases</h2>
   <p class="measure">
     At its core, a design sprint is split into 5 phases. Each phase has a clear
     goal and is designed to make progress towards answering big questions and
@@ -56,13 +56,20 @@ layout: 'layouts/base'
 </section>
 
 <section>
-  <h2>Planning</h2>
+  <h2>Build a design sprint</h2>
   <p class="measure">
-    blah blah blah
+    At thoughtbot, we have organized many, many design sprints over the years and
+    found that there is no right way to plan one. Each client and every problem is
+    different and needs a slightly different approach. If you are new to design
+    sprints start with one of our example schedules, after that try exploring all
+    the exercises and try building your own.
   </p>
 
   <h3 id="schedules">Schedules</h3>
-  <p>blah blah blah</p>
+  <article class="measure">
+    {% renderFile './schedules/_introduction.md' %}
+  </article>
+  <a href="/schedules">See all</a>
   <ul>
     {% for schedule in collections.schedule %}
       <li><a href="{{ schedule.data.page.url }}">{{ schedule.data.title }}</a></li>
@@ -70,10 +77,10 @@ layout: 'layouts/base'
   </ul>
 
   <h3>Exercises</h3>
-  <p>
-    blah blah blah
-    <a href="/exercises">See all</a>
-  </p>
+  <article class="measure">
+    {% renderFile './exercises/_introduction.md' %}
+  </article>
+  <a href="/exercises">See all</a>
 
   <div class="tbds-inline-stack tbds-inline-stack--gap-6">
     <div class="tbds-inline-stack__item">
