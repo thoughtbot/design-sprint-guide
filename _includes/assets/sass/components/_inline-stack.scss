@@ -1,0 +1,9 @@
+// Extensions to tbds-inline-stack
+
+.inline-stack--align-start {
+  align-items: flex-start;
+}
+
+.inline-stack--gap-7 {
+  --tbds-inline-stack-gap: #{$tbds-space-6 * 2};
+}
