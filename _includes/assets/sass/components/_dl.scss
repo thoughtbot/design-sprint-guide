@@ -1,0 +1,18 @@
+.dl {
+  border-bottom: 1px solid $tbds-brand-gray-ultra-light;
+}
+
+.dl--title {
+  color: $tbds-brand-red;
+  font: {
+    size: 1.2rem;
+    weight: $tbds-font-weight-bold;
+  }
+  margin: $tbds-space-6 0;
+}
+
+.dl--description {
+  font-size: 1.2rem;
+  margin: $tbds-space-6 0;
+  max-width: 70ch;
+}
