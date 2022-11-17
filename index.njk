@@ -21,7 +21,6 @@ layout: 'layouts/base'
       <a href="/introduction">Read more</a>
     </p>
   </div>
-
   <div class="tbds-inline-stack__item tbds-inline-size-20%">
     <p class="eyebrow">Where to?</p>
     <nav aria-labelledby="navigate sections of this page">
@@ -34,9 +33,15 @@ layout: 'layouts/base'
     </nav>
   </div>
 </section>
+
 <section>
   <h2>Methodology</h2>
-
+  <p class="measure">
+    At its core, a design sprint is split into 5 phases. Each phase has a clear
+    goal and is designed to make progress towards answering big questions and
+    validating big ideas. Each phase is flexible and there is lots of room to
+    experiment with different techniques.
+  </p>
   <ul class="phase-rows" id="phases">
     {% for phase in collections.phase %}
       <li>
@@ -52,8 +57,12 @@ layout: 'layouts/base'
 
 <section>
   <h2>Planning</h2>
+  <p class="measure">
+    blah blah blah
+  </p>
 
   <h3 id="schedules">Schedules</h3>
+  <p>blah blah blah</p>
   <ul>
     {% for schedule in collections.schedule %}
       <li><a href="{{ schedule.data.page.url }}">{{ schedule.data.title }}</a></li>
@@ -61,7 +70,10 @@ layout: 'layouts/base'
   </ul>
 
   <h3>Exercises</h3>
-  <a href="/exercises">See all</a>
+  <p>
+    blah blah blah
+    <a href="/exercises">See all</a>
+  </p>
 
   <div class="tbds-inline-stack tbds-inline-stack--gap-6">
     <div class="tbds-inline-stack__item">
@@ -98,6 +110,7 @@ layout: 'layouts/base'
 
 <section>
   <h2 id="resources">Resources & Glossary</h2>
+  <p class="measure">blah blah blah</p>
 
   <h3>Resources</h3>
   <ul>
