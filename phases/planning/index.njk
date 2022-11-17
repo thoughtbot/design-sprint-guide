@@ -7,11 +7,3 @@ permalink: "phases/planning/index.html"
 <h1>{{ title }}</h1>
 
 {% renderFile './phases/planning/_introduction.md' %}
-
-<h2>Exercises</h2>
-
-<ul id="exercises">
-  {% for exercise in collections.planning %}
-    <li><a href="{{ exercise.data.page.url }}">{{ exercise.data.title }}</a></li>
-  {% endfor %}
-</ul>
