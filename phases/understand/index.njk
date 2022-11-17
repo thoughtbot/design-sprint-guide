@@ -6,10 +6,11 @@ permalink: "phases/understand/index.html"
 
 <h1>{{ title }}</h1>
 
-{% renderFile './phases/understand/_introduction.md' %}
+<article class="measure">
+  {% renderFile './phases/understand/_introduction.md' %}
+</article>
 
 <h2>Exercises</h2>
-
 <ul id="exercises">
   {% for exercise in collections.understand %}
     <li><a href="{{ exercise.data.page.url }}">{{ exercise.data.title }}</a></li>

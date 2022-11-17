@@ -21,22 +21,28 @@ layout: 'layouts/base'
       <a href="/introduction">Read more</a>
     </p>
   </div>
-
   <div class="tbds-inline-stack__item tbds-inline-size-20%">
     <p class="eyebrow">Where to?</p>
     <nav aria-labelledby="navigate sections of this page">
       <ul>
-        <li><a href="#schedules">Schedules</a></li>
         <li><a href="#phases">Phases</a></li>
+        <li><a href="#schedules">Schedules</a></li>
+        <li><a href="#exercises">Exercises</a></li>
         <li><a href="#faqs">FAQs</a></li>
         <li><a href="#resources">Resources & Glossary</a></li>
       </ul>
     </nav>
   </div>
 </section>
-<section>
-  <h2>Methodology</h2>
 
+<section>
+  <h2>Design sprint phases</h2>
+  <p class="measure">
+    At its core, a design sprint is split into 5 phases. Each phase has a clear
+    goal and is designed to make progress towards answering big questions and
+    validating big ideas. Each phase is flexible and there is lots of room to
+    experiment with different techniques.
+  </p>
   <ul class="phase-rows" id="phases">
     {% for phase in collections.phase %}
       <li>
@@ -51,19 +57,34 @@ layout: 'layouts/base'
 </section>
 
 <section>
-  <h2>Planning</h2>
+  <h2>Build a design sprint</h2>
+  <p class="measure">
+    At thoughtbot, we have organized many, many design sprints over the years and
+    found that there is no right way to plan one. Each client and every problem is
+    different and needs a slightly different approach. If you are new to design
+    sprints start with one of our example schedules, after that try exploring all
+    the exercises and try building your own.
+  </p>
 
   <h3 id="schedules">Schedules</h3>
+  <article class="measure">
+    {% renderFile './schedules/_introduction.md' %}
+  </article>
+  <a href="/schedules">See all</a>
   <ul>
+    {{ collections.schedule | log}}
     {% for schedule in collections.schedule %}
       <li><a href="{{ schedule.data.page.url }}">{{ schedule.data.title }}</a></li>
     {% endfor %}
   </ul>
 
-  <h3>Exercises</h3>
+  <h3 id="exercises">Exercises</h3>
+  <article class="measure">
+    {% renderFile './exercises/_introduction.md' %}
+  </article>
   <a href="/exercises">See all</a>
 
-  <div class="tbds-inline-stack tbds-inline-stack--gap-6">
+  <div class="tbds-inline-stack inline-stack--gap-7 inline-stack--align-start">
     <div class="tbds-inline-stack__item">
       <h4>Understand</h4>
       <ul>
@@ -98,16 +119,23 @@ layout: 'layouts/base'
 
 <section>
   <h2 id="resources">Resources & Glossary</h2>
+  <article class="measure">
+    {% renderFile './resources/_introduction.md' %}
+  </article>
 
   <h3>Resources</h3>
-  {% for resource in collections.resource %}
-    <li><a href="{{ resource.data.page.url }}">{{ resource.data.title }}</a></li>
-  {% endfor %}
+  <ul>
+    {% for resource in collections.resource %}
+      <li><a href="{{ resource.data.page.url }}">{{ resource.data.title }}</a></li>
+    {% endfor %}
+  </ul>
 
   <h3>Glossary</h3>
-  {% for term in collections.glossary %}
-    <li><a href="{{ term.data.page.url }}">{{ term.data.title }}</a></li>
-  {% endfor %}
+  <ul>
+    {% for term in collections.glossary %}
+      <li><a href="{{ term.data.page.url }}">{{ term.data.title }}</a></li>
+    {% endfor %}
+  </ul>
 </section>
 
 <section>

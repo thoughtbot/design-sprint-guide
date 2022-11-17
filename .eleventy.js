@@ -16,10 +16,10 @@ module.exports = function(eleventyConfig) {
     });
   });
   // Generate a simple breadcrumb
-  // Usage: {% breacrumbs page.url %}
+  // Usage: {% breadcrumbs page.url %}
   eleventyConfig.addShortcode("breadcrumbs", function(url) {
-    const parts = url.split("/").filter((part) => { return part.length })
-    const links = ['<a href="/">Home</a>']
+    const parts = url.split("/").filter((part) => part.length)
+    const links = ["<a href='/'>Home</a>"]
     parts.forEach((route, i) => {
       const title = route.charAt(0).toUpperCase() + route.substr(1);
       if (i > 0) {
