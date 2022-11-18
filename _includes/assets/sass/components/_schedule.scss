@@ -3,6 +3,7 @@
   overflow-x: scroll;
   padding: 0;
   border-radius: $tbds-space-3;
+  width: calc(100vw - #{$tbds-space-6 * 2});
 
   & > li {
     padding-left: 0;
@@ -22,8 +23,26 @@
 .schedule__phase {
   background-color: $tbds-brand-gray-ultra-light;
   border-radius: $tbds-space-3;
-  min-width: 20vw;
   padding: $tbds-space-3;
+  min-width: 60vw;
+
+  @media (min-width: $tbds-breakpoint-small) {
+    & {
+      min-width: 40vw;
+    }
+  }
+
+  @media (min-width: $tbds-breakpoint-medium) {
+    & {
+      min-width: 30vw;
+    }
+  }
+
+  @media (min-width: $tbds-breakpoint-large) {
+    & {
+      min-width: 20vw;
+    }
+  }
 
   & > h3 {
     font-size: 1rem;
