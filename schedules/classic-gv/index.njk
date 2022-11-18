@@ -1,0 +1,39 @@
+---
+title: Classic (GV Flavor)
+---
+<h1>{{ title }}</h1>
+
+<article class="measure">
+  {% renderFile './schedules/classic-gv/_introduction.md' %}
+</article>
+
+<ol class="schedule | tbds-inline-stack  tbds-inline-stack--gap-4">
+  {% for phase in schedules.classic_gv.phases %}
+    <li class="tbds-inline-stack__item">
+      <div class="schedule__phase">
+      <h3><span>{{ loop.index0 }}</span> {{ phase.title }}</h3>
+      <ol class="schedule__agenda">
+        {% for exercise in phase.exercises %}
+          <li class="schedule__exercise">
+            <h4>{{ exercise.time }}</h4>
+            {% if exercise.slug %}
+              <a href="/exercises/{{ exercise.slug }}">{{ exercise.title }}</a>
+            {% else %}
+              <p>{{ exercise.title }}</p>
+            {% endif %}
+          </li>
+        {% endfor %}
+        {% if phase.end_time %}
+          <footer class="schedule__exercise">
+            <p>
+              <small>
+                <strong>{{ phase.end_time }}</strong> – Wrap up
+              </small>
+            </p>
+          </footer>
+        {% endif %}
+      </ol>
+      </div>
+    </li>
+  {% endfor %}
+</ol>

@@ -1,0 +1,58 @@
+.schedule {
+  align-items: flex-start;
+  overflow-x: scroll;
+  padding: 0;
+  border-radius: $tbds-space-3;
+
+  & > li {
+    padding-left: 0;
+  }
+}
+
+.schedule,
+.schedule__agenda {
+  list-style: none;
+  margin: 0;
+}
+
+.schedule__agenda {
+  padding: 0;
+}
+
+.schedule__phase {
+  background-color: $tbds-brand-gray-ultra-light;
+  border-radius: $tbds-space-3;
+  min-width: 20vw;
+  padding: $tbds-space-3;
+
+  & > h3 {
+    font-size: 1rem;
+    margin-top: 0;
+
+    span {
+      font-weight: normal;
+      margin-right: $tbds-space-1;
+      color: $tbds-brand-gray-light;
+    }
+  }
+}
+
+.schedule__exercise {
+  background-color: white;
+  border-radius: $tbds-space-2;
+  padding: $tbds-space-2;
+  margin-top: $tbds-space-2;
+
+  & > * {
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: block;
+  }
+
+  & > h4 {
+    color: lighten($tbds-brand-gray-light, 20%);
+    letter-spacing: 0.05em;
+    font-size: 0.9rem;
+  }
+}

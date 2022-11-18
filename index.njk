@@ -72,7 +72,6 @@ layout: 'layouts/base'
   </article>
   <a href="/schedules">See all</a>
   <ul>
-    {{ collections.schedule | log}}
     {% for schedule in collections.schedule %}
       <li><a href="{{ schedule.data.page.url }}">{{ schedule.data.title }}</a></li>
     {% endfor %}
