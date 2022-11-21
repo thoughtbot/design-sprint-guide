@@ -1,5 +1,6 @@
 .dl {
   border-bottom: 1px solid $tbds-brand-gray-ultra-light;
+  padding-block: $tbds-space-6;
 }
 
 .dl--title {
@@ -8,11 +9,11 @@
     size: 1.2rem;
     weight: $tbds-font-weight-bold;
   }
-  margin: $tbds-space-6 0;
+  margin-bottom: $tbds-space-3;
 }
 
 .dl--description {
   font-size: 1.2rem;
-  margin: $tbds-space-6 0;
+  margin-inline: 0;
   max-width: 70ch;
 }
