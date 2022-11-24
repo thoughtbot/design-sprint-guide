@@ -1,0 +1,58 @@
+backend:
+  name: git-gateway
+local_backend: true
+show_preview_links: false
+editor:
+  preview: false
+media_folder: _includes/assets/images
+collections:
+  - name: exercise
+    label: Exercise
+    format: frontmatter
+    create: true
+    folder: exercises
+    fields:
+      - {name: title, widget: string}
+      - label: "Tags"
+        name: "tags"
+        hint: "'exercise' must be present"
+        widget: "select"
+        multiple: true
+        min: 1
+        options:
+          - exercise
+          - prepare
+          - understand
+          - diverge
+          - converge
+          - prototype
+          - test
+          - analyse
+        default: ["exercise"]
+      - {name: body, widget: markdown}
+  - name: schedule
+    label: Schedule
+    format: json
+    create: true
+    folder: _data/schedules
+    fields:
+      - {name: title, widget: string}
+      - name: phases
+        widget: list
+        fields:
+          - {name: title, widget: string}
+          - {label: End Time, name: end_time, widget: string, required: false}
+          - name: exercise
+            widget: list
+            fields:
+              - {name: title, widget: string}
+              - {name: time, widget: string}
+              - name: slug
+                label: Exercise
+                hint: "Leave blank for breaks etc."
+                widget: relation
+                collection: exercise
+                value_field: "{{slug}}"
+                search_fields: ["title"]
+                display_fields: ["title"]
+                required: false

@@ -9,6 +9,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./css");
   eleventyConfig.addPassthroughCopy({ "_includes/assets/fonts": "fonts" });
   eleventyConfig.addPassthroughCopy({ "_includes/assets/images": "images" });
+  eleventyConfig.addPassthroughCopy("admin/");
   // Phases collection: Sorted by "number" key in frontmatter
   eleventyConfig.addCollection("phase", function(collectionApi) {
     return collectionApi.getFilteredByTag("phase").sort(function(a, b) {

@@ -13,7 +13,7 @@ title: Classic (GV Flavor)
       <div class="schedule__phase">
       <h3><span>{{ loop.index0 }}</span> {{ phase.title }}</h3>
       <ol class="schedule__agenda">
-        {% for exercise in phase.exercises %}
+        {% for exercise in phase.exercise %}
           <li class="schedule__exercise">
             <h4>{{ exercise.time }}</h4>
             {% if exercise.slug %}
