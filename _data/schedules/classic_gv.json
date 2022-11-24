@@ -137,7 +137,8 @@
       "exercise": [
         {
           "title": "Build the prototype",
-          "time": "All Day"
+          "time": "All Day",
+          "slug": "build-a-prototype"
         },
         {
           "title": "Write the script",
