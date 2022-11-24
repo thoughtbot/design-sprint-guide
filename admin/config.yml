@@ -46,7 +46,8 @@ collections:
             widget: list
             fields:
               - {name: title, widget: string}
-              - {name: time, widget: string}
+              - {name: time, widget: string, required: false}
+              - {name: divider, widget: boolean, required: false}
               - name: slug
                 label: Exercise
                 hint: "Leave blank for breaks etc."

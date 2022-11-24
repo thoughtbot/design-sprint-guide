@@ -51,6 +51,18 @@
           "title": "Pick a Target",
           "time": "3:30pm",
           "slug": "pick-a-target"
+        },
+        {
+          "title": "Optional",
+          "divider": true
+        },
+        {
+          "slug": "assumptions-board",
+          "title": "Start an assumptions board"
+        },
+        {
+          "slug": "backburner-board",
+          "title": "Start a backburner board"
         }
       ]
     },
