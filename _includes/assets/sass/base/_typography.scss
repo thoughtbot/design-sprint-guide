@@ -47,3 +47,9 @@ ul {
 li {
   padding-left: $tbds-space-2;
 }
+
+blockquote {
+  margin: 0;
+  padding: $tbds-space-3 $tbds-space-5;
+  border: 2px solid $tbds-brand-gray-ultra-light;
+}
