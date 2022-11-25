@@ -207,7 +207,8 @@
       "exercise": [
         {
           "title": "Test the prototype",
-          "time": "All Day"
+          "time": "All Day",
+          "slug": "interview"
         }
       ]
     }
