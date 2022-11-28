@@ -1,3 +1,8 @@
 .tbds-brand-red {
   color: $tbds-brand-red;
 }
+
+::selection {
+  background: $tbds-brand-red;
+  color: white;
+}
