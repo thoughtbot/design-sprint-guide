@@ -1,4 +1,6 @@
-<dl>
-  <dt>What is a product design sprint?</dt>
-  <dd>A Product Design Sprint is a technique to quickly design, prototype, and test the viability of an idea, product, or feature. The design sprint consists of 5 phases (typically days), starting with design thinking and ending with a user-tested prototype.</dd>
-</dl>
+{% for faq in faqs %}
+  <dl class="dl">
+    <dt class="dl--title">{{ faq.title }}</dt>
+    <dd class="dl--description">{{ faq.description }}</dd>
+  </dl>
+{% endfor %}
