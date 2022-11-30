@@ -1,0 +1,72 @@
+.schedule {
+  align-items: flex-start;
+  border-radius: $tbds-space-3;
+  overflow-x: scroll;
+  padding: 0;
+  width: calc(100vw - #{$tbds-space-6 * 2});
+}
+
+.schedule,
+.schedule__agenda {
+  list-style: none;
+  margin: 0;
+}
+
+.schedule__agenda {
+  padding: 0;
+}
+
+.schedule__phase {
+  background-color: $tbds-brand-gray-ultra-light;
+  border-radius: $tbds-space-3;
+  min-width: 60vw;
+  padding: $tbds-space-3;
+
+  @media (min-width: $tbds-breakpoint-small) {
+    min-width: 40vw;
+  }
+
+  @media (min-width: $tbds-breakpoint-medium) {
+    min-width: 30vw;
+  }
+
+  @media (min-width: $tbds-breakpoint-large) {
+    min-width: 20vw;
+  }
+
+  h3 {
+    font-size: 1rem;
+    margin-top: 0;
+
+    span {
+      color: $tbds-brand-gray-light;
+      font-weight: normal;
+      margin-right: $tbds-space-1;
+    }
+  }
+}
+
+.schedule__exercise {
+  background-color: white;
+  border-radius: $tbds-space-2;
+  margin-top: $tbds-space-2;
+  padding: $tbds-space-2;
+
+  > * {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  h4 {
+    color: lighten($tbds-brand-gray-light, 20%);
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+  }
+}
+
+.schedule__divider {
+  background-color: transparent;
+  font-weight: bold;
+}

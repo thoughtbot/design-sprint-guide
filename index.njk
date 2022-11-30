@@ -72,7 +72,6 @@ layout: 'layouts/base'
   </article>
   <a href="/schedules">See all</a>
   <ul>
-    {{ collections.schedule | log}}
     {% for schedule in collections.schedule %}
       <li><a href="{{ schedule.data.page.url }}">{{ schedule.data.title }}</a></li>
     {% endfor %}
@@ -80,7 +79,7 @@ layout: 'layouts/base'
 
   <h3 id="exercises">Exercises</h3>
   <article class="measure">
-    {% renderFile './exercises/_introduction.md' %}
+    {% renderFile './exercises/index/_introduction.md' %}
   </article>
   <a href="/exercises">See all</a>
 
