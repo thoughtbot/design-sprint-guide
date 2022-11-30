@@ -1,0 +1,5 @@
+---
+title: Mockup
+---
+
+# {{ title }}
