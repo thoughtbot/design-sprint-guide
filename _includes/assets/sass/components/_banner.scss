@@ -4,23 +4,19 @@
     color: $tbds-brand-yellow;
     radius: 0.25rem;
     style: solid;
-    top: none;
-    top-left-radius: 0;
-    top-right-radius: 0;
     width: 2px;
   }
   color: $tbds-brand-gray-dark;
-  left: 50%;
   margin-inline: auto;
   padding: {
     block: $tbds-space-3;
     inline: $tbds-space-3;
   };
-  position: absolute;
-  right: 50%;
+  // position: absolute;
+  // right: 50%;
   text-align: center;
-  top: 0;
-  transform: translateX(-50%);
+  // top: 0;
+  // transform: translateX(-50%);
   width: 40rem;
 }
 
