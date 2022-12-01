@@ -47,3 +47,8 @@ Ask the team to do the following, while you set a timer for 20 minutes.
   high-risk high-reward features or ideas that help a product standout from
   competitors. If the gamble does not pay off we will know it in the prototype
   stage. It will be caught so early that there is no real risk involved.
+
+## Examples
+![Collection of sketches and explanations taped to a wall with some dot voting](/images/exercises/heat-map.jpeg)
+
+![Close-up of a Heat Map highlighting sketches and explanations](/images/exercises/heat-map-2.jpeg)
