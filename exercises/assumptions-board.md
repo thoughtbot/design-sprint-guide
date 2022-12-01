@@ -28,3 +28,9 @@ At the end of Converge, create a table with 3 columns:
 - For each assumption decide how you plan on testing to see if the assumptions
   are valid or not and how you know if that assumption is valid.
 - Repeat till all assumptions have a test for them.
+
+## Examples
+![Assumptions board written on a whiteboard](/images/exercises/assumptions.jpeg)
+Taken from [The Product Design Sprint](https://thoughtbot.com/blog/the-product-design-sprint)
+
+![A table that includes columns labeled assumption, test, validation](/images/exercises/assumption-test.jpeg)
