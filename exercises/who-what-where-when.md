@@ -23,7 +23,7 @@ essential to build a product that solves the problem well and succinctly.
 
 ## Instructions
 
-1. Divide the a section of your shared art board or Miro board into four sections. Give each a title of Who, What, When, and Where.
+1. Divide a section of your shared art board or Miro board into four sections. Give each a title of Who, What, When, and Where.
 2. Start with Who. Each player should write down as many questions starting with “Who” related to the problem we want to solve. e.g. “Who spends hours manually manipulating data from one format to another?” “Who receives gifts they don’t want on their birthday?”
 3. Post all the questions under the who section of the board. As a team try to group similar questions together.
 4. Have Product Owner, Facilitator or an informed team mate answer the questions (if they can), mark them later for further research (if they cannot) or reword them as an assumption that needs testing (if they are unsure).
