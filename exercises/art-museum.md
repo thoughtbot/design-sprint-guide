@@ -28,3 +28,6 @@ sketches and upload them to a shared folder or Miro board.
 2. [Speed Critique](/exercises/speed-crit): 3-5 Minutes (per sketch)
 3. [Straw poll](/exercises/straw-poll): 5 Minutes
 4. [Supervote](/exercises/super-vote): 5 Minutes
+
+## Example
+![A large collection of storyboard with dot voting taped to a wall](/images/exercises/art-museum.jpeg)

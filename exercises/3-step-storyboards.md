@@ -27,3 +27,6 @@ Use these rules as a guide:
 2. **Ugly is OK**: Detail is more important, the idea should feel thoughtful and complete.
 3. **Words matter**: Sketching is hard, so make sure to make up for it with the words that you use to describe each step.
 4. **Give it a title**: We'll use these later to identify our favourite ideas.
+
+## Example
+![Close-up of a storyboard with dot voting](/images/exercises/storyboard.jpeg)
