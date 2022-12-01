@@ -31,3 +31,7 @@ The sketches will not be shown to the rest of the group.
 ## Tips
 
 - You can try rapid variations of similar ideas, for example how a button would look.
+
+## Example
+![Collection of Speedy Eight exercises on a table with markers](/images/exercises/speedy-eights.jpeg)
+
