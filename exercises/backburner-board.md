@@ -19,3 +19,6 @@ note board.
 - As a team during the converge phase, review all the ideas that have been put up on the wall. 
   - Trash any that aren't relevant anymore.
   - Record all ideas in a separate document or Trello.
+
+## Examples
+![Backburner board on paper with a list of ideas generated throughout the week](/images/exercises/back-burner.jpeg)
