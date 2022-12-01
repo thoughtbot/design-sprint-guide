@@ -30,4 +30,4 @@ sketches and upload them to a shared folder or Miro board.
 4. [Supervote](/exercises/super-vote): 5 Minutes
 
 ## Example
-![A large collection of storyboard with dot voting taped to a wall](/images/exercises/art-museum.jpeg)
+![A large collection of storyboards with dot voting taped to a wall](/images/exercises/art-museum.jpeg)
