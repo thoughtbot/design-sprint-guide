@@ -43,3 +43,6 @@ them and verify that each feature in is the appropriate section.
 Continuously look back over the problem statement and read it aloud throughout
 the exercise. This helps the group to focus on the core problem and to
 ruthlessly segment features.
+
+## Example
+![Different groups of Post-It notes organized neatly in order of priority](/images/exercises/needs-wants-desires.jpeg)
