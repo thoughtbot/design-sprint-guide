@@ -1,6 +1,7 @@
 ---
 tags: ['exercise', 'converge']
 title: Art Museum
+children: ['heat-map', 'speed-crit', 'straw-poll', 'super-vote']
 ---
 
 Individually review every sketch made the day before by heat map voting with

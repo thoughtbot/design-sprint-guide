@@ -1,6 +1,7 @@
 ---
 tags: ['exercise', 'converge']
 title: Heat Map
+child: true
 ---
 
 Heat map is an exercise to get a general feel for which of the ideas that have
