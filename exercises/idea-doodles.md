@@ -1,6 +1,7 @@
 ---
 tags: ['exercise', 'diverge']
 title: Idea Doodles
+child: true
 ---
 
 By now you should have the beginnings of a few ways to solve this problem, this

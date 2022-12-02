@@ -1,6 +1,7 @@
 ---
 tags: ['exercise', 'diverge']
 title: Speedy Eights
+child: true
 ---
 
 The goal of this exercise is to push you outside your comfort zone, add more

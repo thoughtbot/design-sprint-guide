@@ -1,6 +1,7 @@
 ---
 tags: ['exercise', 'diverge']
 title: Mind Mapping
+child: true
 ---
 
 A good first step to coming up with ideas is to gather all the information

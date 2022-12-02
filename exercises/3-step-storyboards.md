@@ -1,6 +1,7 @@
 ---
 tags: ['exercise', 'diverge']
 title: 3-Step Storyboard
+child: true
 ---
 
 The goal is to take the ideas generated so far (in Speedy Eights , etc.) and
