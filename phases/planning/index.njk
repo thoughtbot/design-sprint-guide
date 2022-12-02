@@ -9,8 +9,6 @@ permalink: "phases/planning/index.html"
 {% renderFile './phases/planning/_introduction.md' %}
 
 <h2>Exercises</h2>
-<ul id="exercises">
-  {% for exercise in collections.planning %}
-    <li><a href="{{ exercise.data.page.url }}">{{ exercise.data.title }}</a></li>
-  {% endfor %}
-</ul>
+
+{% set collection = collections.planning %}
+{% include "exercise-list.njk" %}

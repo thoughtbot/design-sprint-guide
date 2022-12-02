@@ -1,0 +1,17 @@
+<ul id="exercises">
+  {% for exercise in collection %}
+    {% if exercise.data.children %}
+      <li class="parent">
+        <a href="{{ exercise.data.page.url }}">{{ exercise.data.title }}</a>
+        <ul>
+          {% for child in exercise.data.children %}
+            {% set child_exercise = collections.all | getChildExercise(child) %}
+            <li><a href="{{ child_exercise.data.page.url }}">{{ child_exercise.data.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </li>
+    {% elseif exercise.data.child !== true %}
+      <li><a href="{{ exercise.data.page.url }}">{{ exercise.data.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
