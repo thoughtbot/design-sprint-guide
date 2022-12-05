@@ -49,6 +49,4 @@ Ask the team to do the following, while you set a timer for 20 minutes.
   stage. It will be caught so early that there is no real risk involved.
 
 ## Examples
-![Collection of sketches and explanations taped to a wall with some dot voting](/images/exercises/heat-map.jpeg)
-
-![Close-up of a Heat Map highlighting sketches and explanations](/images/exercises/heat-map-2.jpeg)
+![Two artboards with 3 sticky-notes on each board with a heat map of dot votes indicating things to focus on.](/images/exercises/heat-map.png)

@@ -58,5 +58,5 @@ feel intimidated by the thought of sketching.
   enough solutions during the day.
 
 ## Example
-![Example of a 3-step storyboard](/images/exercises/3-step-storyboard-1.png)
+![Example of a 3-step storyboard](/images/exercises/3-step-storyboard.png)
 [3-Step Storyboard](/exercises/3-step-storyboards)

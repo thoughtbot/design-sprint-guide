@@ -28,7 +28,7 @@ Use these rules as a guide:
 3. **Words matter**: Sketching is hard, so make sure to make up for it with the words that you use to describe each step.
 4. **Give it a title**: We'll use these later to identify our favourite ideas.
 
-## Example
+## Examples
 ![An extensive story full of stick figures doing different interface interactions](/images/exercises/storyboard-large.png)
 
-![Close-up of a storyboard with dot voting](/images/exercises/3-step-storyboard-1.png)
+![Close-up of a storyboard with dot voting](/images/exercises/3-step-storyboard.png)

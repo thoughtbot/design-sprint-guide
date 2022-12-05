@@ -31,6 +31,3 @@ At the end of Converge, create a table with 3 columns:
 
 ## Examples
 ![An assumptions board with a lot of assumptions written using FigJam](/images/exercises/assumptions-board.png)
-
-![Assumptions table written on a whiteboard](/images/exercises/assumptions.jpeg)
-Taken from [The Product Design Sprint](https://thoughtbot.com/blog/the-product-design-sprint)

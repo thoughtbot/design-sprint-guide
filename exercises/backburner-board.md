@@ -21,4 +21,4 @@ note board.
   - Record all ideas in a separate document or Trello.
 
 ## Example
-![Backburner board on paper with a list of ideas generated throughout the week](/images/exercises/backburner.png)
+![Backburner board on paper with a list of ideas generated throughout the week](/images/exercises/backburner-board.png)
