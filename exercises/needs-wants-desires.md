@@ -45,4 +45,4 @@ the exercise. This helps the group to focus on the core problem and to
 ruthlessly segment features.
 
 ## Example
-![Different groups of Post-It notes organized neatly in order of priority](/images/exercises/needs-wants-desires.jpeg)
+![Different groups of sticky-notes organized around priority](/images/exercises/needs-wants-desires.png)

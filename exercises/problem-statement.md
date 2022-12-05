@@ -52,4 +52,4 @@ Why's exercise first. This exercise helps to identify the root problem which
 makes forming a problem statement a lot easier.
 
 ## Example
-![Problem statement stating, "Students don't receive enough guidance on how to develop the skills that will enable them to learn and flourish"](/images/exercises/problem-statement.jpeg)
+![Problem statement stating, "Students don't receive enough guidance on how to develop the skills that will enable them to learn and flourish"](/images/exercises/problem-statement.png)

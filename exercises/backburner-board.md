@@ -20,5 +20,5 @@ note board.
   - Trash any that aren't relevant anymore.
   - Record all ideas in a separate document or Trello.
 
-## Examples
-![Backburner board on paper with a list of ideas generated throughout the week](/images/exercises/back-burner.jpeg)
+## Example
+![Backburner board on paper with a list of ideas generated throughout the week](/images/exercises/backburner.png)

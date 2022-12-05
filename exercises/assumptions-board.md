@@ -30,7 +30,7 @@ At the end of Converge, create a table with 3 columns:
 - Repeat till all assumptions have a test for them.
 
 ## Examples
-![Assumptions board written on a whiteboard](/images/exercises/assumptions.jpeg)
-Taken from [The Product Design Sprint](https://thoughtbot.com/blog/the-product-design-sprint)
+![An assumptions board with a lot of assumptions written using FigJam](/images/exercises/assumptions-board.png)
 
-![A table that includes columns labeled assumption, test, validation](/images/exercises/assumption-test.jpeg)
+![Assumptions table written on a whiteboard](/images/exercises/assumptions.jpeg)
+Taken from [The Product Design Sprint](https://thoughtbot.com/blog/the-product-design-sprint)

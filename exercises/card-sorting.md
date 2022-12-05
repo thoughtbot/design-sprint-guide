@@ -34,5 +34,6 @@ By the end of this exercise we will have a list of the most useful, important, o
 - Copy your most highly voted notes onto your [Map](/exercises/make-a-map) later. To make it easier to choose areas to focus on for the rest of the sprint.
 
 ## Examples
-![Ideas on Post-It notes grouped together by theme](/images/exercises/card-sorting.jpeg)
-![A person quickly organizing Post-It notes](/images/exercises/card-sorting.gif)
+![Ideas on digital sticky-notes organized by theme](/images/exercises/card-sorting.png)
+
+![A person quickly organizing Post-It notes. So fast!](/images/exercises/card-sorting.gif)

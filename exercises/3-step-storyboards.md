@@ -29,4 +29,6 @@ Use these rules as a guide:
 4. **Give it a title**: We'll use these later to identify our favourite ideas.
 
 ## Example
-![Close-up of a storyboard with dot voting](/images/exercises/storyboard.jpeg)
+![An extensive story full of stick figures doing different interface interactions](/images/exercises/storyboard-large.png)
+
+![Close-up of a storyboard with dot voting](/images/exercises/3-step-storyboard-1.png)
