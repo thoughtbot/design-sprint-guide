@@ -1,6 +1,7 @@
 ---
 tags: ['exercise', 'diverge']
 title: 3-Step Storyboard
+image: ['/images/exercises/storyboard-large.png', '/images/exercises/3-step-storyboard.png']
 ---
 
 The goal is to take the ideas generated so far (in Speedy Eights , etc.) and
@@ -29,6 +30,6 @@ Use these rules as a guide:
 4. **Give it a title**: We'll use these later to identify our favourite ideas.
 
 ## Examples
-![An extensive story full of stick figures doing different interface interactions](/images/exercises/storyboard-large.png)
+[![An extensive story full of stick figures doing different interface interactions]({{ image[0] }})]({{ image[0] }})
 
-![Close-up of a storyboard with dot voting](/images/exercises/3-step-storyboard.png)
+[![Close-up of a storyboard with dot voting]({{ image[1] }})]({{ image[1] }})

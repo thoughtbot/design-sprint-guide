@@ -1,6 +1,7 @@
 ---
 tags: ['exercise', 'understand']
 title: Needs, Wants, Desires
+image: '/images/exercises/needs-wants-desires.png'
 ---
 
 Needs, Wants, Desires is a Card Sorting exercise to help figure out priorities
@@ -45,4 +46,4 @@ the exercise. This helps the group to focus on the core problem and to
 ruthlessly segment features.
 
 ## Example
-![Different groups of sticky-notes organized around priority](/images/exercises/needs-wants-desires.png)
+[![Different groups of sticky-notes organized around priority]({{ image }})]({{ image }})

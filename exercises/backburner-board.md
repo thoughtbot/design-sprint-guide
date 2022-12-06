@@ -1,6 +1,7 @@
 ---
 tags: ['exercise', 'understand']
 title: Backburner Board
+image: '/images/exercises/backburner-board.png'
 ---
 
 A lot of ideas will be generated throughout the week. Some of the ideas will be
@@ -21,4 +22,4 @@ note board.
   - Record all ideas in a separate document or Trello.
 
 ## Example
-![Backburner board on paper with a list of ideas generated throughout the week](/images/exercises/backburner-board.png)
+[![Backburner board on paper with a list of ideas generated throughout the week]({{ image }})]({{ image }})

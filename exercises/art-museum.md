@@ -1,6 +1,7 @@
 ---
 tags: ['exercise', 'converge']
 title: Art Museum
+image: '/images/exercises/art-museum.png'
 ---
 
 Individually review every sketch made the day before by heat map voting with
@@ -30,4 +31,4 @@ sketches and upload them to a shared folder or Miro board.
 4. [Supervote](/exercises/super-vote): 5 Minutes
 
 ## Example
-![A collection of storyboards with some dots from heat mapping](/images/exercises/art-museum.png)
+[![A collection of storyboards with some dots from heat mapping]({{ image }})]({{ image }})

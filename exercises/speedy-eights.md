@@ -1,6 +1,7 @@
 ---
 tags: ['exercise', 'diverge']
 title: Speedy Eights
+image: ['/images/exercises/speedy-eights-remote.png', '/images/exercises/speedy-eights.jpeg']
 ---
 
 The goal of this exercise is to push you outside your comfort zone, add more
@@ -33,6 +34,6 @@ The sketches will not be shown to the rest of the group.
 - You can try rapid variations of similar ideas, for example how a button would look.
 
 ## Example
-![A Speedy Eight exercise with a whole host of multi-colored dots stuck on sections folks liked](/images/exercises/speedy-eights-remote.png)
+[![A Speedy Eight exercise with a whole host of multi-colored dots stuck on sections folks liked]({{ image[0] }})]({{ image[0] }})
 
-![Collection of Speedy Eight exercises on a table with markers](/images/exercises/speedy-eights.jpeg)
+[![Collection of Speedy Eight exercises on a table with markers]({{ image[1] }})]({{ image[1] }})

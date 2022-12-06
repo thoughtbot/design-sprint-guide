@@ -1,6 +1,7 @@
 ---
 tags: ['exercise', 'diverge']
 title: Four-Step Sketches
+image: '/images/exercises/3-step-storyboard.png'
 ---
 
 Using a guided ideas generation and sketching technique, individually generate
@@ -58,5 +59,5 @@ feel intimidated by the thought of sketching.
   enough solutions during the day.
 
 ## Example
-![Example of a 3-step storyboard](/images/exercises/3-step-storyboard.png)
+[![Example of a 3-step storyboard]({{ image }})]({{ image }})
 [3-Step Storyboard](/exercises/3-step-storyboards)

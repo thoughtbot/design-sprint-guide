@@ -1,6 +1,7 @@
 ---
 tags: ['exercise', 'understand']
 title: Problem Statement
+image: '/images/exercises/problem-statement.png'
 ---
 
 It is best to identify the job-to-be-done that the sprint is trying to solve as
@@ -52,4 +53,4 @@ Why's exercise first. This exercise helps to identify the root problem which
 makes forming a problem statement a lot easier.
 
 ## Example
-![Problem statement stating, "Students don't receive enough guidance on how to develop the skills that will enable them to learn and flourish"](/images/exercises/problem-statement.png)
+[![Problem statement stating, "Students don't receive enough guidance on how to develop the skills that will enable them to learn and flourish"]({{ image }})]({{ image }})
