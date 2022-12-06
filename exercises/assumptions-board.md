@@ -30,5 +30,5 @@ At the end of Converge, create a table with 3 columns:
   are valid or not and how you know if that assumption is valid.
 - Repeat till all assumptions have a test for them.
 
-## Examples
+## Example
 [![An assumptions board with a lot of assumptions written using FigJam](/images/exercises/assumptions-board.png)]({{ image }})
