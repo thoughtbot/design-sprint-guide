@@ -1,6 +1,7 @@
 ---
 tags: ['exercise', 'understand']
 title: Assumptions Board
+image: '/images/exercises/assumptions-board.png'
 ---
 
 It is best to always keep track of the assumptions that you and your team are
@@ -28,3 +29,6 @@ At the end of Converge, create a table with 3 columns:
 - For each assumption decide how you plan on testing to see if the assumptions
   are valid or not and how you know if that assumption is valid.
 - Repeat till all assumptions have a test for them.
+
+## Example
+[![An assumptions board with a lot of assumptions written using FigJam](/images/exercises/assumptions-board.png)]({{ image }})

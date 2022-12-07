@@ -1,6 +1,7 @@
 ---
 tags: ['exercise', 'diverge']
 title: 3-Step Storyboard
+image: ['/images/exercises/storyboard-large.png', '/images/exercises/3-step-storyboard.png']
 ---
 
 The goal is to take the ideas generated so far (in Speedy Eights , etc.) and
@@ -27,3 +28,8 @@ Use these rules as a guide:
 2. **Ugly is OK**: Detail is more important, the idea should feel thoughtful and complete.
 3. **Words matter**: Sketching is hard, so make sure to make up for it with the words that you use to describe each step.
 4. **Give it a title**: We'll use these later to identify our favourite ideas.
+
+## Examples
+[![An extensive story full of stick figures doing different interface interactions]({{ image[0] }})]({{ image[0] }})
+
+[![Close-up of a storyboard with dot voting]({{ image[1] }})]({{ image[1] }})
