@@ -2,6 +2,7 @@
 tags: ['exercise', 'converge']
 title: Heat Map
 child: true
+image: '/images/exercises/heat-map.png'
 ---
 
 Heat map is an exercise to get a general feel for which of the ideas that have
@@ -48,3 +49,6 @@ Ask the team to do the following, while you set a timer for 20 minutes.
   high-risk high-reward features or ideas that help a product standout from
   competitors. If the gamble does not pay off we will know it in the prototype
   stage. It will be caught so early that there is no real risk involved.
+
+## Example
+[![Two artboards with 3 sticky-notes on each board with a heat map of dot votes indicating things to focus on.]({{ image }})]({{ image }})

@@ -29,4 +29,4 @@ solifiying those thoughts, now the deciders will corwn the best ideas.
 ## Tips
 
 They can follow the suggestions of the rest of team, or vote outside the box,
-the choice is thiers.
+the choice is theirs.

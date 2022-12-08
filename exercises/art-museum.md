@@ -2,6 +2,7 @@
 tags: ['exercise', 'converge']
 title: Art Museum
 children: ['heat-map', 'speed-crit', 'straw-poll', 'super-vote']
+image: '/images/exercises/art-museum.png'
 ---
 
 Individually review every sketch made the day before by heat map voting with
@@ -29,3 +30,6 @@ sketches and upload them to a shared folder or Miro board.
 2. [Speed Critique](/exercises/speed-crit): 3-5 Minutes (per sketch)
 3. [Straw poll](/exercises/straw-poll): 5 Minutes
 4. [Supervote](/exercises/super-vote): 5 Minutes
+
+## Example
+[![A collection of storyboards with some dots from heat mapping]({{ image }})]({{ image }})

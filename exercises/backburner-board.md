@@ -1,6 +1,7 @@
 ---
 tags: ['exercise', 'understand']
 title: Backburner Board
+image: '/images/exercises/backburner-board.png'
 ---
 
 A lot of ideas will be generated throughout the week. Some of the ideas will be
@@ -19,3 +20,6 @@ note board.
 - As a team during the converge phase, review all the ideas that have been put up on the wall. 
   - Trash any that aren't relevant anymore.
   - Record all ideas in a separate document or Trello.
+
+## Example
+[![Backburner board on paper with a list of ideas generated throughout the week]({{ image }})]({{ image }})

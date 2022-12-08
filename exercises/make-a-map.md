@@ -1,6 +1,7 @@
 ---
 tags: ['exercise', 'understand']
 title: Make a Map
+image: ['/images/exercises/critical-path.png', '/images/exercises/critical-path-1.jpeg']
 ---
 The Critical Path should be discussed after a Problem Statement has been agreed
 upon. Once completed, the Critical Path should give a step-by-step map of the
@@ -36,3 +37,8 @@ Record all ideas in a separate document or Trello if it makes it easier for your
 Try to identify and document any assumptions that are being made about the user
 and how they will use the product. We should try to test these assumptions in
 our prototype or while speaking with our experts.
+
+## Examples
+[![A sketch of the journey a user would take through a website or app]({{ image[0] }})]({{ image[0] }})
+
+[![A sketch of the journey a user would take through a website or app]({{ image[1] }})]({{ image[1] }})

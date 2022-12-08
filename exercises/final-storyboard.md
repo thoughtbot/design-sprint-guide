@@ -1,6 +1,7 @@
 ---
 tags: ['exercise', 'converge']
 title: Final Storyboard
+image: '/images/exercises/final-storyboard.png'
 ---
 
 The final storyboard is the final Converge exercise and should be used to focus
@@ -60,3 +61,6 @@ You should eventually get a very scrappy looking storyboard ready to refine.
 - Keep it short: Try to keep the storyboard to about 3 minutes or less, and
   skip boring parts. We won't have much time with our users so show them the
   best bits. You can ask them questions about anything else.
+
+## Example
+[![Final storyboard with sticky-notes separated into different sections of the user journey throught the application]({{ image }})]({{ image }})
