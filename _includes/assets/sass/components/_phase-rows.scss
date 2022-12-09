@@ -19,4 +19,14 @@
   *:nth-child(n + 7) {
     grid-area: d / auto;
   }
+
+  li {
+    margin-bottom: $tbds-space-6;
+  }
+}
+
+.phase {
+  h3 {
+    margin-top: 0;
+  }
 }
