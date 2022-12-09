@@ -5,6 +5,9 @@ for tracking our work on the repository. Here are the ways that you can contribu
 [issues]: https://github.com/thoughtbot/design-sprint-guide/issues/
 [project]: https://github.com/orgs/thoughtbot/projects/9/views/1
 
+We ask that you abide by our [code of conduct](https://thoughtbot.com/open-source-code-of-conduct)
+when contributing to the guide.
+
 ## Structure
 
 We use the following structure to store content:
