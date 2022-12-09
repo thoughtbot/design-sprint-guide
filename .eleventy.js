@@ -35,4 +35,7 @@ module.exports = function(eleventyConfig) {
 
     return links.join("<span aria-hidden='true'> / </span>");
   })
+  return {
+    markdownTemplateEngine: "njk"
+  }
 };
