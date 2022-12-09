@@ -1,6 +1,7 @@
 ---
 tags: ['exercise', 'converge']
 title: Straw Poll
+child: true
 ---
 
 Based on the [Heat Map](/exercises/heat-map), and the [Speed Critique](/exercises/speed-crit),

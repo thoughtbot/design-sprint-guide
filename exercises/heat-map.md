@@ -1,6 +1,7 @@
 ---
 tags: ['exercise', 'converge']
 title: Heat Map
+child: true
 image: '/images/exercises/heat-map.png'
 ---
 

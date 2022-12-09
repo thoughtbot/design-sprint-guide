@@ -1,6 +1,7 @@
 ---
 tags: ['exercise', 'converge']
 title: Speed Critique
+child: true
 ---
 
 In speed critique the team will get a chance to discuss and summarise the [Heat Map](/exercises/heat-map),

@@ -1,6 +1,7 @@
 ---
 tags: ['exercise', 'diverge']
 title: Speedy Eights
+child: true
 image: ['/images/exercises/speedy-eights-remote.png', '/images/exercises/speedy-eights.jpeg']
 ---
 

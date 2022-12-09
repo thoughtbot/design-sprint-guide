@@ -1,6 +1,7 @@
 ---
 tags: ['exercise', 'diverge']
 title: 3-Step Storyboard
+child: true
 image: ['/images/exercises/storyboard-large.png', '/images/exercises/3-step-storyboard.png']
 ---
 

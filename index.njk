@@ -86,31 +86,22 @@ layout: 'layouts/base'
   <div class="tbds-inline-stack inline-stack--gap-7 inline-stack--align-start">
     <div class="tbds-inline-stack__item">
       <h4>Understand</h4>
-      <ul>
-        {% for exercise in collections.understand %}
-          <li><a href="{{ exercise.data.page.url }}">{{ exercise.data.title }}</a></li>
-        {% endfor %}
-      </ul>
+      {% set collection = collections.understand %}
+      {% include "exercise-list.njk" %}
       <a href="/phases/understand#exercises">See all</a>
     </div>
 
     <div class="tbds-inline-stack__item">
       <h4>Diverge</h4>
-      <ul>
-        {% for exercise in collections.diverge %}
-          <li><a href="{{ exercise.data.page.url }}">{{ exercise.data.title }}</a></li>
-        {% endfor %}
-      </ul>
+      {% set collection = collections.diverge %}
+      {% include "exercise-list.njk" %}
       <a href="/phases/diverge#exercises">See all</a>
     </div>
 
     <div class="tbds-inline-stack__item">
       <h4>Converge</h4>
-      <ul>
-        {% for exercise in collections.converge %}
-          <li><a href="{{ exercise.data.page.url }}">{{ exercise.data.title }}</a></li>
-        {% endfor %}
-      </ul>
+      {% set collection = collections.converge %}
+      {% include "exercise-list.njk" %}
       <a href="/phases/converge#exercises">See all</a>
     </div>
   </div>

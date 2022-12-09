@@ -1,6 +1,7 @@
 ---
 tags: ['exercise', 'diverge']
 title: Four-Step Sketches
+children: ['mind-mapping', 'idea-doodles', 'speedy-eights', '3-step-storyboards']
 image: '/images/exercises/3-step-storyboard.png'
 ---
 
@@ -14,7 +15,9 @@ of how realistic, feasible or viable they may or may not be.
 - **Estimated time needed**: up to 1.5 hours per session*
 - **Team**: Facilitator, Note-taker, Stakeholders
 
-\* A session refers to one complete run through of the Four-Step Sketches process. In a Sprint we typically will do around 3 of these sessions on Day 2 of the Sprint, exploring different ideas in each session.
+\* A session refers to one complete run through of the Four-Step Sketches
+process. In a Sprint we typically will do around 3 of these sessions on Day 2
+of the Sprint, exploring different ideas in each session.
 
 ## Why should we do this exercise?
 

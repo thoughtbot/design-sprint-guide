@@ -1,6 +1,7 @@
 ---
 tags: ['exercise', 'converge']
 title: Art Museum
+children: ['heat-map', 'speed-crit', 'straw-poll', 'super-vote']
 image: '/images/exercises/art-museum.png'
 ---
 

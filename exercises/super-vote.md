@@ -1,6 +1,7 @@
 ---
 tags: ['exercise', 'converge']
 title: Supervote
+child: true
 ---
 
 The supervote is the final part of the process, the last chance anyone gets to

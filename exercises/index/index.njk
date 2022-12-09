@@ -8,43 +8,25 @@ permalink: "exercises/index.html"
 </article>
 
 <h2>Planning</h2>
-<ul>
-  {% for exercise in collections.planning %}
-  <li><a href="{{ exercise.data.page.url }}">{{ exercise.data.title }}</a></li>
-  {% endfor %}
-</ul>
+{% set collection = collections.planning %}
+{% include "exercise-list.njk" %}
 
 <h2>Understand</h2>
-<ul>
-  {% for exercise in collections.understand %}
-  <li><a href="{{ exercise.data.page.url }}">{{ exercise.data.title }}</a></li>
-  {% endfor %}
-</ul>
+{% set collection = collections.understand %}
+{% include "exercise-list.njk" %}
 
 <h2>Diverge</h2>
-<ul>
-  {% for exercise in collections.diverge %}
-  <li><a href="{{ exercise.data.page.url }}">{{ exercise.data.title }}</a></li>
-  {% endfor %}
-</ul>
+{% set collection = collections.diverge %}
+{% include "exercise-list.njk" %}
 
 <h2>Converge</h2>
-<ul>
-  {% for exercise in collections.converge %}
-  <li><a href="{{ exercise.data.page.url }}">{{ exercise.data.title }}</a></li>
-  {% endfor %}
-</ul>
+{% set collection = collections.converge %}
+{% include "exercise-list.njk" %}
 
 <h2>Prototype</h2>
-<ul>
-  {% for exercise in collections.prototype %}
-  <li><a href="{{ exercise.data.page.url }}">{{ exercise.data.title }}</a></li>
-  {% endfor %}
-</ul>
+{% set collection = collections.prototype %}
+{% include "exercise-list.njk" %}
 
 <h2>Analyse</h2>
-<ul>
-  {% for exercise in collections.analyse %}
-  <li><a href="{{ exercise.data.page.url }}">{{ exercise.data.title }}</a></li>
-  {% endfor %}
-</ul>
+{% set collection = collections.analyse %}
+{% include "exercise-list.njk" %}

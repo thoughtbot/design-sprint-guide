@@ -16,6 +16,10 @@ module.exports = function(eleventyConfig) {
       return a.data.number - b.data.number
     });
   });
+  // Pluck an exercise out of a collection based on a slug
+  eleventyConfig.addFilter("getChildExercise", function(collection, child) {
+    return collection.find((exercise) => exercise.fileSlug === child);
+  });
   // Generate a simple breadcrumb
   // Usage: {% breadcrumbs page.url %}
   eleventyConfig.addShortcode("breadcrumbs", function(url) {
