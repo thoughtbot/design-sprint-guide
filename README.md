@@ -2,6 +2,11 @@
 
 The Design Sprint Guide is a static website built using [Eleventy](https://11ty.dev).
 
+## Contributing
+
+You can find details of how to contribute and more details about the project in
+our [Contributing Guide](https://github.com/thoughtbot/design-sprint-guide/blob/main/CONTRIBUTING.md).
+
 Start by installing dependencies:
 
 ```
