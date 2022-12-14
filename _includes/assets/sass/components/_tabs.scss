@@ -1,0 +1,90 @@
+.arrow {
+  font-size: 1.5rem;
+}
+
+.tab-container {
+  background: $tbds-brand-gray-ultra-light;
+  max-width: 100%;
+  padding-inline: 1.5rem;
+  padding-block: 0.25rem;
+  border-radius: 0.5rem;
+  margin-block: 3rem;
+}
+
+.tab-collection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 100%;
+  background: $tbds-brand-gray-ultra-light;
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+
+.tab-radio {
+  display: none;
+}
+
+.tab-label {
+  padding: $tbds-space-4 $tbds-space-6;
+  cursor: pointer;
+  font: {
+    size: 1.5rem;
+    weight: bold;
+  }
+}
+
+.tab-content {
+  order: 1;
+  width: 100%;
+  display: none;
+  padding-block: 4rem;
+}
+
+.tab-content__title {
+  margin: 0;
+}
+
+.tab-content__exercises {
+  background: #E2E1EA;
+  margin-inline: auto;
+  border-radius: 0.25rem;
+  padding-inline: $tbds-space-6;
+}
+
+.tab-content__exercises li > a {
+  color: $tbds-brand-gray-dark;
+
+  &:hover {
+    color: $tbds-brand-red;
+  }
+}
+
+.tab-content__exercises-content {
+  margin-inline: auto;
+  padding-bottom: 3rem;
+}
+
+.tab-radio:checked+.tab-label {
+  border-bottom: 3px solid $tbds-brand-red;
+}
+
+.tab-radio:checked+.tab-label+.tab-content {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.5fr;
+  gap: 6rem;
+}
+
+.tab-content a {
+  color: $tbds-brand-red;
+
+  &:hover {
+    color: $tbds-brand-gray-dark;
+  }
+}
+
+.tab-content img {
+  border-radius: 0.25rem;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
