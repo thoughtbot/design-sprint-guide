@@ -9,9 +9,7 @@ eleventyExcludeFromCollections: true
 </article>
 
 <h2>Resources</h2>
-{% for resource in collections.resource %}
-  <li><a href="{{ resource.data.page.url }}">{{ resource.data.title }}</a></li>
-{% endfor %}
+{% renderFile './resources/index/_list.md' %}
 
 <h2>Glossary</h2>
 {% for term in collections.glossary %}
