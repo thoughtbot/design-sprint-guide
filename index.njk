@@ -122,11 +122,13 @@ layout: 'layouts/base'
   </ul>
 
   <h3>Glossary</h3>
-  <ul>
-    {% for term in collections.glossary %}
-      <li><a href="{{ term.data.page.url }}">{{ term.data.title }}</a></li>
-    {% endfor %}
-  </ul>
+
+  {% for term in collections.glossary %}
+    <dl class="dl">
+      <dt class="dl--title">{{ term.data.title }}</dt>
+      <dd class="dl--description">{% renderFile term.inputPath %}</dd>
+    </dl>
+  {% endfor %}
 </section>
 
 <section>
