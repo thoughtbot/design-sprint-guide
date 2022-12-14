@@ -1,0 +1,17 @@
+.arrow-hero {
+  position: relative;
+}
+
+.arrow-hero::after {
+  aspect-ratio: 2 / 1;
+  bottom: -8rem;
+  content: '';
+  background: {
+    image: url('/images/doodles/small-curvy-arrow.svg');
+    repeat: no-repeat;
+    size: contain;
+  }
+  position: absolute;
+  right: 1rem;
+  width: 20rem;
+}

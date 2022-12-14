@@ -8,12 +8,13 @@
   }
   color: $tbds-brand-gray-dark;
   margin-inline: auto;
+  margin-top: $tbds-space-2;
+  max-width: 40rem;
   padding: {
     block: $tbds-space-3;
     inline: $tbds-space-3;
   };
   text-align: center;
-  max-width: 40rem;
 }
 
 .banner > p {
