@@ -1,0 +1,19 @@
+.menu {
+  align-items: start;
+  flex-direction: column;
+
+  .inline-list {
+    margin-left: 0;
+    padding-left: 0;
+
+    @media (min-width: $tbds-breakpoint-medium) {
+      margin-left: auto;
+      padding-left: initial;
+    }
+  }
+
+  @media (min-width: $tbds-breakpoint-medium) {
+    align-items: initial;
+    flex-direction: initial;
+  }
+}
