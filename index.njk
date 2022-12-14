@@ -122,13 +122,17 @@ layout: 'layouts/base'
   </ul>
 
   <h3>Glossary</h3>
+  <p class="measure">If you're new to design sprints or just need a refresher to some less-than common terms we've got a list of the most common.</p>
+  <p><a href="/glossary">Read all the glossary terms</a></p>
 
-  {% for term in collections.glossary %}
+  {% for term in glossary.terms.slice(0, 5) %}
     <dl class="dl">
-      <dt class="dl--title">{{ term.data.title }}</dt>
-      <dd class="dl--description">{% renderFile term.inputPath %}</dd>
+      <dt class="dl--title">{{ term.title }}</dt>
+      <dd class="dl--description">{{ term.definition }}</dd>
     </dl>
   {% endfor %}
+
+  <p><a href="/glossary">Read all the glossary terms</a></p>
 </section>
 
 <section>
