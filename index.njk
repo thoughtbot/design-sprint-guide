@@ -35,7 +35,8 @@ layout: 'layouts/base'
   </div>
 </section>
 
-<section>
+<section class="tbds-block-stack tbds-block-stack--gap-5">
+  <div class="tbds-block-stack__item">
   <h2>Design sprint phases</h2>
   <p class="measure">
     At its core, a design sprint is split into 5 phases. Each phase has a clear
@@ -43,14 +44,14 @@ layout: 'layouts/base'
     validating big ideas. Each phase is flexible and there is lots of room to
     experiment with different techniques.
   </p>
-  <ul class="phase-rows" id="phases">
+  </div>
+  <ul class="tbds-block-stack__item phase-rows" id="phases">
     {% for phase in collections.phase %}
-      <li>
-        <a href="{{ phase.data.page.url }}">
-          <img src="#" alt="">
-          <span class="eyebrow">Phase {{ phase.data.number }}</span>
-          <h3>{{ phase.data.title }}</h3>
-        </a>
+      <li class="phase">
+        <span class="eyebrow">Phase {{ phase.data.number }}</span>
+        <h3>
+          <a href="{{ phase.data.page.url }}">{{ phase.data.title }}</a>
+        </h3>
       </li>
     {% endfor %}
   </ul>
