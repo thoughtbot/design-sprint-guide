@@ -24,12 +24,20 @@
 
 .tab-label {
   border-bottom: 1px solid #E2E1EA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   cursor: pointer;
   font: {
     size: 1.5rem;
     weight: bold;
   }
-  padding: $tbds-space-4 $tbds-space-6;
+  padding: $tbds-space-4 0;
+  width: 20%;
+}
+
+.tab-label__title {
+  text-align: left;
 }
 
 .tab-content {
