@@ -31,7 +31,7 @@ the journey than the beginning.
 ### Work with what you have
 
 Grab everything you've done far and use it as inspiration. The [Problem Statement](/exercises/problem-statement),
- [Sprint Questions](/exercises/sprint-questions), and [Map](/exercises/make-a-map) will be particularly helpful.
+ [Sprint Questions](/exercises/sprint-questions), and [Critical Path](/exercises/critical-path) will be particularly helpful.
 
 Try to resist inventing new ideas, and refer to all the ideas you've collected
 earlier instead.
