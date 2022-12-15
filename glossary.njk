@@ -1,0 +1,13 @@
+---
+layout: 'layouts/base'
+eleventyExcludeFromCollections: true
+---
+
+<h1>Glossary</h1>
+
+{% for term in glossary.terms %}
+  <dl class="dl">
+    <dt class="dl--title">{{ term.title }}</dt>
+    <dd class="dl--description">{{ term.definition }}</dd>
+  </dl>
+{% endfor %}
