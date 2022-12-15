@@ -91,6 +91,7 @@
   display: grid;
   gap: 4rem;
   grid-template-columns: 1fr 2fr 1fr;
+  scroll-snap-align: start;
 }
 
 @media (max-width: 900px) {
@@ -111,5 +112,11 @@
   .tab-radio:checked+.tab-label+.tab-content {
     gap: 4rem;
     grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 801px) {
+  .tab-label {
+    scroll-margin-top: 17rem;
   }
 }
