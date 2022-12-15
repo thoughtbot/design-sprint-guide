@@ -15,7 +15,10 @@ We use the following structure to store content:
 ```
 ├── _data
 │   ├── faqs.json // add FAQs into here
+│   ├── glossary.json // add glosary terms into here
 │   ├── schedules // add new schedules into here
+│   │   ├── *.json
+│   ├── pages // add new page curations into here
 │   │   ├── *.json
 ├── _includes
 │   ├── assets // static resources
@@ -36,10 +39,7 @@ We use the following structure to store content:
 │   ├── index // exercises index page
 │   │   ├── _introduction.md // edit the index introduction
 │   │   ├── index.njk
-├── glossary // add new glossary here
-│   ├── *.md
-│   ├── glossary.json // apply layout and tags to every entry
-│   ├── index.njk // lists whole glossary
+├── glossary.njk // glossary index page
 ├── phases // add new phases here
 │   ├── [phase]
 │   │   ├── _introduction.md // edit the index introduction
@@ -77,6 +77,7 @@ new content guides below should be helpful.
 - Add a new [schedule](https://github.com/thoughtbot/design-sprint-guide/blob/main/DOCS/adding-schedules.md)
 - Add a new [glossary term](https://github.com/thoughtbot/design-sprint-guide/blob/main/DOCS/adding-glossary.md)
 - Add a new [FAQ](https://github.com/thoughtbot/design-sprint-guide/blob/main/DOCS/adding-faq.md)
+- Curate the [homepage lists](https://github.com/thoughtbot/design-sprint-guide/blob/main/DOCS/curating-lists.md)
 
 ## Ideas
 
