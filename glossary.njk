@@ -6,7 +6,7 @@ eleventyExcludeFromCollections: true
 <h1>Glossary</h1>
 
 {% for term in glossary.terms %}
-  <dl class="dl">
+  <dl class="dl | measure">
     <dt class="dl--title">{{ term.title }}</dt>
     <dd class="dl--description">{{ term.definition }}</dd>
   </dl>

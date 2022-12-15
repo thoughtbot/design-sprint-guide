@@ -12,14 +12,16 @@ layout: 'layouts/base'
 
 <section class="tbds-inline-stack tbds-inline-stack--gap-6">
   <div class="tbds-inline-stack__item">
-    <h2>What is a design sprint?</h2>
-    <p class="measure">
-      A Product Design Sprint is a technique to quickly design,
-      prototype, and test the viability of an idea, product, or feature.
-      The design sprint consists of 5 phases (typically days),
-      starting with design thinking and ending with a user-tested prototype.
-      <a href="/introduction">Read more</a>
-    </p>
+    <div class="measure">
+      <h2>What is a design sprint?</h2>
+      <p>
+        A Product Design Sprint is a technique to quickly design,
+        prototype, and test the viability of an idea, product, or feature.
+        The design sprint consists of 5 phases (typically days),
+        starting with design thinking and ending with a user-tested prototype.
+        <a href="/introduction">Read more</a>
+      </p>
+    </div>
   </div>
   <div class="tbds-inline-stack__item">
     <p class="eyebrow">Where to?</p>
@@ -49,14 +51,16 @@ layout: 'layouts/base'
 </section>
 
 <section class="tbds-padding-block-4">
-  <h2>Build a design sprint</h2>
-  <p class="measure">
-    At thoughtbot, we have organized many, many design sprints over the years and
-    found that there is no right way to plan one. Each client and every problem is
-    different and needs a slightly different approach. If you are new to design
-    sprints start with one of our example schedules, after that try exploring all
-    the exercises and try building your own.
-  </p>
+  <div class="measure">
+    <h2>Build a design sprint</h2>
+    <p>
+      At thoughtbot, we have organized many, many design sprints over the years and
+      found that there is no right way to plan one. Each client and every problem is
+      different and needs a slightly different approach. If you are new to design
+      sprints start with one of our example schedules, after that try exploring all
+      the exercises and try building your own.
+    </p>
+  </div>
 
   <h3 id="schedules">Schedules</h3>
   <article class="measure">
@@ -100,21 +104,25 @@ layout: 'layouts/base'
 </section>
 
 <section class="tbds-padding-block-4">
-  <h2 id="resources">Resources & Glossary</h2>
-  <article class="measure">
-    {% renderFile './resources/_introduction.md' %}
-  </article>
+  <div class="measure">
+    <h2 id="resources">Resources & Glossary</h2>
+    <article class="measure">
+      {% renderFile './resources/_introduction.md' %}
+    </article>
+  </div>
 
   <h3>Resources</h3>
   {% renderFile './resources/_list.md' %}
   <p><a href="/resources">See all resources</a></p>
 
-  <h3>Glossary</h3>
-  <p class="measure">If you're new to design sprints or just need a refresher to some less-than common terms we've got a list of the most common.</p>
-  <p><a href="/glossary">Read all the glossary terms</a></p>
+  <div class="measure">
+    <h3>Glossary</h3>
+    <p>If you're new to design sprints or just need a refresher to some less-than common terms we've got a list of the most common.</p>
+    <p><a href="/glossary">Read all the glossary terms</a></p>
+  </div>
 
   {% for term in glossary.terms.slice(0, 5) %}
-    <dl class="dl">
+    <dl class="dl | measure">
       <dt class="dl--title">{{ term.title }}</dt>
       <dd class="dl--description">{{ term.definition }}</dd>
     </dl>
