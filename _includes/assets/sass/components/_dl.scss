@@ -1,6 +1,13 @@
 .dl {
   border-bottom: 1px solid $tbds-brand-gray-ultra-light;
-  padding-block: $tbds-space-6;
+  margin-block: $tbds-space-2;
+  padding-block: $tbds-space-2;
+
+  @media (min-width: $tbds-breakpoint-medium) {
+    margin-block: $tbds-space-4;
+    padding-block: $tbds-space-4;
+  }
+
 }
 
 .dl--title {
@@ -9,7 +16,11 @@
     size: 1.2rem;
     weight: $tbds-font-weight-bold;
   }
-  margin-bottom: $tbds-space-4;
+  margin-bottom: $tbds-space-2;
+
+  @media (min-width: $tbds-breakpoint-medium) {
+    margin-bottom: $tbds-space-4;
+  }
 }
 
 .dl--description {
