@@ -111,15 +111,12 @@ layout: 'layouts/base'
 <section>
   <h2 id="resources">Resources & Glossary</h2>
   <article class="measure">
-    {% renderFile './resources/index/_introduction.md' %}
+    {% renderFile './resources/_introduction.md' %}
   </article>
 
   <h3>Resources</h3>
-  <ul>
-    {% for resource in collections.resource %}
-      <li><a href="{{ resource.data.page.url }}">{{ resource.data.title }}</a></li>
-    {% endfor %}
-  </ul>
+  {% renderFile './resources/_list.md' %}
+  <p><a href="/resources">See all resources</a></p>
 
   <h3>Glossary</h3>
   <ul>
