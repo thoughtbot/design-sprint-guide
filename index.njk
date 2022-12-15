@@ -37,22 +37,22 @@ layout: 'layouts/base'
 
 <section class="tbds-block-stack tbds-block-stack--gap-5 tbds-padding-block-4">
   <div class="tbds-block-stack__item">
-  <h2>Design sprint phases</h2>
-  <p class="measure">
-    At its core, a design sprint is split into 5 phases. Each phase has a clear
-    goal and is designed to make progress towards answering big questions and
-    validating big ideas. Each phase is flexible and there is lots of room to
-    experiment with different techniques.
-  </p>
+    <h2>Design sprint phases</h2>
+    <p class="measure">
+      At its core, a design sprint is split into 5 phases. Each phase has a clear
+      goal and is designed to make progress towards answering big questions and
+      validating big ideas. Each phase is flexible and there is lots of room to
+      experiment with different techniques.
+    </p>
   </div>
   <ul class="tbds-block-stack__item phase-rows" id="phases">
     {% for phase in collections.phase %}
-      <li class="phase">
-        <span class="eyebrow">Phase {{ phase.data.number }}</span>
-        <h3>
-          <a href="{{ phase.data.page.url }}">{{ phase.data.title }}</a>
-        </h3>
-      </li>
+    <li class="phase">
+      <span class="eyebrow">Phase {{ phase.data.number }}</span>
+      <h3>
+        <a href="{{ phase.data.page.url }}">{{ phase.data.title }}</a>
+      </h3>
+    </li>
     {% endfor %}
   </ul>
 </section>
@@ -74,7 +74,7 @@ layout: 'layouts/base'
   <a href="/schedules">See all</a>
   <ul>
     {% for schedule in collections.schedule %}
-      <li><a href="{{ schedule.data.page.url }}">{{ schedule.data.title }}</a></li>
+    <li><a href="{{ schedule.data.page.url }}">{{ schedule.data.title }}</a></li>
     {% endfor %}
   </ul>
 
@@ -94,7 +94,7 @@ layout: 'layouts/base'
 
     <div class="tbds-inline-stack__item">
       <h4>Diverge</h4>
-      {% set collection = collections.diverge.slice(0, 5) %}
+      {% set collection = collections.diverge | curateCollection(pages.home.exercise_lists[0]) %}
       {% include "exercise-list.njk" %}
       <a href="/phases/diverge#exercises">See all</a>
     </div>

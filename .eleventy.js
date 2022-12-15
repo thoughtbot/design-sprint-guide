@@ -20,6 +20,15 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter("getChildExercise", function(collection, child) {
     return collection.find((exercise) => exercise.fileSlug === child);
   });
+  eleventyConfig.addFilter("curateCollection", function(collection, itemsToInclude) {
+    const slugsToInclude = itemsToInclude.exercises.map((item) => {
+      return item.slug
+    })
+    const curatedItems = collection.filter((item) => {
+      return slugsToInclude.includes(item.fileSlug)
+    })
+    return curatedItems
+  });
   // Generate a simple breadcrumb
   // Usage: {% breadcrumbs page.url %}
   eleventyConfig.addShortcode("breadcrumbs", function(url) {

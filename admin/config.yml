@@ -70,3 +70,27 @@ collections:
             fields:
               - {name: title, widget: string}
               - {name: definition, widget: text}
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Home Page"
+        name: "about"
+        file: "_data/pages/home.json"
+        fields:
+          - label: Exercises lists
+            name: exercise_lists
+            hint: Curate the list of exercises on the homepage.
+            widget: list
+            fields:
+            - {name: title, label: List Title, widget: string}
+            - name: exercises
+              widget: list
+              max: 5
+              fields:
+                - name: slug
+                  label: Exercise
+                  widget: relation
+                  collection: exercise
+                  value_field: "{{slug}}"
+                  search_fields: ["title"]
+                  display_fields: ["title"]

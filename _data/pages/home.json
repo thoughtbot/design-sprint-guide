@@ -1,0 +1,15 @@
+{
+  "exercise_lists": [
+    {
+      "title": "Diverge",
+      "exercises": [
+        {
+          "slug": "lightning-demos"
+        },
+        {
+          "slug": "four-step-sketches"
+        }
+      ]
+    }
+  ]
+}
