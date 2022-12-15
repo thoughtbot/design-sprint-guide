@@ -18,19 +18,15 @@ npm install
 ```
 npm start
 ```
-This will start Eleventy and watch sass files, and reload the browser on changes.
+This will start Eleventy, watch sass files, run the CMS locally, and reload the browser on changes.
 
 ### Access the CMS
 
 We use [Netlify CMS](https://www.netlifycms.org) locally to make editing
-exercises, and schedules easier, to access the CMS
-run everything above, then in a another terminal window run:
+exercises, and schedules easier.
 
-```
-npx netlify-cms-proxy-server
-```
-
-Then open `localhost:8080/admin` in a browser, and tap 'Login' (no login required).
+To access the CMS run everything above. Then open `localhost:8080/admin` in a
+browser, and tap 'Login' (no login required).
 
 The CMS is optional, you can still edit everything manually if you want to.
 
