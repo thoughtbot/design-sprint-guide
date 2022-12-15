@@ -10,19 +10,32 @@
 
   &:after {
     aspect-ratio: 8 / 1;
-    bottom: -3rem;
+    bottom: -1rem;
     content: '';
     background: {
       image: url('/images/doodles/loose-underscore.svg');
       repeat: no-repeat;
       size: contain;
     }
-    left: -4rem;
+    left: -1rem;
     position: absolute;
-    width: 180%;
+    width: 140%;
+    
+    @media (min-width: $tbds-breakpoint-medium) {
+      bottom: -1.5rem;
+    }
+
+    @media (min-width: $tbds-breakpoint-large) {
+      bottom: -1.8rem;
+    }
   }
 }
 
-.hero {
-  margin-top: 8rem;
+.headline-image {
+  width: 100%;
+  margin-block: 3rem;
+
+  @media (max-width: $tbds-breakpoint-medium) {
+    margin-block: 1rem;
+  }
 }
