@@ -48,7 +48,7 @@ title: My New Schedule
 
 <!-- Optional -->
 <article class="measure">
-  {% renderFile './schedules/my-new-schedule/_introduction.md' %}
+  {% renderFile './sprint-guide/schedules/my-new-schedule/_introduction.md' %}
 </article>
 
 <!-- schedules.[name] must match the file name in _data/schedules -->
