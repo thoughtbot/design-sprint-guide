@@ -1,6 +1,26 @@
 {
   "exercise_lists": [
     {
+      "title": "Understand",
+      "exercises": [
+        {
+          "slug": "problem-statement"
+        },
+        {
+          "slug": "needs-wants-desires"
+        },
+        {
+          "slug": "ask-the-experts"
+        },
+        {
+          "slug": "how-might-we"
+        },
+        {
+          "slug": "make-a-map"
+        }
+      ]
+    },
+    {
       "title": "Diverge",
       "exercises": [
         {
@@ -8,6 +28,17 @@
         },
         {
           "slug": "four-step-sketches"
+        }
+      ]
+    },
+    {
+      "title": "Converge",
+      "exercises": [
+        {
+          "slug": "art-museum"
+        },
+        {
+          "slug": "final-storyboard"
         }
       ]
     }
