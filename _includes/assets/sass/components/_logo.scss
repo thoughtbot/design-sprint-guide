@@ -4,10 +4,19 @@
 
   img {
     margin-right: $tbds-space-3;
-    width: 55px;
+    width: 40px;
+
+    @media (min-width: $tbds-breakpoint-medium) {
+      width: 55px;
+    }
   }
 
   p {
     margin: 0;
+    font-size: 0.9rem;
+
+    @media (min-width: $tbds-breakpoint-medium) {
+      font-size: initial;
+    }
   }
 }

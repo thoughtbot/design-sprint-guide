@@ -1,23 +1,24 @@
 .banner {
-  background: $tbds-brand-yellow-light;
-  border: {
-    color: $tbds-brand-yellow;
-    radius: 0.25rem;
-    style: solid;
-    width: 2px;
-  }
+  background: lighten($tbds-brand-yellow-light, 10%);
   color: $tbds-brand-gray-dark;
   margin-inline: auto;
   margin-top: $tbds-space-2;
   max-width: 40rem;
   padding: {
-    block: $tbds-space-3;
-    inline: $tbds-space-3;
+    block: $tbds-space-2;
+    inline: $tbds-space-2;
   };
   text-align: center;
+
+  @media (min-width: $tbds-breakpoint-medium) {
+    padding: {
+      block: $tbds-space-3;
+      inline: $tbds-space-3;
+    };
+  }
 }
 
 .banner > p {
-  font-size: 1rem;
+  font-size: 0.9rem;
   margin: 0;
 }

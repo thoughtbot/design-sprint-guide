@@ -1,0 +1,12 @@
+.breadcrumb {
+  background: $tbds-brand-gray-ultra-light;
+  padding: $tbds-space-2;
+
+  @media (min-width: $tbds-breakpoint-medium) {
+    background: transparent;
+  }
+
+  *[aria-hidden] {
+    color: lighten($tbds-brand-gray-light, 30%);
+  }
+}
