@@ -1,4 +1,11 @@
 .inline-list {
   --tbds-inline-stack-gap: #{$tbds-space-5};
+  align-items: start;
+  flex-direction: column;
   list-style: none;
+
+  @media (min-width: $tbds-breakpoint-medium) {
+    align-items: initial;
+    flex-direction: initial;
+  }
 }

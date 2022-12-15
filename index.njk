@@ -11,7 +11,7 @@ layout: 'layouts/base'
 </h1>
 
 <section class="tbds-inline-stack tbds-inline-stack--gap-6">
-  <div class="tbds-inline-stack__item tbds-inline-size-40%">
+  <div class="tbds-inline-stack__item">
     <h2>What is a design sprint?</h2>
     <p class="measure">
       A Product Design Sprint is a technique to quickly design,
@@ -21,7 +21,7 @@ layout: 'layouts/base'
       <a href="/introduction">Read more</a>
     </p>
   </div>
-  <div class="tbds-inline-stack__item tbds-inline-size-20%">
+  <div class="tbds-inline-stack__item">
     <p class="eyebrow">Where to?</p>
     <nav aria-labelledby="navigate sections of this page">
       <ul>
@@ -35,7 +35,7 @@ layout: 'layouts/base'
   </div>
 </section>
 
-<section class="tbds-block-stack tbds-block-stack--gap-5 tab-container" id="phases">
+<section class="tbds-block-stack tbds-block-stack--gap-5 tab-container tbds-padding-block-4" id="phases">
   <div class="tbds-block-stack__item">
     <h2>Design sprint phases</h2>
     <p class="measure-large">
@@ -48,7 +48,7 @@ layout: 'layouts/base'
   {% include 'tabs.njk'%}
 </section>
 
-<section>
+<section class="tbds-padding-block-4">
   <h2>Build a design sprint</h2>
   <p class="measure">
     At thoughtbot, we have organized many, many design sprints over the years and
@@ -78,46 +78,49 @@ layout: 'layouts/base'
   <div class="tbds-inline-stack inline-stack--gap-7 inline-stack--align-start">
     <div class="tbds-inline-stack__item">
       <h4>Understand</h4>
-      {% set collection = collections.understand %}
+      {% set collection = collections.understand.slice(0, 7) %}
       {% include "exercise-list.njk" %}
       <a href="/phases/understand#exercises">See all</a>
     </div>
 
     <div class="tbds-inline-stack__item">
       <h4>Diverge</h4>
-      {% set collection = collections.diverge %}
+      {% set collection = collections.diverge.slice(0, 5) %}
       {% include "exercise-list.njk" %}
       <a href="/phases/diverge#exercises">See all</a>
     </div>
 
     <div class="tbds-inline-stack__item">
       <h4>Converge</h4>
-      {% set collection = collections.converge %}
+      {% set collection = collections.converge.slice(0, 5) %}
       {% include "exercise-list.njk" %}
       <a href="/phases/converge#exercises">See all</a>
     </div>
   </div>
 </section>
 
-<section>
+<section class="tbds-padding-block-4">
   <h2 id="resources">Resources & Glossary</h2>
   <article class="measure">
-    {% renderFile './resources/index/_introduction.md' %}
+    {% renderFile './resources/_introduction.md' %}
   </article>
 
   <h3>Resources</h3>
-  <ul>
-    {% for resource in collections.resource %}
-      <li><a href="{{ resource.data.page.url }}">{{ resource.data.title }}</a></li>
-    {% endfor %}
-  </ul>
+  {% renderFile './resources/_list.md' %}
+  <p><a href="/resources">See all resources</a></p>
 
   <h3>Glossary</h3>
-  <ul>
-    {% for term in collections.glossary %}
-      <li><a href="{{ term.data.page.url }}">{{ term.data.title }}</a></li>
-    {% endfor %}
-  </ul>
+  <p class="measure">If you're new to design sprints or just need a refresher to some less-than common terms we've got a list of the most common.</p>
+  <p><a href="/glossary">Read all the glossary terms</a></p>
+
+  {% for term in glossary.terms.slice(0, 5) %}
+    <dl class="dl">
+      <dt class="dl--title">{{ term.title }}</dt>
+      <dd class="dl--description">{{ term.definition }}</dd>
+    </dl>
+  {% endfor %}
+
+  <p><a href="/glossary">Read all the glossary terms</a></p>
 </section>
 
 <section>
