@@ -3,10 +3,12 @@
   flex-direction: column;
 
   .inline-list {
+    border-left: 2px solid $tbds-brand-gray-light;
     margin-left: 0;
     padding-left: 0;
 
     @media (min-width: $tbds-breakpoint-medium) {
+      border-left: 0;
       margin-left: auto;
       padding-left: initial;
     }
