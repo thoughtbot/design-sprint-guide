@@ -33,7 +33,32 @@
 
 .headline-image {
   width: 100%;
-  margin-block: 3rem;
+  margin-block: 5rem;
+  position: relative;
+
+  &:after {
+    content: '';
+    background: {
+      image: url('/images/doodles/small-curvy-arrow.svg');
+      repeat: no-repeat;
+      size: contain;
+    }
+    width: 16rem;
+    aspect-ratio: 1 / 1;
+    position: absolute;
+    bottom: -10rem;
+    left: 50%;
+
+    @media (max-width: $tbds-breakpoint-medium) {
+      width: 10rem;
+      bottom: -6rem;
+      left: 60%;
+    }
+
+    @media (max-width: $tbds-breakpoint-small) {
+      display: none;
+    }
+  }
 
   @media (max-width: $tbds-breakpoint-medium) {
     margin-block: 1rem;
