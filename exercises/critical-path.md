@@ -3,34 +3,46 @@ title: Critical Path
 tags:
   - exercise
   - understand
+image:
+  - /images/exercises/critical-path.png
+  - /images/exercises/critical-path-1.jpeg
 ---
+The Critical Path should be discussed after a Problem Statement has been agreed
+upon. Once completed, the Critical Path should give a step-by-step map of the
+user’s most critical experience, from having the problem to solving the
+problem, and every step in-between.
+
 ## Requirements
-
-**Estimated time needed**: 15 min
-
-**Team**: Facilitator, Note-taker, Stakeholders
+- **Estimated time needed**: 1 hour to 1 hour and 15 minutes.
+- **Team**: Facilitator, Note-taker, Stakeholders
 
 ## Why should we do this exercise?
 
-The Critical Path should be discussed after a [Problem Statement](/exercises/problem-statement/) has been agreed upon. Once completed, the Critical Path should give a step-by-step map of the user's most critical experience, from having the problem to solving the problem, and every step in-between.
+This exercise helps us to get an initial idea of what the product could look
+like down on paper. Once we have a base it is easier to expand, test and
+iterate on it.
 
-> How do you know which user story is most important? It depends on the problem you are solving in the sprint. For example:
->
-> * Helping people understand and get started with your product — you probably want to focus on the experience of a user encountering your product for the first time.
-> * Creating a new product concept — you probably want to look into the future and imagine the value proposition and core features for an engaged user.
-> * Improving conversion rate from a landing page — you probably want to understand why people land on your page and what their goals are.
-> * This step can be difficult and time-consuming, but it's critical!
+## Instructions
 
-From [The product design sprint: understand (day 1)](https://www.gv.com/lib/the-product-design-sprint-understandday-17Th)
+Starting with the Problem Statement as the first step, as a group, use your
+understanding of the Problem Statement to map out the steps of the user’s
+journey through solving that problem.
 
-## Instructions:
+The Facilitator should draw the flow using a shared art board like Miro or
+Google Jamboard. This flow can be very simple and can comprise of a series of
+sticky notes with key points, actions or events.
 
-1. Starting with the Problem Statement as the first step, as a group, use your understanding of the Problem Statement to map out the steps of the user's journey through solving that problem
-2. The Facilitator should stand at the whiteboard and draw the flow.
-3. Keep adding steps until you've reached a solution.
+Keep adding steps until you’ve reached a solution.
 
-## Example
+Record all ideas in a separate document or Trello if it makes it easier for your team to manage.
 
-The end result often looks like the map of a bus or subway line: ![Galen's Critical Path](http://images.thoughtbot.com/the-product-design-sprint/criticalpath.jpg) From [The Product Design Sprint](http://robots.thoughtbot.com/the-product-design-sprint)
+## Tips
 
-![Example Critical Path](https://thoughtbot.com/playbook/images/pds/critical-path.jpg)
+Try to identify and document any assumptions that are being made about the user
+and how they will use the product. We should try to test these assumptions in
+our prototype or while speaking with our experts.
+
+## Examples
+[![A sketch of the journey a user would take through a website or app]({{ image[0] }})]({{ image[0] }})
+
+[![A sketch of the journey a user would take through a website or app]({{ image[1] }})]({{ image[1] }})

@@ -25,8 +25,7 @@ little more focus.
 
 You (and everyone in the group) needs to get some drawing tools and sheets of
 paper. Each team member then writes down everything that's on their mind
-regarding the chosen part of the [Map](/exercises/make-a-map). Don't stop
-writing. Look at the most voted [HMWs](/exercises/hmw), the [Lightning demos](/exercises/lightning-demos),
+regarding the chosen part of the [Critical Path](/exercises/critical-path). Don't stop writing. Look at the most voted [HMWs](/exercises/hmw), the [Lightning demos](/exercises/lightning-demos),
 as well as the other resources you've created so far - these should all give
 you inspiration or an area to explore. These notes are just for you, they won't
 be shared with the group.
