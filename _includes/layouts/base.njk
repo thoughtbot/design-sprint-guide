@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
-    {% include "../banner.njk" %}
     <nav class="menu | tbds-inline-stack tbds-margin-block-6" aria-labelledby="primary navigation">
       <div class="logo tbds-inline-stack__item">
         <a href="/">
@@ -25,6 +24,7 @@
         <li class="tbds-inline-stack__item"><a href="/resources">Resources</a></li>
       </ul>
     </nav>
+    {% include "../banner.njk" %}
 
     {% if page.url !== "/" %}
       <nav aria-labelledby="navigate back to the previous pages">{% breadcrumbs page.url %}</nav>
