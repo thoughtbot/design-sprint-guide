@@ -37,28 +37,17 @@ layout: 'layouts/base'
   </div>
 </section>
 
-<section class="tbds-block-stack tbds-block-stack--gap-5 tbds-padding-block-4">
+<section class="tbds-block-stack tbds-block-stack--gap-5 tab-container tbds-padding-block-4" id="phases">
   <div class="tbds-block-stack__item">
-    <div class="measure">
-      <h2>Design sprint phases</h2>
-      <p>
-        At its core, a design sprint is split into 5 phases. Each phase has a clear
-        goal and is designed to make progress towards answering big questions and
-        validating big ideas. Each phase is flexible and there is lots of room to
-        experiment with different techniques.
-      </p>
-    </div>
+    <h2>Design sprint phases</h2>
+    <p class="measure-large">
+      At its core, a design sprint is split into 5 phases. Each phase has a clear
+      goal and is designed to make progress towards answering big questions and
+      validating big ideas. Each phase is flexible and there is lots of room to
+      experiment with different techniques.
+    </p>
   </div>
-  <ul class="tbds-block-stack__item phase-rows" id="phases">
-    {% for phase in collections.phase %}
-      <li class="phase">
-        <span class="eyebrow">Phase {{ phase.data.number }}</span>
-        <h3>
-          <a href="{{ phase.data.page.url }}">{{ phase.data.title }}</a>
-        </h3>
-      </li>
-    {% endfor %}
-  </ul>
+  {% include 'tabs.njk'%}
 </section>
 
 <section class="tbds-padding-block-4">
