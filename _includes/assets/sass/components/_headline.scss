@@ -7,20 +7,20 @@
 
 .headline-underline {
   position: relative;
-}
 
-.headline-underline::after {
-  aspect-ratio: 8 / 1;
-  bottom: -3rem;
-  content: '';
-  background: {
-    image: url('/images/doodles/loose-underscore.svg');
-    repeat: no-repeat;
-    size: contain;
+  &:after {
+    aspect-ratio: 8 / 1;
+    bottom: -3rem;
+    content: '';
+    background: {
+      image: url('/images/doodles/loose-underscore.svg');
+      repeat: no-repeat;
+      size: contain;
+    }
+    left: -4rem;
+    position: absolute;
+    width: 180%;
   }
-  left: -4rem;
-  position: absolute;
-  width: 180%;
 }
 
 .hero {
