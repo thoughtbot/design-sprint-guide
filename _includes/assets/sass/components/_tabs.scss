@@ -4,21 +4,18 @@
 
 .tab-container {
   background: $tbds-brand-gray-ultra-light;
-  max-width: 100%;
-  padding-inline: 1.5rem;
-  padding-block: 0.25rem;
   border-radius: 0.5rem;
   margin-block: 3rem;
+  padding-block: 0.25rem;
+  padding-inline: 1.5rem;
+  width: 100%;
 }
 
 .tab-collection {
+  background: $tbds-brand-gray-ultra-light;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  max-width: 100%;
-  background: $tbds-brand-gray-ultra-light;
-  border-radius: 0.25rem;
-  overflow: hidden;
 }
 
 .tab-radio {
@@ -26,29 +23,42 @@
 }
 
 .tab-label {
-  padding: $tbds-space-4 $tbds-space-6;
+  border-bottom: 1px solid #E2E1EA;
   cursor: pointer;
   font: {
     size: 1.5rem;
     weight: bold;
   }
-  border-bottom: 1px solid #E2E1EA;
+  padding: $tbds-space-4 $tbds-space-6;
 }
 
 .tab-content {
-  order: 1;
-  width: 100%;
   display: none;
   padding-block: 4rem;
+  order: 1;
+  width: 100%;
 }
 
 .tab-content__title {
   margin: 0;
 }
 
+.tab-content a {
+  color: $tbds-brand-red;
+
+  &:hover {
+    color: $tbds-brand-gray-dark;
+  }
+}
+
+.tab-content img {
+  aspect-ratio: 1 / 1;
+  border-radius: 0.25rem;
+  width: 100%;
+}
+
 .tab-content__exercises {
   background: #E2E1EA;
-  margin-inline: auto;
   border-radius: 0.25rem;
   padding-inline: $tbds-space-6;
 }
@@ -62,7 +72,6 @@
 }
 
 .tab-content__exercises-content {
-  margin-inline: auto;
   padding-bottom: 3rem;
 }
 
@@ -72,20 +81,27 @@
 
 .tab-radio:checked+.tab-label+.tab-content {
   display: grid;
-  grid-template-columns: 0.5fr 1fr 0.5fr;
-  gap: 6rem;
+  gap: 4rem;
+  grid-template-columns: 1fr 2fr 1fr;
 }
 
-.tab-content a {
-  color: $tbds-brand-red;
-
-  &:hover {
-    color: $tbds-brand-gray-dark;
+@media (max-width: 900px) {
+  .tab-content {
+    order: initial;
+    align-items: start;
   }
-}
 
-.tab-content img {
-  border-radius: 0.25rem;
-  width: 100%;
-  aspect-ratio: 1 / 1;
+  .tab-content img {
+    display: none;
+  }
+
+  .tab-label {
+    width: 100%;
+    text-align: center;
+  }
+
+  .tab-radio:checked+.tab-label+.tab-content {
+    gap: 4rem;
+    grid-template-columns: 1fr;
+  }
 }
