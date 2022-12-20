@@ -1,17 +1,70 @@
 .arrow-hero {
   position: relative;
+  
+  &:after {
+    aspect-ratio: 2 / 1;
+    bottom: -8rem;
+    content: '';
+    background: {
+      image: url('/images/doodles/small-curvy-arrow.svg');
+      repeat: no-repeat;
+      size: contain;
+    }
+    position: absolute;
+    right: 1rem;
+    width: 20rem;
+  }
 }
 
-.arrow-hero::after {
-  aspect-ratio: 2 / 1;
-  bottom: -8rem;
-  content: '';
-  background: {
-    image: url('/images/doodles/small-curvy-arrow.svg');
-    repeat: no-repeat;
-    size: contain;
+.arrow-curvy__small {
+  width: 100%;
+  position: relative;
+
+  &:after {
+    aspect-ratio: 1 / 1;
+    background: {
+      image: url('/images/doodles/small-curvy-arrow.svg');
+      repeat: no-repeat;
+      size: contain;
+    }
+    content: '';
+    position: absolute;
+    display: none;
+
+    @media (min-width: $tbds-breakpoint-small) {
+      display: flex;
+      width: 10rem;
+      right: 20%;
+      top: -7rem;
+    }
+
+    @media (min-width: $tbds-breakpoint-medium) {
+      right: 18%;
+      top: -5rem;
+    }
+
+    @media (min-width: 1000px) {
+      right: 30%;
+    }
+
+    @media (min-width: $tbds-breakpoint-large) {
+      width: 13rem;
+      right: 30%;
+      top: -7rem;
+    }
+
+    @media (min-width: 1440px) {
+      right: 15%;
+      top: -7rem;
+    }
+
+    @media (min-width: 1500px) {
+      right: 30%;
+    }
+
+    @media (min-width: 1880px) {
+      right: 40%;
+    }
   }
-  position: absolute;
-  right: 1rem;
-  width: 20rem;
 }
+
