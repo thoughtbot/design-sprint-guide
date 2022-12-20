@@ -71,6 +71,10 @@
   font-weight: bold;
 }
 
+.schedule__section {
+  flex-wrap: wrap;
+}
+
 .schedule__grid {
   display: grid;
   grid-template:

@@ -57,8 +57,8 @@ layout: 'layouts/base'
   </ul>
 </section>
 
-<section class="tbds-inline-stack tbds-inline-stack--gap-6">
-  <div class="tbds-inline-stack__item tbds-inline-size-40%"> 
+<section class="schedule__section tbds-inline-stack tbds-inline-stack--gap-6">
+  <div class="tbds-inline-stack__item tbds-inline-size-60%"> 
     <h2 id="schedules">Schedules</h2>
     <p class="measure">
     At thoughtbot, we have organized many, many design sprints over the years and
@@ -70,7 +70,7 @@ layout: 'layouts/base'
       <a href="/schedules">See all</a> 
     </article>
   </div>
-  <div class="tbds-inline-stack__item tbds-inline-size-20%">
+  <div class="tbds-inline-stack__item">
     <ul class="tbds-block-stack__item schedule__grid">
       {% for schedule in collections.schedule %}
       <li><a href="{{ schedule.data.page.url }}">{{ schedule.data.title }}</a></li>
