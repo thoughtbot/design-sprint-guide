@@ -1,7 +1,7 @@
 .container {
   margin-left: auto;
   margin-right: auto;
-  padding: 0 $tbds-space-4;
+  padding: 0 $tbds-space-3;
 
   section {
     max-width: 80rem;
@@ -10,11 +10,11 @@
     padding: 0 $tbds-space-3;
 
     @media (min-width: $tbds-breakpoint-medium) {
-      padding: 0 $tbds-space-5;
+      padding: 0 $tbds-space-4;
     }
   
-    @media (min-width: $tbds-breakpoint-large) {
-      padding: 0 $tbds-space-6;
+     @media (min-width: $tbds-breakpoint-large) {
+      padding: 0 $tbds-space-5;
     }
   }
 }
