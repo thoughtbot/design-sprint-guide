@@ -1,29 +1,38 @@
 .hire-us-cta {
     background: $tbds-brand-purple;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     margin: 0 -1.5rem;
-    padding: $tbds-space-4;
-    align-items: center;
 
-    h2 {
-        color: white;
-    }
 
-    a.button {
-        background: white;
-        color: $tbds-brand-purple;
-        padding: $tbds-space-4;
-        text-decoration: none;
-        border-radius: 100rem;
-        padding: 1rem 1.75rem;
-        line-height: 1;
+    div {
+        max-width: 80rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        padding: $tbds-space-5;
 
-        &:hover {
-            box-shadow:
-            0 0 0 2px #6931e0, 0 0 0 5px #fff;
-            color: #612dce;
+        h2 {
+            color: white;
+        }
+    
+        a.button {
+            background: white;
+            color: $tbds-brand-purple;
+            padding: $tbds-space-4;
+            text-decoration: none;
+            border-radius: 100rem;
+            padding: 1rem 1.75rem;
+            line-height: 1;
+    
+            &:hover {
+                box-shadow:
+                0 0 0 2px #6931e0, 0 0 0 5px #fff;
+                color: #612dce;
+            }
         }
     }
+
+
 }
