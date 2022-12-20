@@ -2,6 +2,7 @@
   background: lighten($tbds-brand-yellow-light, 10%);
   color: $tbds-brand-gray-dark;
   margin-inline: auto;
+  max-width: 80rem;
   padding: {
     block: $tbds-space-2;
     inline: $tbds-space-2;
