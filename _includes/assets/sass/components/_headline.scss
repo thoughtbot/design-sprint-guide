@@ -33,6 +33,7 @@
 
 .headline-image {
   width: 100%;
+  border-radius: 0.5rem;
 
   @media (min-width: $tbds-breakpoint-small) {
     margin-block: $tbds-space-3;
