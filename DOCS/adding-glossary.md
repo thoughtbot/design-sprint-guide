@@ -1,16 +1,22 @@
 # Adding a New Glossary Term
 
-1. Add a new markdown file inside `glossary`, for example: `cat.md`
-2. Add your content, for example:
+### Option 1: Using the CMS
 
-```markdown
----
-title: Cat
----
+You can add new glossary terms using the CMS. See [Access the CMS](https://github.com/thoughtbot/design-sprint-guide#access-the-cms).
 
-# {{ title }}
+### Option 2: Manually
 
-A cat is a (usually) small furry creature that knocks things off shelves.
+1. Open the `_data/faqs.json` file.
+2. Add a new FAQ in the following format:
+
+```json
+[
+  ...other terms
+  {
+    "title": "Bike Shed",
+    "definition": "A situation where the team wastes time on something trivial, at the cost of more important things. e.g. people arguing over what color to paint the bike shed while the house is not finished"
+  }
+]
 ```
 
 ## Tips

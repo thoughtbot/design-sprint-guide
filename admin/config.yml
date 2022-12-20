@@ -57,3 +57,16 @@ collections:
                 search_fields: ["title"]
                 display_fields: ["title"]
                 required: false
+  - label: "Glossary"
+    name: "glossary"
+    files:
+      - name: glossary
+        label: Glossary Terms
+        file: "_data/glossary.json"
+        fields:
+          - name: terms
+            label: Terms
+            widget: list
+            fields:
+              - {name: title, widget: string}
+              - {name: definition, widget: text}

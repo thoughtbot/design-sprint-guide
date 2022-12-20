@@ -1,0 +1,124 @@
+{
+  "terms": [
+    {
+      "title": "MVP",
+      "definition": "A Minimum Viable Product (MVP) is the early stage of a product that allows teams to test and validate new features based on the needs of the user. A MVP helps get products to market faster with features that benefit their target audiences."
+    },
+    {
+      "title": "Scale",
+      "definition": "Scaling itself has multiple meanings, sometimes referring to increasing the amount of work the application can do or increasing the amount of resources available to the app."
+    },
+    {
+      "title": "Assumption",
+      "definition": "Any unvalidated or untested information formed out of the given problem and is assumed to be true. Assumptions formed can be based on what we know about who will use the product, uncertainties around the product, scenarios that may occur during the use of the product, etc."
+    },
+    {
+      "title": "Card Sorting",
+      "definition": "Card sorting is a design exercise that guides us toward creating the most coherent information architecture of a product. During a card sorting session, participants are asked to associate two sets of flashcards by grouping them. While the first set of flashcards contains categories, the second set contains sample content."
+    },
+    {
+      "title": "Decider / Product Owner",
+      "definition": "The individual in this role has final say for the product. Typically, our client."
+    },
+    {
+      "title": "Design Debt",
+      "definition": "Design debt is the lesser-known cousin of tech debt. Design debt represents the full spectrum of design work that has been banished to the dusty backlog. It includes everything from lack of design thinking processes to specific UI bugs that need fixing. It's what happens when the gap between your first feature and your 50th is so wide that you've given up on creating new things in the context of what's already happening in your product."
+    },
+    {
+      "title": "Dot Voting",
+      "definition": "This technique is a collaborative method used to conduct a silent critique. It is done by giving each participant an equal number of dots they can use to vote on a set of items. It could be used to narrow concepts, discussion topics, strategies, or concepts."
+    },
+    {
+      "title": "Empathy Map",
+      "definition": "A visualization of information about a particular users’ motivations, thoughts, feelings and behaviors in order to base design decisions off of what those users need most. This collaborative exercise is done to step outside our own perspective to better diversify our understanding."
+    },
+    {
+      "title": "Facilitator(s)",
+      "definition": "The individual in this role leads the exercises and discussion during the design sprint. Since this is a demanding role, it can be two people rotating in and out."
+    },
+    {
+      "title": "Fidelity",
+      "definition": "Fidelity refers to the level of detail and functionality built into a design concept. Lo-fidelity consists of a barebones representation of what a product will look like, while Hi-fidelity will more closely match the final product."
+    },
+    {
+      "title": "How Might We (HMW)",
+      "definition": "\"How Might We\" (HMW) statements are questions that act as a starting point for finding potential solutions to problems discovered during user research. HMW statements are open-ended and are often used during the Understand Phase of a Design Sprint."
+    },
+    {
+      "title": "Ideation",
+      "definition": "Ideation is the process of generating a broad set of solutions to problems that impact a product. This can be done through design thinking and brainstorming exercises."
+    },
+    {
+      "title": "Information Architecture",
+      "definition": "Information architecture is a blueprint of the structure, hierarchy, and content within a product. It also defines how that information is organized including naming conventions and definitions around product functionality."
+    },
+    {
+      "title": "Mockup",
+      "definition": "A mockup is a high-or-low-fidelity visualisation (colors, graphics, etc) of a website or app. Mockups generally represent the final version of the product to be built.\n"
+    },
+    {
+      "title": "Pain Point",
+      "definition": "Pain points are moments of frustration and friction that occur while a user is navigating a product or the customer experience around it."
+    },
+    {
+      "title": "Problem Statement / Job To Be Done (JBTD)",
+      "definition": "A problem statement or “job to be done” is a description of the problem that needs to be solved. Clearly identifying the problem is the first step in determining the work necessary to better understand issues surrounding the problem and to rally support from stakeholders. This discovery work will eventually lead us to exploring potential solutions."
+    },
+    {
+      "title": "Prototype",
+      "definition": "A prototype is a representation of a product with basic features used to test and validate ideas before product or feature launch. Prototypes can come in two flavors: Low-Fidelity wireframes or High-Fidelity mockups. Both can be used for testing at different stages of the product's lifecycle depending on the team's and the user's needs."
+    },
+    {
+      "title": "Recorder / Note Taker / Scribe",
+      "definition": "The individual in this role is in charge of the documentation for the design sprint. "
+    },
+    {
+      "title": "Scale",
+      "definition": "Scaling itself has multiple meanings, sometimes referring to increasing the amount of work the application can do or increasing the amount of resources available to the app."
+    },
+    {
+      "title": "Silent Critique",
+      "definition": "Silent Critique is the process of silently reviewing a document and adding feedback digitally.   This method used to gather unbiased and individual feedback in a focused environment. It also cuts down on time so that each person isn’t presenting each of their own ideas."
+    },
+    {
+      "title": "Stakeholder",
+      "definition": "A stakeholder is anyone who has interest in the product or anyone you need to collaborate with or get buy-in from in order to make the product successful."
+    },
+    {
+      "title": "Storyboard",
+      "definition": "A chronological set of images or sketches that communicate a story, journey, or process. Creating storyboards is used as a design thinking exercise after the group has had some time to think individually about the problem and many possible solutions to it."
+    },
+    {
+      "title": "Technical Debt",
+      "definition": "In its classical formulation, technical debt is described as intentionally taking shortcuts and cutting corners in code quality in order to speed up development. While this can be valuable in the short term, over the long term it makes the overall codebase more bug-prone and future features slower to develop. Eventually you “pay back” the debt by cleaning up the original code."
+    },
+    {
+      "title": "Timebox",
+      "definition": "To define a start and an end to an activity within a specific amount of time."
+    },
+    {
+      "title": "User Interview",
+      "definition": "A user interview is a research technique used to gather information about your experiences, preferences, and behaviours that will help inform a product’s design."
+    },
+    {
+      "title": "User Journey / Journey Map",
+      "definition": "A user journey is the path a user takes to navigate through a product to get to their desired goal. In product design, identifying a user journey or creating a “journey map” allows product designers to discover the best ways to enable the user to achieve their goal as efficiently as possible."
+    },
+    {
+      "title": "User Persona",
+      "definition": "A User Persona is a character used to represent a user type. For a dog walking app, two user personas would be “A pet parent” and “A dog walker”."
+    },
+    {
+      "title": "User Story",
+      "definition": "A user story is a description of a product’s features that is written in natural language and from the perspective of a product’s user."
+    },
+    {
+      "title": "Validation",
+      "definition": "Validation is the process of stress-testing your assumptions. Broadly, what you’re trying to uncover in this process is whether or not your product will be desirable to customers, viable for your business, and feasible to build."
+    },
+    {
+      "title": "Wireframe",
+      "definition": "A wireframe is an outline of a website or app -- think its skeleton. A wireframe provides the architecture, layout, and functionality of a product in its early stage and is used primarily for testing with users. Usually, wireframes refrain from styling the product too much and focuses more on verifying the overall flow and experience of the product matches the user's expectations."
+    }
+  ]
+}
