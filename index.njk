@@ -64,17 +64,13 @@ layout: 'layouts/base'
     </article>
   </div>
   <div class="tbds-inline-stack__item">
-    <ul class="tbds-block-stack__item schedule__grid">
-      {% for schedule in collections.schedule %}
-       <li>
-          <a href="{{ schedule.data.page.url }}"> 
-            <div class="eyebrow">Duration:{{ schedule.data.duration }}</div>
-            {{ schedule.data.title }}
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
-
+      {% set collection = collections.schedule.slice(0, 5) %}
+      {% include "schedule-list.njk" %}
+  </div>
+  <div>
+    {% for phase in schedule.phase %}
+              <div>{{ phase.title }}</div>
+            {% endfor %}
   </div>
 </section>
 

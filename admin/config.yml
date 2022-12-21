@@ -37,6 +37,7 @@ collections:
     folder: _data/schedules
     fields:
       - {name: title, widget: string}
+      - {name: duration, widget: string}
       - name: phases
         widget: list
         fields:
