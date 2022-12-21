@@ -1,4 +1,11 @@
 // Extensions to tbds-inline-stack
+.tbds-inline-stack {
+  display: block;
+
+  @media (min-width: $tbds-breakpoint-medium) {
+    display: flex;
+  }
+}
 
 .inline-stack--align-start {
   align-items: flex-start;

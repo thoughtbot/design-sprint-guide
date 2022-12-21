@@ -6,8 +6,7 @@
     <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
-    {% include "../banner.njk" %}
-    <nav class="tbds-inline-stack tbds-margin-block-6" aria-labelledby="primary navigation">
+    <nav class="menu | tbds-inline-stack tbds-margin-block-3 tbds-margin-block-6@medium container" aria-labelledby="primary navigation">
       <div class="logo tbds-inline-stack__item">
         <a href="/">
           <img src="/images/logo.svg" alt="thoughtbot logo" />
@@ -27,12 +26,14 @@
     </nav>
 
     {% if page.url !== "/" %}
-      <nav aria-labelledby="navigate back to the previous pages">{% breadcrumbs page.url %}</nav>
+      <nav class="breadcrumb | tbds-margin-block-4 tbds-margin-block-6@medium container" aria-labelledby="navigate back to the previous pages">{% breadcrumbs page.url %}</nav>
     {% endif %}
 
-    {{ content | safe }}
+    <div class="container">{% include "../banner.njk" %}</div>
 
-    <nav class="tbds-inline-stack tbds-margin-block-6" aria-labelledby="footer navigation">
+    <main class="container">{{ content | safe }}</main>
+
+    <nav class="menu | tbds-inline-stack tbds-margin-block-6 container" aria-labelledby="footer navigation">
       <div class="logo tbds-inline-stack__item">
         <p>&copy; 2022 thoughtbot, inc.</p>
       </div>
@@ -44,5 +45,6 @@
         <li class="tbds-inline-stack__item"><a href="/resources">Resources</a></li>
       </ul>
     </nav>
+    <script src="/js/main.js"></script>
   </body>
 </html>

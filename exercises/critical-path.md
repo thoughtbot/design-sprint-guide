@@ -1,7 +1,11 @@
 ---
-tags: ['exercise', 'understand']
-title: Make a Map
-image: ['/images/exercises/critical-path.png', '/images/exercises/critical-path-1.jpeg']
+title: Critical Path
+tags:
+  - exercise
+  - understand
+image:
+  - /images/exercises/critical-path.png
+  - /images/exercises/critical-path-1.jpeg
 ---
 The Critical Path should be discussed after a Problem Statement has been agreed
 upon. Once completed, the Critical Path should give a step-by-step map of the
