@@ -1,11 +1,11 @@
 ---
 title: Classic (thoughtbot Flavor)
 ---
+<div>{{ duration }}</div>
 <h1>{{ title }}</h1>
 
 <article class="measure">
   {% renderFile './schedules/classic-tb/_introduction.md' %}
 </article>
-
 {% set schedule = schedules.classic_tb %}
 {% include "schedule.njk" %}
