@@ -66,15 +66,15 @@ layout: 'layouts/base'
   <div class="tbds-inline-stack__item">
 
     <ul class="tbds-block-stack__item schedule__grid">
-
+      {% for key, schedule in schedules %}
        <li>
-          <a href="{{ schedule.data.page.url }}"> 
-            <div class="eyebrow">{{ schedules.classic_gv.duration }}</div>
-            {{ schedules.classic_gv.title }}
+          <a href="{{ schedule.page.url }}"> 
+            <div class="eyebrow">{{ schedule.duration }}</div>
+            {{ schedule.title }}
           </a>
         </li>
+      {% endfor %}
     </ul>
-
 
   </div>
 </section>
