@@ -70,11 +70,13 @@ layout: 'layouts/base'
        <li>
           <a href="{{ schedule.page.url }}"> 
             <div class="eyebrow">{{ schedule.duration }}</div>
-            {{ schedule.title }}
+            <h2>{{ schedule.title }}</h2>
           </a>
         </li>
       {% endfor %}
     </ul>
+
+    {{ schedules | dump }}
 
   </div>
 </section>
