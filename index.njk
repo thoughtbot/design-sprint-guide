@@ -68,7 +68,7 @@ layout: 'layouts/base'
     <ul class="tbds-block-stack__item schedule__grid">
       {% for key, schedule in schedules %}
        <li>
-          <a href="{{ schedule.page.url }}"> 
+          <a href="/schedules/{{ key }}"> 
             <div class="eyebrow">{{ schedule.duration }}</div>
             <h2>{{ schedule.title }}</h2>
           </a>
