@@ -10,8 +10,8 @@ eleventyExcludeFromCollections: true
 </article>
 
 <ul>
-{% for key, schedule in schedules %}
-    <li><a href="{{ key }}">{{ key }}: {{ schedule.title }}</a></li>
+{% for key, agenda in schedules %}
+    <li><a href="{{ key }}">{{ agenda.title }}</a></li>
   {% endfor %}
 </ul>
 

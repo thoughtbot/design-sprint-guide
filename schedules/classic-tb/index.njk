@@ -7,5 +7,6 @@ title: Classic (thoughtbot Flavor)
 <article class="measure">
   {% renderFile './schedules/classic-tb/_introduction.md' %}
 </article>
-{% set schedule = schedules.classic_tb %}
-{% include "schedule.njk" %}
+
+{% set agenda = schedules[page.fileSlug] %}
+{% include "agenda.njk" %}
