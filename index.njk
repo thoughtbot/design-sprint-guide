@@ -3,16 +3,18 @@ layout: 'layouts/base'
 ---
 
 <div id="home-page">
-  <h1>
-    <span class="eyebrow">
-      Design Sprint Guide
-    </span>
-    <span class="headline | tbds-font-weight-bold">
-      Design, prototype & test ideas quickly.
-    </span>
-  </h1>
+  <div class="hero">
+    <h1>
+      <span class="eyebrow">
+        Design Sprint Guide
+      </span>
+      <span class="headline | tbds-font-weight-bold">
+        Design, prototype & test ideas quickly.
+      </span>
+    </h1>
+  </div>
 
-  <section class="tbds-inline-stack tbds-inline-stack--gap-6">
+  <section class="tbds-inline-stack tbds-inline-stack--gap-6" id="design-sprint">
     <div class="tbds-inline-stack__item">
       <div class="measure">
         <h2>What is a design sprint?</h2>
@@ -52,7 +54,7 @@ layout: 'layouts/base'
     {% include 'tabs.njk'%}
   </section>
 
-  <section class="tbds-padding-block-4">
+  <section class="tbds-padding-block-4" id="build-design-sprint">
     <div class="measure">
       <h2>Build a design sprint</h2>
       <p>
@@ -64,50 +66,54 @@ layout: 'layouts/base'
       </p>
     </div>
 
-    <h3 id="schedules">Schedules</h3>
-    <article class="measure">
-      {% renderFile './schedules/index/_introduction.md' %}
-    </article>
-    <a href="/schedules">See all</a>
-    <ul>
-      {% for schedule in collections.schedule %}
-        <li><a href="{{ schedule.data.page.url }}">{{ schedule.data.title }}</a></li>
-      {% endfor %}
-    </ul>
+    <div id="schedules">
+      <h3>Schedules</h3>
+      <article class="measure">
+        {% renderFile './schedules/index/_introduction.md' %}
+      </article>
+      <a href="/schedules">See all</a>
+      <ul>
+        {% for schedule in collections.schedule %}
+          <li><a href="{{ schedule.data.page.url }}">{{ schedule.data.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
 
-    <h3 id="exercises">Exercises</h3>
-    <article class="measure">
-      {% renderFile './exercises/index/_introduction.md' %}
-    </article>
-    <a href="/exercises">See all</a>
+    <div id="exercises">
+      <h3>Exercises</h3>
+      <article class="measure">
+        {% renderFile './exercises/index/_introduction.md' %}
+      </article>
+      <a href="/exercises">See all</a>
 
-    <div class="tbds-inline-stack inline-stack--gap-7 inline-stack--align-start">
-      <div class="tbds-inline-stack__item">
-        <h4>Understand</h4>
-        {% set collection = collections.understand.slice(0, 7) %}
-        {% include "exercise-list.njk" %}
-        <a href="/phases/understand#exercises">See all</a>
-      </div>
+      <div class="tbds-inline-stack inline-stack--gap-7 inline-stack--align-start">
+        <div class="tbds-inline-stack__item">
+          <h4>Understand</h4>
+          {% set collection = collections.understand.slice(0, 7) %}
+          {% include "exercise-list.njk" %}
+          <a href="/phases/understand#exercises">See all</a>
+        </div>
 
-      <div class="tbds-inline-stack__item">
-        <h4>Diverge</h4>
-        {% set collection = collections.diverge.slice(0, 5) %}
-        {% include "exercise-list.njk" %}
-        <a href="/phases/diverge#exercises">See all</a>
-      </div>
+        <div class="tbds-inline-stack__item">
+          <h4>Diverge</h4>
+          {% set collection = collections.diverge.slice(0, 5) %}
+          {% include "exercise-list.njk" %}
+          <a href="/phases/diverge#exercises">See all</a>
+        </div>
 
-      <div class="tbds-inline-stack__item">
-        <h4>Converge</h4>
-        {% set collection = collections.converge.slice(0, 5) %}
-        {% include "exercise-list.njk" %}
-        <a href="/phases/converge#exercises">See all</a>
+        <div class="tbds-inline-stack__item">
+          <h4>Converge</h4>
+          {% set collection = collections.converge.slice(0, 5) %}
+          {% include "exercise-list.njk" %}
+          <a href="/phases/converge#exercises">See all</a>
+        </div>
       </div>
     </div>
   </section>
 
-  <section class="tbds-padding-block-4">
+  <section class="tbds-padding-block-4" id="resources">
     <div class="measure">
-      <h2 id="resources">Resources & Glossary</h2>
+      <h2>Resources & Glossary</h2>
       <article class="measure">
         {% renderFile './resources/_introduction.md' %}
       </article>
@@ -133,8 +139,8 @@ layout: 'layouts/base'
     <p><a href="/glossary">Read all the glossary terms</a></p>
   </section>
 
-  <section>
-    <h2 id="faqs">FAQs</h2>
+  <section id="faqs">
+    <h2>FAQs</h2>
     {% include 'faq.njk' %}
   </section>
 </div>
