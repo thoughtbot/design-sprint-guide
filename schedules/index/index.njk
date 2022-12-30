@@ -3,14 +3,16 @@ permalink: "schedules/index.html"
 eleventyExcludeFromCollections: true
 ---
 
-<h1>Schedules</h1>
+<div id="schedules-page">
+  <h1>Schedules</h1>
 
-<article class="measure">
-  {% renderFile './schedules/index/_introduction.md' %}
-</article>
+  <article class="measure">
+    {% renderFile './schedules/index/_introduction.md' %}
+  </article>
 
-<ul>
-  {% for schedule in collections.schedule %}
-    <li><a href="{{ schedule.data.page.url }}">{{ schedule.data.title }}</a></li>
-  {% endfor %}
-</ul>
+  <ul>
+    {% for schedule in collections.schedule %}
+      <li><a href="{{ schedule.data.page.url }}">{{ schedule.data.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>

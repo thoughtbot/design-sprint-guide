@@ -2,31 +2,33 @@
 permalink: "exercises/index.html"
 ---
 
-<h1>Exercises</h1>
-<article class="measure">
-  {% renderFile './exercises/index/_introduction.md' %}
-</article>
+<div id="exercises-page">
+  <h1>Exercises</h1>
+  <article class="measure">
+    {% renderFile './exercises/index/_introduction.md' %}
+  </article>
 
-<h2>Planning</h2>
-{% set collection = collections.planning %}
-{% include "exercise-list.njk" %}
+  <h2>Planning</h2>
+  {% set collection = collections.planning %}
+  {% include "exercise-list.njk" %}
 
-<h2>Understand</h2>
-{% set collection = collections.understand %}
-{% include "exercise-list.njk" %}
+  <h2>Understand</h2>
+  {% set collection = collections.understand %}
+  {% include "exercise-list.njk" %}
 
-<h2>Diverge</h2>
-{% set collection = collections.diverge %}
-{% include "exercise-list.njk" %}
+  <h2>Diverge</h2>
+  {% set collection = collections.diverge %}
+  {% include "exercise-list.njk" %}
 
-<h2>Converge</h2>
-{% set collection = collections.converge %}
-{% include "exercise-list.njk" %}
+  <h2>Converge</h2>
+  {% set collection = collections.converge %}
+  {% include "exercise-list.njk" %}
 
-<h2>Prototype</h2>
-{% set collection = collections.prototype %}
-{% include "exercise-list.njk" %}
+  <h2>Prototype</h2>
+  {% set collection = collections.prototype %}
+  {% include "exercise-list.njk" %}
 
-<h2>Analyse</h2>
-{% set collection = collections.analyse %}
-{% include "exercise-list.njk" %}
+  <h2>Analyse</h2>
+  {% set collection = collections.analyse %}
+  {% include "exercise-list.njk" %}
+</div>
