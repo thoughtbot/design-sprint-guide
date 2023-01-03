@@ -1,6 +1,7 @@
 const { EleventyRenderPlugin } = require("@11ty/eleventy");
 
 module.exports = function(eleventyConfig) {
+
   // Plugin that renders other languages inside templates
   eleventyConfig.addPlugin(EleventyRenderPlugin);
   // Watch scss files for changes

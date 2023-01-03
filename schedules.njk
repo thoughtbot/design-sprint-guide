@@ -1,0 +1,16 @@
+---
+pagination:
+  data: schedules
+  size: 1
+  alias: schedule
+permalink: "schedules/{{ pagination.items[0] | slug }}/"
+---
+
+<div>{{ page.filePathStem }}</div>
+<h1>{{ schedules[page.fileSlug].title }}</h1>
+
+<article class="measure">
+
+</article>
+
+{{ page | dump }}
