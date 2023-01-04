@@ -78,7 +78,6 @@
 .schedule__grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  // grid-template-rows: repeat(5, 1fr);
   gap: 1em;
 
   list-style: none;
@@ -88,7 +87,6 @@
   background-color: $tbds-brand-gray-ultra-light;
   border-radius: $tbds-space-2;
   padding: $tbds-space-5 $tbds-space-4;
-  // height: 100%;
   
     a {
       text-decoration: none;
