@@ -1,6 +1,5 @@
 ---
 permalink: "schedules/index.html"
-eleventyExcludeFromCollections: true
 ---
 
 <div id="schedules-page" class="internal-page">
@@ -11,8 +10,8 @@ eleventyExcludeFromCollections: true
   </article>
 
   <ul>
-    {% for schedule in collections.schedule %}
-      <li><a href="{{ schedule.data.page.url }}">{{ schedule.data.title }}</a></li>
+    {% for key, agenda in schedules %}
+      <li><a href="{{ key }}">{{ agenda.title }}</a></li>
     {% endfor %}
   </ul>
 </div>
