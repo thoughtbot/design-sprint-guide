@@ -1,5 +1,6 @@
 {
-  "title": "Classic (thoughtbot Flavour)",
+  "title": "Classic (thoughtbot Flavor)",
+  "duration": "5 Days",
   "phases": [
     {
       "title": "Understand",
@@ -212,5 +213,6 @@
         }
       ]
     }
-  ]
+  ],
+  "introduction": "This classic 5-day sprint is based off some of the early sprint techniques by Google Ventures. Over the years we have tweaked and adapted the exercises and schedule. We have found a lot of success with this method as well as the process shown in the [Sprint book](https://thoughtbot-design-sprints.netlify.app/schedules/classic-gv)."
 }

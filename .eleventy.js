@@ -1,6 +1,14 @@
 const { EleventyRenderPlugin } = require("@11ty/eleventy");
+const markdown = require("markdown-it")({
+  html: true
+})
 
 module.exports = function(eleventyConfig) {
+  // shortcode to convert incoming markdown from CMS in data files to HTML inline
+  eleventyConfig.addFilter('markdown', value => {
+    return `<div class="md-block">${markdown.render(value)}</div>`    
+  })
+
   // Plugin that renders other languages inside templates
   eleventyConfig.addPlugin(EleventyRenderPlugin);
   // Watch scss files for changes
@@ -39,4 +47,5 @@ module.exports = function(eleventyConfig) {
   return {
     markdownTemplateEngine: "njk"
   }
+
 };
