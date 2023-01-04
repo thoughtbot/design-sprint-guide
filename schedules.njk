@@ -6,10 +6,11 @@
         alias: "schedule",
         },
     permalink: "schedules/{{ pagination.items[0] | slug }}/",
+    layout: "layouts/base"
 }
 ---
 
-<div>{{ schedules[schedule].duration }}</div>
+<div class="eyebrow">{{ schedules[schedule].duration }}</div>
 <h1>{{ schedules[schedule].title }}</h1>
 
 <article class="measure">
