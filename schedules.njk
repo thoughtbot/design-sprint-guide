@@ -1,16 +1,20 @@
----
-pagination:
-  data: schedules
-  size: 1
-  alias: schedule
-permalink: "schedules/{{ pagination.items[0] | slug }}/"
+---js
+{
+     pagination: {
+        data: "schedules",
+        size: 1,
+        alias: "schedule",
+        },
+    permalink: "schedules/{{ pagination.items[0] | slug }}/",
+}
 ---
 
-<div>{{ page.filePathStem }}</div>
-<h1>{{ schedules[page.fileSlug].title }}</h1>
+<div>{{ schedules[schedule].duration }}</div>
+<h1>{{ schedules[schedule].title }}</h1>
 
 <article class="measure">
-
+{{ schedules[schedule].introduction | markdown | safe }}  
 </article>
 
-{{ page | dump }}
+{% set agenda = schedules[schedule] %}
+{% include "agenda.njk" %}

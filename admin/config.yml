@@ -38,6 +38,7 @@ collections:
     fields:
       - {name: title, widget: string}
       - {name: duration, widget: string}
+      - {name: introduction, widget: markdown}
       - name: phases
         widget: list
         fields:
