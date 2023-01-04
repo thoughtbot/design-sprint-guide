@@ -1,12 +1,10 @@
 .banner {
   background: lighten($tbds-brand-yellow-light, 10%);
   color: $tbds-brand-gray-dark;
-  margin-inline: auto;
   padding: {
     block: $tbds-space-2;
     inline: $tbds-space-2;
   };
-  text-align: center;
 
   @media (min-width: $tbds-breakpoint-medium) {
     padding: {
@@ -14,10 +12,14 @@
       inline: $tbds-space-3;
     };
   }
-
+  text-align: center;
 }
 
 .banner > p {
   font-size: 0.9rem;
   margin: 0;
+}
+
+.banner-container {
+  width: 100%;
 }

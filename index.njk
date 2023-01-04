@@ -54,19 +54,6 @@ layout: 'layouts/base'
     {% include 'tabs.njk'%}
   </section>
 
-  <section class="tbds-padding-block-4" id="build-design-sprint">
-    <div class="measure">
-      <h2>Build a design sprint</h2>
-      <p>
-        At thoughtbot, we have organized many, many design sprints over the years and
-        found that there is no right way to plan one. Each client and every problem is
-        different and needs a slightly different approach. If you are new to design
-        sprints start with one of our example schedules, after that try exploring all
-        the exercises and try building your own.
-      </p>
-    </div>
-  </section>
-
   <section class="schedule__section tbds-inline-stack tbds-inline-stack--gap-6">
     <div class="tbds-inline-stack__item tbds-inline-size-60%"> 
       <h2 id="schedules">Build a design sprint</h2>
@@ -80,8 +67,8 @@ layout: 'layouts/base'
         <a href="/schedules">See all</a> 
       </article>
     </div>
-    <div class="tbds-inline-stack__item">
 
+    <div class="tbds-inline-stack__item">
       <ul class="tbds-block-stack__item schedule__grid">
         {% for key, schedule in schedules %}
          <li>
