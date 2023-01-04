@@ -4,9 +4,11 @@ permalink: "resources/index.html"
 eleventyExcludeFromCollections: true
 ---
 
-<h1>Resources</h1>
-<article class="measure">
-  {% renderFile './resources/_introduction.md' %}
-</article>
+<div id="resources-page" class="internal-page">
+  <h1>Resources</h1>
+  <article class="measure introduction">
+    {% renderFile './resources/_introduction.md' %}
+  </article>
 
-{% renderFile './resources/_list.md' %}
+  {% renderFile './resources/_list.md' %}
+</div>

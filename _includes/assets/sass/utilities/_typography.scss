@@ -1,13 +1,15 @@
-.measure {
-  @media (min-width: $tbds-breakpoint-medium) {
-    max-width: 60ch;
-  }
+// REMOVE - was created to style typography on homepage
 
-  @media (min-width: $tbds-breakpoint-medium) {
-    max-width: 70ch;
-  }
-}
+// .measure {
+//   @media (min-width: $tbds-breakpoint-medium) {
+//     max-width: 60ch;
+//   }
 
-.measure-large {
-  max-width: 70ch;
-}
+//   @media (min-width: $tbds-breakpoint-medium) {
+//     max-width: 70ch;
+//   }
+// }
+
+// .measure-large {
+//   max-width: 70ch;
+// }

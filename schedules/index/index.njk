@@ -2,16 +2,16 @@
 permalink: "schedules/index.html"
 ---
 
-<h1>Schedules</h1>
+<div id="schedules-page" class="internal-page">
+  <h1>Schedules</h1>
 
-<article class="measure">
-  {% renderFile './schedules/index/_introduction.md' %}
-</article>
+  <article class="measure introduction">
+    {% renderFile './schedules/index/_introduction.md' %}
+  </article>
 
-<ul>
-{% for key, agenda in schedules %}
-    <li><a href="{{ key }}">{{ agenda.title }}</a></li>
-  {% endfor %}
-</ul>
-
-
+  <ul>
+    {% for key, agenda in schedules %}
+      <li><a href="{{ key }}">{{ agenda.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>

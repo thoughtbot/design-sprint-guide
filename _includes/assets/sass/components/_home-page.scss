@@ -1,0 +1,22 @@
+#home-page {
+    #design-sprint {
+        @media (min-width: $tbds-breakpoint-medium) {
+          max-width: 60ch;
+        }
+      
+        @media (min-width: $tbds-breakpoint-medium) {
+          max-width: 70ch;
+        }
+      }
+    #build-design-sprint, #resources, #faqs {
+        @include tbds-small {
+            width: 100%;
+            max-width: $tbds-breakpoint-small;
+            margin: auto;
+        }
+    } 
+    h2 {
+        font-size: 1.75rem;
+        line-height: 2.09rem;
+    }
+}
