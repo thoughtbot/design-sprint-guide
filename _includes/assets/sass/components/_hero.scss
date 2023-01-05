@@ -1,7 +1,6 @@
 .hero {
   display: grid;
   gap: $tbds-space-2;
-  grid-template-columns: 1fr;
   grid-template:
     "a"
     "b";
