@@ -9,28 +9,31 @@
   position: relative;
 
   &:after {
-    position: absolute;
-    content: '';
+    aspect-ratio: 5 / 1;
     background: {
       image: url('/images/doodles/loose-underscore.svg');
-      size: contain;
       repeat: no-repeat;
+      size: contain;
     }
     bottom: -1.6rem;
+    content: '';
     left: -1rem;
+    position: absolute;
     width: 120%;
-    aspect-ratio: 5 / 1;
 
     @media (min-width: $tbds-breakpoint-small) {
       bottom: -2rem;
+      left: -1.5rem;
     }
 
     @media (min-width: 1000px) {
       bottom: -2.5rem;
+      left: -5rem;
     }
 
     @media (min-width: 1500px) {
       bottom: -3.25rem;
+      left: -2rem;
     }
   }
 }
