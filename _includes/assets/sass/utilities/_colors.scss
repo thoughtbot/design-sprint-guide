@@ -6,3 +6,11 @@
   background: $tbds-brand-red;
   color: white;
 }
+
+.link--red {
+  color: $tbds-brand-red;
+
+  &:hover {
+    color: $tbds-brand-gray-dark;
+  }
+}

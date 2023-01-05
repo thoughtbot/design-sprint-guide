@@ -4,3 +4,33 @@
   line-height: 1;
   max-width: 15ch;
 }
+
+.headline-underline {
+  position: relative;
+
+  &:after {
+    position: absolute;
+    content: '';
+    background: {
+      image: url('/images/doodles/loose-underscore.svg');
+      size: contain;
+      repeat: no-repeat;
+    }
+    bottom: -1.6rem;
+    left: -1rem;
+    width: 120%;
+    aspect-ratio: 5 / 1;
+
+    @media (min-width: $tbds-breakpoint-small) {
+      bottom: -2rem;
+    }
+
+    @media (min-width: 1000px) {
+      bottom: -2.5rem;
+    }
+
+    @media (min-width: 1500px) {
+      bottom: -3.25rem;
+    }
+  }
+}

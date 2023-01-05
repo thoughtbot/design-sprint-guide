@@ -1,0 +1,24 @@
+.hero {
+  display: grid;
+  gap: $tbds-space-2;
+  grid-template-columns: 1fr;
+  grid-template:
+    "a"
+    "b";
+
+  *:nth-child(2) {
+    grid-area: a;
+  }
+
+  @media (min-width: $tbds-breakpoint-small) {
+    grid-template: 
+    "a b";
+    margin-block: $tbds-space-6;
+    gap: $tbds-space-6;
+
+    *:nth-child(2) {
+      grid-area: b;
+    }
+  }
+}
+

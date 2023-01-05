@@ -1,12 +1,14 @@
 #home-page {
     #design-sprint {
-        @media (min-width: $tbds-breakpoint-medium) {
-          max-width: 60ch;
-        }
+        // REMOVE - was causing issues on design sprint and re-introduced as a utility class.
+
+        // @media (min-width: $tbds-breakpoint-medium) {
+        //   max-width: 60ch;
+        // }
       
-        @media (min-width: $tbds-breakpoint-medium) {
-          max-width: 70ch;
-        }
+        // @media (min-width: $tbds-breakpoint-medium) {
+        //   max-width: 70ch;
+        // }
       }
     #build-design-sprint, #resources, #faqs {
         @include tbds-small {
