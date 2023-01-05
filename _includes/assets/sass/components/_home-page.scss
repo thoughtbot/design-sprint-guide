@@ -1,13 +1,4 @@
 #home-page {
-    #design-sprint {
-        @media (min-width: $tbds-breakpoint-medium) {
-          max-width: 60ch;
-        }
-      
-        @media (min-width: $tbds-breakpoint-medium) {
-          max-width: 70ch;
-        }
-      }
     #build-design-sprint, #resources, #faqs {
         @include tbds-small {
             width: 100%;

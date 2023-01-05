@@ -1,0 +1,54 @@
+.hero {
+  display: grid;
+  gap: $tbds-space-2;
+  grid-template:
+    "a"
+    "b";
+  
+  *:nth-child(2) {
+    grid-area: a;
+  }
+
+  @media (min-width: $tbds-breakpoint-small) {
+    gap: $tbds-space-6;
+    grid-template: 
+    "a b";
+    margin-block: $tbds-space-6;
+
+    *:nth-child(2) {
+      grid-area: b;
+    }
+  }
+
+  @media (min-width: $tbds-breakpoint-large) {
+    margin-top: 4rem;
+  }
+}
+
+.curvy-arrow {
+  position: relative;
+
+  &:after {
+    aspect-ratio: 1 / 1;
+    background: {
+      image: url('/images/doodles/small-curvy-arrow.svg');
+      size: contain;
+      repeat: no-repeat;
+    }
+    bottom: -6.5rem;
+    content: '';
+    position: absolute;
+    right: 4rem;
+    width: 8rem;
+
+    @media (min-width: $tbds-breakpoint-medium) {
+      bottom: -7rem;
+      right: 8rem;
+    }
+
+    @media (min-width: $tbds-breakpoint-large) {
+      bottom: -7rem;
+      right: 15rem;
+    }
+  }
+}
