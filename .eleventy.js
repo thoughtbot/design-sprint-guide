@@ -6,7 +6,7 @@ const markdown = require("markdown-it")({
 module.exports = function(eleventyConfig) {
   // shortcode to convert incoming markdown from CMS in data files to HTML inline
   eleventyConfig.addFilter('markdown', value => {
-    return `<div class="md-block">${markdown.render(value)}</div>`    
+    return `<div class="md-block">${markdown.render(value)}</div>`
   })
 
   // Plugin that renders other languages inside templates
@@ -17,7 +17,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./css");
   eleventyConfig.addPassthroughCopy({ "_includes/assets/fonts": "fonts" });
   eleventyConfig.addPassthroughCopy({ "_includes/assets/images": "images" });
-  eleventyConfig.addPassthroughCopy({"_includes/assets/javascript": "js"});
+  eleventyConfig.addPassthroughCopy({ "_includes/assets/javascript": "js" });
   eleventyConfig.addPassthroughCopy("admin/");
   // Phases collection: Sorted by "number" key in frontmatter
   eleventyConfig.addCollection("phase", function(collectionApi) {
@@ -33,7 +33,7 @@ module.exports = function(eleventyConfig) {
   // Usage: {% breadcrumbs page.url %}
   eleventyConfig.addShortcode("breadcrumbs", function(url) {
     const parts = url.split("/").filter((part) => part.length)
-    const links = ["<a href='/'>Home</a>"]
+    const links = []
     parts.forEach((route, i) => {
       const title = route.charAt(0).toUpperCase() + route.substr(1);
       if (i > 0) {
@@ -47,5 +47,4 @@ module.exports = function(eleventyConfig) {
   return {
     markdownTemplateEngine: "njk"
   }
-
 };
