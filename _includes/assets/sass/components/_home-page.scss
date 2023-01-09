@@ -1,0 +1,13 @@
+#home-page {
+    #build-design-sprint, #resources, #faqs {
+        @include tbds-small {
+            width: 100%;
+            max-width: $tbds-breakpoint-small;
+            margin: auto;
+        }
+    } 
+    h2 {
+        font-size: 1.75rem;
+        line-height: 2.09rem;
+    }
+}

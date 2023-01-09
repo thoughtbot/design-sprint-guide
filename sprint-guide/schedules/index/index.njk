@@ -1,0 +1,17 @@
+---
+permalink: "sprint-guide/schedules/index.html"
+---
+
+<div id="schedules-page" class="internal-page">
+  <h1>Schedules</h1>
+
+  <article class="measure introduction">
+    {% renderFile './sprint-guide/schedules/index/_introduction.md' %}
+  </article>
+
+  <ul>
+    {% for key, agenda in schedules %}
+      <li><a href="{{ key }}">{{ agenda.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>

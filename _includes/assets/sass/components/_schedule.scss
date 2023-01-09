@@ -71,12 +71,14 @@
   font-weight: bold;
 }
 
+.schedule__section {
+  align-items: start;
+}
+
 .schedule__grid {
   display: grid;
-  grid-template:
-    "a a a"
-    "b b b"
-    "c c c";
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1em;
 
   list-style: none;
   padding: 0;
@@ -84,14 +86,16 @@
   li {
   background-color: $tbds-brand-gray-ultra-light;
   border-radius: $tbds-space-2;
-  margin-top: $tbds-space-3;
-  margin-right:$tbds-space-2;
-  padding: $tbds-space-4;
-  min-height: 1rem;
+  padding: $tbds-space-5 $tbds-space-4;
+  
     a {
       text-decoration: none;
       font-weight: 600;
-      text-align: center;
+      display: block;
+
+      h2 {
+        font-size: 1.5rem;
+      }
     }
   }
 }

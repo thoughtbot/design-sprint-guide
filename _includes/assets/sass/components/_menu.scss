@@ -1,6 +1,7 @@
 .menu {
   align-items: start;
   flex-direction: column;
+  width: 100%;
 
   .inline-list {
     border-left: 2px solid $tbds-brand-gray-light;

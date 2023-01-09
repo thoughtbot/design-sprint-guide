@@ -1,0 +1,16 @@
+---
+number: 5
+title: Test
+permalink: "sprint-guide/phases/test/index.html"
+---
+
+<h1>{{ title }}</h1>
+
+<article class="measure">
+  {% renderFile './sprint-guide/phases/test/_introduction.md' %}
+</article>
+
+<h2>Exercises</h2>
+
+{% set collection = collections.test %}
+{% include "sprint-guide/exercise-list.njk" %}
