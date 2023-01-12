@@ -9,16 +9,24 @@
     font-size: 1.75rem;
     line-height: 2.09rem;
   }
-}
-
-.internal-page--measure {
-  width: 100%;
 
   @include tbds-small {
-      width: 70%;
+    width: 70%;
   }
 
   @include tbds-medium {
     width: 60%;
   }
 }
+
+// .internal-page--measure {
+//   width: 100%;
+
+//   @include tbds-small {
+//       width: 70%;
+//   }
+
+//   @include tbds-medium {
+//     width: 60%;
+//   }
+// }
