@@ -1,24 +1,24 @@
 .internal-page {
-    width: 100%;
+  width: 100%;
 
-    h1 {
-        font-size: 3rem;
-    }
+  h1 {
+    font-size: 3rem;
+  }
     
-    h2 {
-        font-size: 1.75rem;
-        line-height: 2.09rem;
-    }
+  h2 {
+    font-size: 1.75rem;
+    line-height: 2.09rem;
+  }
 }
 
 .internal-page--measure {
-    width: 100%;
+  width: 100%;
 
-    @include tbds-small {
-        width: 70%;
-    }
+  @include tbds-small {
+      width: 70%;
+  }
 
-    @include tbds-medium {
-        width: 60%;
-    }
+  @include tbds-medium {
+    width: 60%;
+  }
 }
