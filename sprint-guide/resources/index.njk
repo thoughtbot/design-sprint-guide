@@ -4,11 +4,21 @@ permalink: "sprint-guide/resources/index.html"
 eleventyExcludeFromCollections: true
 ---
 
-<div>
-  <h1>Resources</h1>
-  <article>
-    {% renderFile './sprint-guide/resources/_introduction.md' %}
-  </article>
-  
-  {% renderFile './sprint-guide/resources/_list.md' %}
-</div>
+<h1>Resources</h1>
+<article class="measure">
+  {% renderFile './sprint-guide/resources/_introduction.md' %}
+</article>
+
+<h2>Software & Tools</h2>
+<ul>
+  {% for item in software %}
+    <li class="software-card">
+      <img src="{{ item.icon }}" alt="Icon for {{ item.title }}" />
+      <h3>{{ item.title }}</h3>
+      <p>{{ item.description }}</p>
+    </li>
+  {% endfor %}
+</ul>
+
+<!-- {% renderFile './sprint-guide/resources/_list.md' %} -->
+
