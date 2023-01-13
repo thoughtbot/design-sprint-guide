@@ -1,0 +1,23 @@
+.button {
+  --primary-color: #{$tbds-brand-red};
+  --background-color: white;
+
+  background-color: var(--primary-color);
+  border-radius: 100rem;
+  box-shadow: 0 0 0 2px var(--background-color), 0 0 0 5px var(--background-color);
+  color: var(--background-color);
+  display: inline-block;
+  padding: $tbds-space-3 $tbds-space-4;
+  text-decoration: none;
+
+  &:focus,
+  &:hover {
+    box-shadow: 0 0 0 2px var(--background-color), 0 0 0 5px var(--primary-color);
+    color: var(--background-color);
+  }
+}
+
+.button--inverse {
+  --primary-color: white;
+  --background-color: #{$tbds-brand-red};
+}
