@@ -1,12 +1,14 @@
 ---
-layout: 'layouts/base'
+layout: 'layouts/internal-page.njk'
 permalink: "sprint-guide/resources/index.html"
 eleventyExcludeFromCollections: true
 ---
 
-<h1>Resources</h1>
-<article class="measure">
-  {% renderFile './sprint-guide/resources/_introduction.md' %}
-</article>
-
-{% renderFile './sprint-guide/resources/_list.md' %}
+<div>
+  <h1>Resources</h1>
+  <article>
+    {% renderFile './sprint-guide/resources/_introduction.md' %}
+  </article>
+  
+  {% renderFile './sprint-guide/resources/_list.md' %}
+</div>

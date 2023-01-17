@@ -1,14 +1,32 @@
 .internal-page {
-    @include tbds-small {
-        width: 100%;
-        max-width: $tbds-breakpoint-small;
-        margin: auto;
-    }
-    h1 {
-        font-size: 3rem;
-    }
-    h2 {
-        font-size: 1.75rem;
-        line-height: 2.09rem;
-    }
+  width: 100%;
+
+  h1 {
+    font-size: 3rem;
+  }
+    
+  h2 {
+    font-size: 1.75rem;
+    line-height: 2.09rem;
+  }
+
+  @include tbds-small {
+    width: 70%;
+  }
+
+  @include tbds-medium {
+    width: 60%;
+  }
 }
+
+// .internal-page--measure {
+//   width: 100%;
+
+//   @include tbds-small {
+//       width: 70%;
+//   }
+
+//   @include tbds-medium {
+//     width: 60%;
+//   }
+// }
