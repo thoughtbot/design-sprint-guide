@@ -1,179 +1,34 @@
 <section class="tab-collection">
-  <input type="radio" name="tab" value="understand" id="tab1" class="tab-radio" checked>
-  <label for="tab1" class="tab-label" id="understand">
-    <div class="tab-label__title tab">
-      <span class="eyebrow">
-        Phase 1
-      </span>
-      Understand
-    </div>
-  </label>
-  <div class="tab-content">
-    <img src="/images/phases/prepare.png" alt="People working on the prepare phase">
-    <div>
-      <h3 class="tab-content__title">Overview of Understand</h3>
-      <p class="measure">Day one of the design sprint is about gathering all existing information/knowledge on the business, the customer and the problem and exposing our assumptions and knowledge gaps. From here can make plans to fill the riskiest knowledge gaps and validate or invalidate our riskiest assumptions.</p>
-      <a href="/sprint-guide/phases/understand">More about this Phase <span class="arrow">&#10230;</span></a>
-    </div>
-    <div class="tab-content__exercises">
-      <div class="tab-content__exercises-content">
-        <h3>Exercises</h3>
-        <ul>
-          <li>
-            <a href="/sprint-guide/exercises/pitch-practice">Pitch practice</a>
-          </li>
-          <li>
-            <a href="/sprint-guide/exercises/assumptions-board">Assumptions board</a>
-          </li>
-          <li>
-            <a href="/sprint-guide/exercises/backburner-board">Backburner board</a>
-          </li>
-          <li>
-            <a href="/sprint-guide/exercises/problem-statement">Problem statement</a>
-          </li>
-          <li>
-            <a href="/sprint-guide/exercises/make-a-map">Critical path</a>
-          </li>
-          <li>
-            <a href="/sprint-guide/exercises/5-whys">5 Why's</a>
-          </li>
-        </ul>
-        <a href="/sprint-guide/exercises">See all</a>
+  {% for tab in tabs %}
+    <input type="radio" name="tab" value="{{ tab.slug }}" id="tab{{ tab.number }}" class="tab-radio" {{ 'checked' if loop.first }}>
+    <label for="tab{{ tab.number }}" class="tab-label" id="{{ tab.slug }}">
+      <div class="tab-label__title tab">
+        <span class="eyebrow">
+          Phase {{ tab.number }}
+        </span>
+        {{ tab.title }}
+      </div>
+    </label>
+    <div class="tab-content">
+      <img src="/images/phases/{{ tab.image }}" alt="People working on the prepare phase">
+      <div>
+        <h3 class="tab-content__title">Overview of {{ tab.title }}</h3>
+        <p class="measure">{{ tab.overview }}</p>
+        <a href="/sprint-guide/phases/{{ tab.slug }}">More about this Phase <span class="arrow">&#10230;</span></a>
+      </div>
+      <div class="tab-content__exercises">
+        <div class="tab-content__exercises-content">
+          <h3>Exercises</h3>
+          <ul>
+            {% for exercise in tab.exercises %}
+              <li>
+                <a href="/sprint-guide/exercises/{{ exercise.slug }}">{{ exercise.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+          <a href="/sprint-guide/exercises">See all</a>
+        </div>
       </div>
     </div>
-  </div>
-
-  <input type="radio" name="tab" id="tab2" class="tab-radio" value="diverge">
-  <label for="tab2" class="tab-label" id="diverge">
-    <div class="tab-label__title">
-      <span class="eyebrow">
-        Phase 2
-      </span>
-      Diverge
-    </div>
-  </label>
-  <div class="tab-content">
-    <img src="/images/phases/prepare.png" alt="People working on the prepare phase">
-    <div>
-      <h3 class="tab-content__title">Overview of Diverge</h3>
-      <p class="measure">The goal is to explore as many possibilities as possible, regardless of how realistic, feasible or viable they may or may not be. From this explosion of opportunity comes insights made when considering the implications of radically different perspectives on and approaches to solving a problem. These insights can become valuable differentiating forces and the source of unique solution inspiration.</p>
-      <a href="/sprint-guide/phases/diverge">More about this Phase <span class="arrow">&#10230;</span></a>
-    </div>
-    <div class="tab-content__exercises">
-      <div class="tab-content__exercises-content">
-        <h3>Exercises</h3>
-        <ul>
-          <li>
-            <a href="/sprint-guide/exercises/divide-or-swarm">Divide or Swarm</a>
-          </li>
-          <li>
-            <a href="/sprint-guide/exercises/lightning-demos">Lightning Demos</a>
-          </li>
-          <li>
-            <a href="/sprint-guide/exercises/four-step-sketches">Four-Step Sketches</a>
-          </li>
-        </ul>
-        <a href="/sprint-guide/exercises">See all</a>
-      </div>
-    </div>
-  </div>
-
-  <input type="radio" name="tab" id="tab3" class="tab-radio" value="converge">
-  <label for="tab3" class="tab-label" id="converge">
-    <div class="tab-label__title">
-      <span class="eyebrow">
-        Phase 3
-      </span>
-      Converge
-    </div>
-  </label>
-  <div class="tab-content">
-    <img src="/images/phases/prepare.png" alt="People working on the prepare phase">
-    <div>
-      <h3 class="tab-content__title">Overview of Converge</h3>
-      <p class="measure">During Converge our goal is to take all of the possibilities that we have exposed over the past two days and hone in on a single version of the prototype that we will build in the next phase.</p>
-      <a href="/sprint-guide/phases/converge">More about this Phase <span class="arrow">&#10230;</span></a>
-    </div>
-    <div class="tab-content__exercises">
-      <div class="tab-content__exercises-content">
-        <h3>Exercises</h3>
-        <ul>
-          <li>
-            <a href="/sprint-guide/exercises/3-12-3">3-12-3</a>
-          </li>
-          <li>
-            <a href="/sprint-guide/exercises/final-storyboard">Final Storyboard</a>
-          </li>
-          <li>
-            <a href="/sprint-guide/exercises/art-museum">Art Museum</a>
-          </li>
-        </ul>
-        <a href="/sprint-guide/exercises">See all</a>
-      </div>
-    </div>
-  </div>
-
-  <input type="radio" name="tab" id="tab4" class="tab-radio" value="prototype">
-  <label for="tab4" class="tab-label" id="prototype">
-    <div class="tab-label__title">
-      <span class="eyebrow">
-        Phase 4
-      </span>
-      Prototype
-    </div>
-  </label>
-  <div class="tab-content">
-    <img src="/images/phases/prepare.png" alt="People working on the prepare phase">
-    <div>
-      <h3 class="tab-content__title">Overview of Prototype</h3>
-      <p class="measure">The core purpose of the prototype, the assumptions you are trying to validate/invalidate or the knowledge gaps you are trying to fill should have all been discussed in Converge. During this phase you will build a quick and dirty prototype. Since you have limited time to build the prototype it should be as low-fi as you can get away with during Testing.</p>
-      <a href="/sprint-guide/phases/prototype">More about this Phase <span class="arrow">&#10230;</span></a>
-    </div>
-    <div class="tab-content__exercises">
-      <div class="tab-content__exercises-content">
-        <h3>Exercises</h3>
-        <ul>
-          <li>
-            <a href="/sprint-guide/exercises/build-a-prototype">Build a Prototype</a>
-          </li>
-          <li>
-            <a href="/sprint-guide/exercises/test-script">Write a Testing Script</a>
-          </li>
-        </ul>
-        <a href="/sprint-guide/exercises">See all</a>
-      </div>
-    </div>
-  </div>
-
-  <input type="radio" name="tab" id="tab5" class="tab-radio" value="test">
-  <label for="tab5" class="tab-label" id="test">
-    <div class="tab-label__title">
-      <span class="eyebrow">
-        Phase 5
-      </span>
-      Test
-    </div>
-  </label>
-  <div class="tab-content">
-    <img src="/images/phases/prepare.png" alt="People working on the prepare phase">
-    <div>
-      <h3 class="tab-content__title">Overview of Test</h3>
-      <p class="measure">One of the last phases of the Product Design Sprint is to test our assumptions and how users react to the prototype. Going into each test you should have a plan of what you are testing and how you know if that is successful or not.</p>
-      <a href="/sprint-guide/sprint-guide/phases/test">More about this Phase <span class="arrow">&#10230;</span></a>
-    </div>
-    <div class="tab-content__exercises">
-      <div class="tab-content__exercises-content">
-        <h3>Exercises</h3>
-        <ul>
-          <li>
-            <a href="/sprint-guide/exercises/interview">Conduct user interviews</a>
-          </li>
-          <li>
-            <a href="/sprint-guide/exercises/scorecard">Create a scorecard</a>
-          </li>
-        </ul>
-        <a href="/sprint-guide/exercises">See all</a>
-      </div>
-    </div>
-  </div>
+  {% endfor %}
 </section>

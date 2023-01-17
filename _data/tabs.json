@@ -1,0 +1,111 @@
+[
+  {
+    "title": "Understand",
+    "number": "1",
+    "overview": "Day one of the design sprint is about gathering all existing information/knowledge on the business, the customer and the problem and exposing our assumptions and knowledge gaps. From here can make plans to fill the riskiest knowledge gaps and validate or invalidate our riskiest assumptions.",
+    "image": "understand.svg",
+    "slug": "understand",
+    "exercises": [
+      {
+        "title": "Pitch practice",
+        "slug": "pitch-practice"
+      },
+      {
+        "title": "Assumptions board",
+        "slug": "assumptions-board"
+      },
+      {
+        "title": "Backburner board",
+        "slug": "backburner-board"
+      },
+      {
+        "title": "Problem statement",
+        "slug": "problem-statement"
+      },
+      {
+        "title": "Critical path",
+        "slug": "make-a-map"
+      },
+      {
+        "title": "5 Why's",
+        "slug": "5-whys"
+      }
+    ]
+  },
+  {
+    "title": "Diverge",
+    "number": "2",
+    "overview": "The goal is to explore as many possibilities as possible, regardless of how realistic, feasible or viable they may or may not be. From this explosion of opportunity comes insights made when considering the implications of radically different perspectives on and approaches to solving a problem. These insights can become valuable differentiating forces and the source of unique solution inspiration.",
+    "image": "diverge.svg",
+    "slug": "diverge",
+    "exercises": [
+      {
+        "title": "Divide or Swarm",
+        "slug": "divide-or-swarm"
+      },
+      {
+        "title": "Lightning Demos",
+        "slug": "lightning-demos"
+      },
+      {
+        "title": "Four-Step Sketches",
+        "slug": "four-step-sketches"
+      }
+    ]
+  },
+  {
+    "title": "Converge",
+    "number": "3",
+    "overview": "During Converge our goal is to take all of the possibilities that we have exposed over the past two days and hone in on a single version of the prototype that we will build in the next phase.",
+    "image": "converge.svg",
+    "slug": "converge",
+    "exercises": [
+      {
+        "title": "3-12-3",
+        "slug": "3-12-3"
+      },
+      {
+        "title": "Final Storyboard",
+        "slug": "final-storyboard"
+      },
+      {
+        "title": "Art Museum",
+        "slug": "art-museum"
+      }
+    ]
+  },
+  {
+    "title": "Prototype",
+    "number": "4",
+    "overview": "The core purpose of the prototype, the assumptions you are trying to validate/invalidate or the knowledge gaps you are trying to fill should have all been discussed in Converge. During this phase you will build a quick and dirty prototype. Since you have limited time to build the prototype it should be as low-fi as you can get away with during Testing.",
+    "image": "prototype.png",
+    "slug": "prototype",
+    "exercises": [
+      {
+        "title": "Build a Prototype",
+        "slug": "build-a-prototype"
+      },
+      {
+        "title": "Write a Testing Script",
+        "slug": "test-script"
+      }
+    ]
+  },
+  {
+    "title": "Test",
+    "number": "5",
+    "overview": "One of the last phases of the Product Design Sprint is to test our assumptions and how users react to the prototype. Going into each test you should have a plan of what you are testing and how you know if that is successful or not.",
+    "image": "test.svg",
+    "slug": "test",
+    "exercises": [
+      {
+        "title": "Conduct user interviews",
+        "slug": "interview"
+      },
+      {
+        "title": "Create a scorecard",
+        "slug": "scorecard"
+      }
+    ]
+  }
+]
