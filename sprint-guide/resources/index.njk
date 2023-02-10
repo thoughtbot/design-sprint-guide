@@ -10,15 +10,20 @@ eleventyExcludeFromCollections: true
 </article>
 
 <h2>Software & Tools</h2>
-<ul>
+<ul role="list">
   {% for item in software %}
-    <li class="software-card">
-      <img src="{{ item.icon }}" alt="Icon for {{ item.title }}" />
+  <li class="software">
+    <img class="software__logo" src="{{ item.icon }}" alt="Icon for {{ item.title }}" />
+    <div>
       <h3>{{ item.title }}</h3>
+      <p>
+        <small>Tags</small>
+        {% for tag in item.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+      </p>
       <p>{{ item.description }}</p>
-    </li>
+    </div>
+  </li>
   {% endfor %}
 </ul>
 
 <!-- {% renderFile './sprint-guide/resources/_list.md' %} -->
-

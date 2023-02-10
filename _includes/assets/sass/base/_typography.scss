@@ -51,6 +51,12 @@ ul {
   padding-inline-start: 2ch;
 }
 
+ul[role="list"] {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
 li {
   padding-left: $tbds-space-2;
 }

@@ -3,6 +3,9 @@
     "title": "Miro",
     "description": "Miro is a very good digital whiteboard.",
     "icon": "/images/resources/miro_logo.svg",
-    "tags": []
+    "tags": [
+      "Whiteboard",
+      "Test"
+    ]
   }
 ]
