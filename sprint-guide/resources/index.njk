@@ -14,6 +14,7 @@ eleventyExcludeFromCollections: true
   <ol>
     <li><a href="#software">Software & Tools</a></li>
     <li><a href="#reading">Reading</a></li>
+    <li><a href="#templates">Templates</a></li>
   </ol>
 </nav>
 
@@ -55,4 +56,21 @@ eleventyExcludeFromCollections: true
   {% endfor %}
 </ul>
 
-{% renderFile './sprint-guide/resources/_list.md' %}
+<h2 id="templates">Templates</h2>
+<p>For more up-to-date schedule templates see our full list of <a href="/sprint-guide/schedules">Schedules</a></p>
+<ul role="list">
+  {% for item in resources.templates %}
+  <li class="template">
+    <img class="template__logo" src="{{ item.icon }}" alt="Icon for {{ item.title }}" />
+    <div>
+      <h3>{{ item.title }}</h3>
+      <p>
+        <small>Tags</small>
+        {% for tag in item.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+      </p>
+      <p>{{ item.description }}</p>
+      <a href={{ item.url}} target="_blank">Use {{ item.title }}</a>
+    </div>
+  </li>
+  {% endfor %}
+</ul>

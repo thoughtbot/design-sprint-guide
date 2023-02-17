@@ -1,15 +1,20 @@
 .software,
-.book {
+.book,
+.template {
   align-items: flex-start;
   border-bottom: 2px solid $tbds-brand-gray-ultra-light;
   display: flex;
   margin-bottom: $tbds-space-5;
   padding-bottom: $tbds-space-5;
 
-  .software__logo {
-    border-radius: 10px;
+  .software__logo,
+  .template__logo {
     margin-right: $tbds-space-5;
     max-width: 100px;
+  }
+
+  .software__logo {
+    border-radius: 10px;
   }
 
   .book__logo {
