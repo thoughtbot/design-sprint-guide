@@ -23,7 +23,7 @@ eleventyExcludeFromCollections: true
 <h2 id="software">Software & Tools</h2>
 <ul role="list">
   {% for item in resources.software %}
-  <li class="software">
+  <li class="resource">
     <img class="software__logo" src="{{ item.icon }}" alt="Icon for {{ item.title }}" />
     <div>
       <h3>{{ item.title }}</h3>
@@ -41,7 +41,7 @@ eleventyExcludeFromCollections: true
 <h2 id="reading">Reading</h2>
 <ul role="list">
   {% for item in resources.reading %}
-  <li class="book">
+  <li class="resource">
     <img class="book__logo" src="{{ item.icon }}" alt="Logo for {{ item.title }}" />
     <div>
       <h3>{{ item.title }}</h3>
@@ -60,7 +60,7 @@ eleventyExcludeFromCollections: true
 <p>For more up-to-date schedule templates see our full list of <a href="/sprint-guide/schedules">Schedules</a></p>
 <ul role="list">
   {% for item in resources.templates %}
-  <li class="template">
+  <li class="resource">
     <img class="template__logo" src="{{ item.icon }}" alt="Icon for {{ item.title }}" />
     <div>
       <h3>{{ item.title }}</h3>
