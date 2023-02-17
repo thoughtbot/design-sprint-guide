@@ -9,7 +9,17 @@ eleventyExcludeFromCollections: true
   {% renderFile './sprint-guide/resources/_introduction.md' %}
 </article>
 
-<h2>Software & Tools</h2>
+<nav>
+  <h2>Table of contents</h2>
+  <ol>
+    <li><a href="#software">Software & Tools</a></li>
+    <li><a href="#reading">Reading</a></li>
+  </ol>
+</nav>
+
+<hr>
+
+<h2 id="software">Software & Tools</h2>
 <ul role="list">
   {% for item in resources.software %}
   <li class="software">
@@ -27,7 +37,7 @@ eleventyExcludeFromCollections: true
   {% endfor %}
 </ul>
 
-<h2>Reading</h2>
+<h2 id="reading">Reading</h2>
 <ul role="list">
   {% for item in resources.reading %}
   <li class="book">
