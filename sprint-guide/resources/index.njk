@@ -11,7 +11,7 @@ eleventyExcludeFromCollections: true
 
 <h2>Software & Tools</h2>
 <ul role="list">
-  {% for item in software %}
+  {% for item in resources.software %}
   <li class="software">
     <img class="software__logo" src="{{ item.icon }}" alt="Icon for {{ item.title }}" />
     <div>
@@ -21,10 +21,28 @@ eleventyExcludeFromCollections: true
         {% for tag in item.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
       </p>
       <p>{{ item.description }}</p>
+      <a href={{ item.url}} target="_blank">Try out {{ item.title }}</a>
     </div>
   </li>
   {% endfor %}
 </ul>
 
-<h2>Other Resources</h2>
+<h2>Reading</h2>
+<ul role="list">
+  {% for item in resources.reading %}
+  <li class="book">
+    <img class="book__logo" src="{{ item.icon }}" alt="Logo for {{ item.title }}" />
+    <div>
+      <h3>{{ item.title }}</h3>
+      <p>
+        <small>Tags</small>
+        {% for tag in item.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+      </p>
+      <p>{{ item.description }}</p>
+      <a href={{ item.url}} target="_blank">Read {{ item.title }}</a>
+    </div>
+  </li>
+  {% endfor %}
+</ul>
+
 {% renderFile './sprint-guide/resources/_list.md' %}
