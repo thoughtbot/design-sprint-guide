@@ -118,16 +118,58 @@ layout: 'layouts/base'
   </section>
 
   <section class="tbds-padding-block-4" id="resources">
-    <div class="measure">
-      <h2>Resources & Glossary</h2>
-      <article class="measure">
-        {% renderFile './sprint-guide/resources/_introduction.md' %}
-      </article>
-    </div>
+    <h2>Resources & Glossary</h2>
 
     <h3>Resources</h3>
-    {% renderFile './sprint-guide/resources/_list.md' %}
+    <article class="measure">
+      {% renderFile './sprint-guide/resources/_introduction.md' %}
+    </article>
     <p><a href="/sprint-guide/resources" class="link--red">See all resources</a></p>
+
+    <div class="tbds-inline-stack inline-stack--gap-7">
+      <div class="tbds-inline-stack__item">
+        <h4>Software</h4>
+        <ul role="list">
+          {% for item in resources.software %}
+          {% if loop.index0 < 2 %}
+          <li class="resource">
+            <img class="software__logo" src="{{ item.icon }}" alt="Icon for {{ item.title }}" />
+            <div>
+              <h3>{{ item.title }}</h3>
+              <p>
+                <small>Tags</small>
+                {% for tag in item.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+              </p>
+              <p>{{ item.description }}</p>
+              <a href={{ item.url}} target="_blank">Try out {{ item.title }}</a>
+            </div>
+          </li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="tbds-inline-stack__item">
+        <h4>Reading</h4>
+        <ul role="list">
+          {% for item in resources.reading %}
+          {% if loop.index0 < 2 %}
+          <li class="resource">
+            <img class="book__logo" src="{{ item.icon }}" alt="Icon for {{ item.title }}" />
+            <div>
+              <h3>{{ item.title }}</h3>
+              <p>
+                <small>Tags</small>
+                {% for tag in item.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+              </p>
+              <p>{{ item.description }}</p>
+              <a href={{ item.url}} target="_blank">Read {{ item.title }}</a>
+            </div>
+          </li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
 
     <div class="measure">
       <h3>Glossary</h3>

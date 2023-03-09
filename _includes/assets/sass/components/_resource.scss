@@ -1,0 +1,31 @@
+.resource {
+  align-items: flex-start;
+  border-bottom: 2px solid $tbds-brand-gray-ultra-light;
+  display: flex;
+  margin-bottom: $tbds-space-5;
+  padding-bottom: $tbds-space-5;
+
+  .software__logo,
+  .template__logo {
+    margin-right: $tbds-space-5;
+    max-width: 100px;
+  }
+
+  .software__logo {
+    border-radius: 10px;
+  }
+
+  .book__logo {
+    margin-right: $tbds-space-5;
+    max-width: 100px;
+  }
+
+  .tag + .tag {
+    margin-left: $tbds-space-2;
+  }
+
+  h3 {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+}
