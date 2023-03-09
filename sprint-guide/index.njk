@@ -154,7 +154,7 @@ layout: 'layouts/base'
           {% for item in resources.reading %}
           {% if loop.index0 < 2 %}
           <li class="resource">
-            <img class="software__logo" src="{{ item.icon }}" alt="Icon for {{ item.title }}" />
+            <img class="book__logo" src="{{ item.icon }}" alt="Icon for {{ item.title }}" />
             <div>
               <h3>{{ item.title }}</h3>
               <p>
@@ -162,7 +162,7 @@ layout: 'layouts/base'
                 {% for tag in item.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
               </p>
               <p>{{ item.description }}</p>
-              <a href={{ item.url}} target="_blank">Try out {{ item.title }}</a>
+              <a href={{ item.url}} target="_blank">Read {{ item.title }}</a>
             </div>
           </li>
           {% endif %}
