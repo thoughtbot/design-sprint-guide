@@ -10,7 +10,7 @@ collections:
     label: Exercise
     format: frontmatter
     create: true
-    folder: exercises
+    folder: sprint-guide/exercises
     fields:
       - {name: title, widget: string}
       - label: "Tags"
