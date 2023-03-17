@@ -18,10 +18,10 @@ new content guides below should be helpful.
 
 ## New Content
 
-- Add a new [exercise](https://github.com/thoughtbot/design-sprint-guide/blob/main/DOCS/adding-exercises.md)
-- Add a new [schedule](https://github.com/thoughtbot/design-sprint-guide/blob/main/DOCS/adding-schedules.md)
-- Add a new [glossary term](https://github.com/thoughtbot/design-sprint-guide/blob/main/DOCS/adding-glossary.md)
-- Add a new [FAQ](https://github.com/thoughtbot/design-sprint-guide/blob/main/DOCS/adding-faq.md)
+- Add a new [exercise](https://github.com/thoughtbot/design-sprint-guide/blob/main/DOCS/sprint-guide/adding-exercises.md)
+- Add a new [schedule](https://github.com/thoughtbot/design-sprint-guide/blob/main/DOCS/sprint-guide/adding-schedules.md)
+- Add a new [glossary term](https://github.com/thoughtbot/design-sprint-guide/blob/main/DOCS/sprint-guide/adding-glossary.md)
+- Add a new [FAQ](https://github.com/thoughtbot/design-sprint-guide/blob/main/DOCS/sprint-guide/adding-faq.md)
 
 ## Ideas
 
