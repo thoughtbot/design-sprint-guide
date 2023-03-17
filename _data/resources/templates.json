@@ -1,22 +1,24 @@
-[
-  {
-    "title": "Trello: thoughtbot flavour schedule",
-    "description": "This classic 5-day sprint is based off some of the early sprint techniques by Google Ventures. Over the years we have tweaked and adapted the exercises and schedule.",
-    "url": "https://trello.com/b/lMmuSlkP/public-design-sprint-template",
-    "icon": "/images/resources/trello_icon.svg",
-    "tags": [
-      "Trello",
-      "Schedule"
-    ]
-  },
-  {
-    "title": "Trello: SPRINT book schedule",
-    "description": "This classic 5-day sprint is based off the book Sprint, by Jake Knapp from Google Ventures.",
-    "url": "https://trello.com/b/76kqcT8s/gv-design-sprint-template",
-    "icon": "/images/resources/trello_icon.svg",
-    "tags": [
-      "Trello",
-      "Schedule"
-    ]
-  }
-]
+{
+  "resources": [
+    {
+      "title": "Trello: thoughtbot flavour schedule",
+      "description": "This classic 5-day sprint is based off some of the early sprint techniques by Google Ventures. Over the years we have tweaked and adapted the exercises and schedule.",
+      "url": "https://trello.com/b/lMmuSlkP/public-design-sprint-template",
+      "icon": "/images/resources/trello_icon.svg",
+      "tags": [
+        "Trello",
+        "Schedule"
+      ]
+    },
+    {
+      "title": "Trello: SPRINT book schedule",
+      "description": "This classic 5-day sprint is based off the book Sprint, by Jake Knapp from Google Ventures.",
+      "url": "https://trello.com/b/76kqcT8s/gv-design-sprint-template",
+      "icon": "/images/resources/trello_icon.svg",
+      "tags": [
+        "Trello",
+        "Schedule"
+      ]
+    }
+  ]
+}

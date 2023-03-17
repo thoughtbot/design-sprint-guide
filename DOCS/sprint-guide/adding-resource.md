@@ -1,5 +1,11 @@
 # Adding a New Resource
 
+### Option 1: Using the CMS
+
+You can add new exercises using the CMS. See [Access the CMS](https://github.com/thoughtbot/design-sprint-guide#access-the-cms).
+
+### Option 2: Manually
+
 1. Open the `_data/resources/[type].json` file. The resources are split by:
     - Reading: Things that are mostly text based e.g. blog posts and books
     - Software: This can be either downloadable apps or web apps.

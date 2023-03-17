@@ -1,69 +1,71 @@
-[
-  {
-    "title": "Miro",
-    "description": "Miro is a full-featured digital whiteboard, it can be used to run all kinds of design exercises, including design sprints. You also use it to build simple prototypes.",
-    "url": "https://miro.com",
-    "icon": "/images/resources/miro_logo.svg",
-    "tags": [
-      "Whiteboard",
-      "Prototyping"
-    ]
-  },
-  {
-    "title": "FigJam",
-    "description": "FigJam by the same team as Figma, is another popular choice as a collaborative whiteboard for teams. It can also be used to build simple prototypes.",
-    "url": "https://www.figma.com/figjam/",
-    "icon": "/images/resources/figjam_logo.svg",
-    "tags": [
-      "Whiteboard",
-      "Prototyping"
-    ]
-  },
-  {
-    "title": "Google Meet",
-    "description": "The free version of Google Meet is great for communicating with the sprint team. The company tier includes screen recording and other features that are useful for user testing.",
-    "url": "https://meet.google.com",
-    "icon": "/images/resources/google-meet_logo.svg",
-    "tags": [
-      "Video Calling",
-      "User Testing"
-    ]
-  },
-  {
-    "title": "Zoom",
-    "description": "Zoom is another video conferencing app that is full of useful features for user testing, like recording and closed-captioning.",
-    "url": "https://zoom.us",
-    "icon": "/images/resources/zoom_logo.svg",
-    "tags": [
-      "Video Calling",
-      "User Testing"
-    ]
-  },
-  {
-    "title": "Figma",
-    "description": "Figma is an excellent choice for building and testing prototypes, including high-fidelity prototypes with animation, video and audio.",
-    "url": "https://www.figma.com",
-    "icon": "/images/resources/figjam_logo.svg",
-    "tags": [
-      "Prototyping"
-    ]
-  },
-  {
-    "title": "Webflow",
-    "description": "If you need to build a prototype quickly for the web, using HTML and CSS, Webflow is a great choice to move faster than hand-coding from scratch.",
-    "url": "https://www.webflow.com",
-    "icon": "/images/resources/webflow_logo.svg",
-    "tags": [
-      "Prototyping"
-    ]
-  },
-  {
-    "title": "usertesting.com",
-    "description": "Sometimes it's difficult or time consuming to find users to test with, usertesting.com makes finding and testing with users easy, and almost completely automated.",
-    "url": "https://www.usertesting.com",
-    "icon": "/images/resources/user-testing_logo.svg",
-    "tags": [
-      "User Testing"
-    ]
-  }
-]
+{
+  "resources": [
+    {
+      "title": "Miro",
+      "description": "Miro is a full-featured digital whiteboard, it can be used to run all kinds of design exercises, including design sprints. You also use it to build simple prototypes.",
+      "url": "https://miro.com",
+      "icon": "/images/resources/miro_logo.svg",
+      "tags": [
+        "Whiteboard",
+        "Prototyping"
+      ]
+    },
+    {
+      "title": "FigJam",
+      "description": "FigJam by the same team as Figma, is another popular choice as a collaborative whiteboard for teams. It can also be used to build simple prototypes.",
+      "url": "https://www.figma.com/figjam/",
+      "icon": "/images/resources/figjam_logo.svg",
+      "tags": [
+        "Whiteboard",
+        "Prototyping"
+      ]
+    },
+    {
+      "title": "Google Meet",
+      "description": "The free version of Google Meet is great for communicating with the sprint team. The company tier includes screen recording and other features that are useful for user testing.",
+      "url": "https://meet.google.com",
+      "icon": "/images/resources/google-meet_logo.svg",
+      "tags": [
+        "Video Calling",
+        "User Testing"
+      ]
+    },
+    {
+      "title": "Zoom",
+      "description": "Zoom is another video conferencing app that is full of useful features for user testing, like recording and closed-captioning.",
+      "url": "https://zoom.us",
+      "icon": "/images/resources/zoom_logo.svg",
+      "tags": [
+        "Video Calling",
+        "User Testing"
+      ]
+    },
+    {
+      "title": "Figma",
+      "description": "Figma is an excellent choice for building and testing prototypes, including high-fidelity prototypes with animation, video and audio.",
+      "url": "https://www.figma.com",
+      "icon": "/images/resources/figjam_logo.svg",
+      "tags": [
+        "Prototyping"
+      ]
+    },
+    {
+      "title": "Webflow",
+      "description": "If you need to build a prototype quickly for the web, using HTML and CSS, Webflow is a great choice to move faster than hand-coding from scratch.",
+      "url": "https://www.webflow.com",
+      "icon": "/images/resources/webflow_logo.svg",
+      "tags": [
+        "Prototyping"
+      ]
+    },
+    {
+      "title": "usertesting.com",
+      "description": "Sometimes it's difficult or time consuming to find users to test with, usertesting.com makes finding and testing with users easy, and almost completely automated.",
+      "url": "https://www.usertesting.com",
+      "icon": "/images/resources/user-testing_logo.svg",
+      "tags": [
+        "User Testing"
+      ]
+    }
+  ]
+}
