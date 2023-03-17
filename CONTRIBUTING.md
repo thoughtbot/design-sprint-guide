@@ -22,6 +22,7 @@ new content guides below should be helpful.
 - Add a new [schedule](https://github.com/thoughtbot/design-sprint-guide/blob/main/DOCS/sprint-guide/adding-schedules.md)
 - Add a new [glossary term](https://github.com/thoughtbot/design-sprint-guide/blob/main/DOCS/sprint-guide/adding-glossary.md)
 - Add a new [FAQ](https://github.com/thoughtbot/design-sprint-guide/blob/main/DOCS/sprint-guide/adding-faq.md)
+- Add a new [resource](https://github.com/thoughtbot/design-sprint-guide/blob/main/DOCS/sprint-guide/adding-resource.md)
 
 ## Ideas
 
