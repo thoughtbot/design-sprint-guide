@@ -7,6 +7,7 @@
     "url": "git+https://github.com/thoughtbot/design-sprint-guide.git"
   },
   "scripts": {
+    "clean": "rm -rf _site",
     "watch:eleventy": "eleventy --serve",
     "watch:cms": "npx netlify-cms-proxy-server",
     "build:eleventy": "eleventy",
@@ -40,12 +41,10 @@
       "es2021": true
     },
     "extends": "eslint:recommended",
-    "overrides": [
-    ],
+    "overrides": [],
     "parserOptions": {
       "ecmaVersion": "latest"
     },
-    "rules": {
-    }
+    "rules": {}
   }
 }
