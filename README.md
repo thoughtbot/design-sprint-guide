@@ -22,7 +22,7 @@ This will start Eleventy, watch sass files, run the CMS locally, and reload the 
 
 ### Access the CMS
 
-We use [Netlify CMS](https://www.netlifycms.org) locally to make editing
+We use [Decap CMS](https://decapcms.org) locally to make editing
 exercises, and schedules easier.
 
 To access the CMS run everything above. Then open `localhost:8080/admin` in a
