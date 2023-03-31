@@ -72,3 +72,66 @@ collections:
             fields:
               - {name: title, widget: string}
               - {name: definition, widget: text}
+  - label: "Resource"
+    name: "resource"
+    files:
+      - name: resource_reading
+        label: "Resources (Reading)"
+        file: "_data/resources/reading.json"
+        fields:
+          - name: resources
+            label: Resources
+            widget: list
+            fields:
+            - {name: title, widget: string}
+            - {name: description, widget: string}
+            - {name: url, widget: string}
+            - name: icon
+              widget: image
+              choose_url: false
+              media_folder: '/_includes/assets/images/resources'
+            - name: "tags"
+              widget: "select"
+              multiple: true
+              options: ["Blog", "Book", "Wiki"]
+              default: ["Book"]
+      - name: resource_software
+        label: "Resources (Software)"
+        file: "_data/resources/software.json"
+        fields:
+          - name: resources
+            label: Resources
+            widget: list
+            fields:
+            - {name: title, widget: string}
+            - {name: description, widget: string}
+            - {name: url, widget: string}
+            - name: icon
+              widget: image
+              choose_url: false
+              media_folder: '/_includes/assets/images/resources'
+            - name: "tags"
+              widget: "select"
+              multiple: true
+              options: ["Whiteboard", "Prototyping", "Video Calling", "User Testing", "Prototyping"]
+              default: ["Whiteboard"]
+      - name: resource_template
+        label: "Resources (Template)"
+        file: "_data/resources/templates.json"
+        fields:
+          - name: resources
+            label: Resources
+            widget: list
+            fields:
+              - {name: title, widget: string}
+              - {name: description, widget: string}
+              - {name: url, widget: string}
+              - name: icon
+                widget: image
+                choose_url: false
+                media_folder: '/_includes/assets/images/resources'
+              - name: "tags"
+                widget: "select"
+                multiple: true
+                options: ["Trello", "Schedule"]
+                default: ["Trello"]

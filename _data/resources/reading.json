@@ -1,39 +1,41 @@
-[
-  {
-    "title": "thoughtbot Blog",
-    "description": "Our very own blog that covers all topics on design and development. It's where we first started talking about design sprints back in 2013.",
-    "url": "https://thoughtbot.com/blog/design",
-    "icon": "/images/resources/tb-blog_cover.svg",
-    "tags": [
-      "Blog"
-    ]
-  },
-  {
-    "title": "SPRINT",
-    "description": "Jake Knapp spent 10 years at Google and Google Ventures, where he created the Design Sprint process. This is the official guide to running a design sprint.",
-    "url": "https://www.thesprintbook.com/",
-    "icon": "/images/resources/sprint-book_cover.jpg",
-    "tags": [
-      "Book"
-    ]
-  },
-  {
-    "title": "Sprint Stories",
-    "description": "Sprint Stories is a blog of case studies covering design sprints from partners at Google Ventures. It's a great place to see the outcomes a design sprint can achieve.",
-    "url": "https://sprintstories.com",
-    "icon": "/images/resources/sprint-stories_cover.jpg",
-    "tags": [
-      "Blog"
-    ]
-  },
-  {
-    "title": "Gamestorming",
-    "description": "Gamestorming is a collection of exercises that are designed to help make decisions and solve problems. We often customise our sprints with some of these exercises.",
-    "url": "https://gamestorming.com/the-wiki/",
-    "icon": "/images/resources/gamestorming_cover.jpg",
-    "tags": [
-      "Book",
-      "Wiki"
-    ]
-  }
-]
+{
+  "resources": [
+    {
+      "title": "thoughtbot Blog",
+      "description": "Our very own blog that covers all topics on design and development. It's where we first started talking about design sprints back in 2013.",
+      "url": "https://thoughtbot.com/blog/design",
+      "icon": "/_includes/assets/images/resources/tb-blog_cover.svg",
+      "tags": [
+        "Blog"
+      ]
+    },
+    {
+      "title": "SPRINT",
+      "description": "Jake Knapp spent 10 years at Google and Google Ventures, where he created the Design Sprint process. This is the official guide to running a design sprint.",
+      "url": "https://www.thesprintbook.com/",
+      "icon": "/_includes/assets/images/resources/sprint-book_cover.jpg",
+      "tags": [
+        "Book"
+      ]
+    },
+    {
+      "title": "Sprint Stories",
+      "description": "Sprint Stories is a blog of case studies covering design sprints from partners at Google Ventures. It's a great place to see the outcomes a design sprint can achieve.",
+      "url": "https://sprintstories.com",
+      "icon": "/_includes/assets/images/resources/sprint-stories_cover.jpg",
+      "tags": [
+        "Blog"
+      ]
+    },
+    {
+      "title": "Gamestorming",
+      "description": "Gamestorming is a collection of exercises that are designed to help make decisions and solve problems. We often customise our sprints with some of these exercises.",
+      "url": "https://gamestorming.com/the-wiki/",
+      "icon": "/_includes/assets/images/resources/gamestorming_cover.jpg",
+      "tags": [
+        "Book",
+        "Wiki"
+      ]
+    }
+  ]
+}
