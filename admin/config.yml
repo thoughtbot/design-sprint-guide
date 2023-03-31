@@ -87,10 +87,11 @@ collections:
             - {name: description, widget: string}
             - {name: url, widget: string}
             - {name: icon, widget: string}
-            - name: tags
-              widget: list
-              fields:
-                - {name: tag, widget: string}
+            - name: "tags"
+              widget: "select"
+              multiple: true
+              options: ["Blog", "Book", "Wiki"]
+              default: ["Book"]
       - name: resource_software
         label: "Resources (Software)"
         file: "_data/resources/software.json"
@@ -103,10 +104,11 @@ collections:
             - {name: description, widget: string}
             - {name: url, widget: string}
             - {name: icon, widget: string}
-            - name: tags
-              widget: list
-              fields:
-                - {name: tag, widget: string}
+            - name: "tags"
+              widget: "select"
+              multiple: true
+              options: ["Whiteboard", "Prototyping", "Video Calling", "User Testing", "Prototyping"]
+              default: ["Whiteboard"]
       - name: resource_template
         label: "Resources (Template)"
         file: "_data/resources/templates.json"
@@ -119,7 +121,8 @@ collections:
               - {name: description, widget: string}
               - {name: url, widget: string}
               - {name: icon, widget: string}
-              - name: tags
-                widget: list
-                fields:
-                  - {name: tag, widget: string}
+              - name: "tags"
+                widget: "select"
+                multiple: true
+                options: ["Trello", "Schedule"]
+                default: ["Trello"]

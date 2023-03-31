@@ -4,6 +4,23 @@
 
 You can add new exercises using the CMS. See [Access the CMS](https://github.com/thoughtbot/design-sprint-guide#access-the-cms).
 
+#### Adding new tags to the CMS
+
+1. Open `admin/config.yml`.
+2. Find the `select` widget which defines your resource tags:
+
+```yml
+...
+- name: "tags"
+    widget: "select"
+    multiple: true
+    options: ["Blog", "Book", "Wiki"]
+    default: ["Book"]
+...
+```
+
+Finally add a new tag to the `options` array.
+
 ### Option 2: Manually
 
 1. Open the `_data/resources/[type].json` file. The resources are split by:
