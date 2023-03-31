@@ -86,7 +86,10 @@ collections:
             - {name: title, widget: string}
             - {name: description, widget: string}
             - {name: url, widget: string}
-            - {name: icon, widget: string}
+            - name: icon
+              widget: image
+              choose_url: false
+              media_folder: '/_includes/assets/images/resources'
             - name: "tags"
               widget: "select"
               multiple: true
@@ -103,7 +106,10 @@ collections:
             - {name: title, widget: string}
             - {name: description, widget: string}
             - {name: url, widget: string}
-            - {name: icon, widget: string}
+            - name: icon
+              widget: image
+              choose_url: false
+              media_folder: '/_includes/assets/images/resources'
             - name: "tags"
               widget: "select"
               multiple: true
@@ -120,7 +126,10 @@ collections:
               - {name: title, widget: string}
               - {name: description, widget: string}
               - {name: url, widget: string}
-              - {name: icon, widget: string}
+              - name: icon
+                widget: image
+                choose_url: false
+                media_folder: '/_includes/assets/images/resources'
               - name: "tags"
                 widget: "select"
                 multiple: true

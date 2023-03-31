@@ -36,7 +36,7 @@ Finally add a new tag to the `options` array.
     "title": "thoughtbot Blog",
     "description": "Our very own blog that covers all...",
     "url": "https://thoughtbot.com/blog/design",
-    "icon": "/images/resources/tb-blog_cover.svg",
+    "icon": "/_includes/assets/images/resources/tb-blog_cover.svg",
     "tags": [
       "Blog"
     ]
