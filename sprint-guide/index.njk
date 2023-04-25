@@ -130,10 +130,10 @@ layout: 'layouts/base'
       <div class="tbds-inline-stack__item">
         <h4>Software</h4>
         <ul role="list">
-          {% for item in resources.software %}
+          {% for item in resources.software.resources %}
           {% if loop.index0 < 2 %}
           <li class="resource">
-            <img class="software__logo" src="{{ item.icon }}" alt="Icon for {{ item.title }}" />
+            <img class="software__logo" src="{{ item.icon | normalizeCMSImage }}" alt="Icon for {{ item.title }}" />
             <div>
               <h3>{{ item.title }}</h3>
               <p>
@@ -151,10 +151,10 @@ layout: 'layouts/base'
       <div class="tbds-inline-stack__item">
         <h4>Reading</h4>
         <ul role="list">
-          {% for item in resources.reading %}
+          {% for item in resources.reading.resources %}
           {% if loop.index0 < 2 %}
           <li class="resource">
-            <img class="book__logo" src="{{ item.icon }}" alt="Icon for {{ item.title }}" />
+            <img class="book__logo" src="{{ item.icon | normalizeCMSImage }}" alt="Icon for {{ item.title }}" />
             <div>
               <h3>{{ item.title }}</h3>
               <p>

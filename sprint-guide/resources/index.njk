@@ -22,9 +22,9 @@ eleventyExcludeFromCollections: true
 
 <h2 id="software">Software & Tools</h2>
 <ul role="list">
-  {% for item in resources.software %}
+  {% for item in resources.software.resources %}
   <li class="resource">
-    <img class="software__logo" src="{{ item.icon }}" alt="Icon for {{ item.title }}" />
+    <img class="software__logo" src="{{ item.icon | normalizeCMSImage }}" alt="Icon for {{ item.title }}" />
     <div>
       <h3>{{ item.title }}</h3>
       <p>
@@ -40,9 +40,9 @@ eleventyExcludeFromCollections: true
 
 <h2 id="reading">Reading</h2>
 <ul role="list">
-  {% for item in resources.reading %}
+  {% for item in resources.reading.resources %}
   <li class="resource">
-    <img class="book__logo" src="{{ item.icon }}" alt="Logo for {{ item.title }}" />
+    <img class="book__logo" src="{{ item.icon | normalizeCMSImage }}" alt="Logo for {{ item.title }}" />
     <div>
       <h3>{{ item.title }}</h3>
       <p>
@@ -59,9 +59,9 @@ eleventyExcludeFromCollections: true
 <h2 id="templates">Templates</h2>
 <p>For more up-to-date schedule templates see our full list of <a href="/sprint-guide/schedules">Schedules</a></p>
 <ul role="list">
-  {% for item in resources.templates %}
+  {% for item in resources.templates.resources %}
   <li class="resource">
-    <img class="template__logo" src="{{ item.icon }}" alt="Icon for {{ item.title }}" />
+    <img class="template__logo" src="{{ item.icon | normalizeCMSImage }}" alt="Icon for {{ item.title }}" />
     <div>
       <h3>{{ item.title }}</h3>
       <p>

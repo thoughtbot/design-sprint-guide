@@ -29,6 +29,12 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter("getChildExercise", function(collection, child) {
     return collection.find((exercise) => exercise.fileSlug === child);
   });
+  // Remove the preceding "/_includes/assets/" from images set in the CMS
+  eleventyConfig.addFilter("normalizeCMSImage", function(url) {
+    const parts = url.split("/")
+    const result = "/" + parts.slice(3).join("/")
+    return result
+  });
   // Generate a simple breadcrumb
   // Usage: {% breadcrumbs page.url %}
   eleventyConfig.addShortcode("breadcrumbs", function(url) {
