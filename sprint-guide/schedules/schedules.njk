@@ -1,7 +1,7 @@
 ---js
 {
      pagination: {
-        data: "schedules",
+        data: "sprint_guide.schedules",
         size: 1,
         alias: "schedule",
         },
@@ -10,12 +10,12 @@
 }
 ---
 
-<div class="eyebrow">{{ schedules[schedule].duration }}</div>
-<h1>{{ schedules[schedule].title }}</h1>
+<div class="eyebrow">{{ sprint_guide.schedules[schedule].duration }}</div>
+<h1>{{ sprint_guide.schedules[schedule].title }}</h1>
 
 <article class="measure">
-{{ schedules[schedule].introduction | markdown | safe }}
+{{ sprint_guide.schedules[schedule].introduction | markdown | safe }}
 </article>
 
-{% set agenda = schedules[schedule] %}
+{% set agenda = sprint_guide.schedules[schedule] %}
 {% include "agenda.njk" %}

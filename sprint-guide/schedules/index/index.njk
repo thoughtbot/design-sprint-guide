@@ -10,7 +10,7 @@ layout: "layouts/internal-page.njk"
   </article>
 
   <ul>
-    {% for key, agenda in schedules %}
+    {% for key, agenda in sprint_guide.schedules %}
       <li><a href="{{ key }}">{{ agenda.title }}</a></li>
     {% endfor %}
   </ul>

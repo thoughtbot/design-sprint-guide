@@ -34,7 +34,7 @@ collections:
     label: Schedule
     format: json
     create: true
-    folder: _data/schedules
+    folder: _data/sprint_guide/schedules
     fields:
       - {name: title, widget: string}
       - {name: duration, widget: string}

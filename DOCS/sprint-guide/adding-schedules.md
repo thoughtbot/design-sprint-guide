@@ -2,13 +2,12 @@
 
 ### Option 1: Using the CMS
 
-You can add new schedules using the CMS. See [Access the CMS](https://github.com/thoughtbot/design-sprint-guide#access-the-cms). To display the new schedule follow the [display instructions](#display-the-new-schedule) below.
+You can add new schedules using the CMS. See [Access the CMS](https://github.com/thoughtbot/design-sprint-guide#access-the-cms).
 
 ### Option 2: Manually
 
-1. Create a new JSON file inside `_data/schedules`, for example: `my_new_schedule.json`.
+1. Create a new JSON file inside `_data/sprint_guide/schedules`, for example: `my_new_schedule.json`.
 2. Add the new schedule using the format below as a guide.
-3. To display the new schedule follow the [display instructions](#display-the-new-schedule) below.
 
 ```json
 {
@@ -33,25 +32,4 @@ You can add new schedules using the CMS. See [Access the CMS](https://github.com
     ... more phases
   ]
 }
-```
-
-### Display the new schedule
-
-1. Add a new folder under `schedules`, for example: `my-new-schedule`.
-2. Inside that folder add an `index.njk` containing:
-
-```
----
-title: My New Schedule
----
-<h1>{{ title }}</h1>
-
-<!-- Optional -->
-<article class="measure">
-  {% renderFile './sprint-guide/schedules/my-new-schedule/_introduction.md' %}
-</article>
-
-<!-- schedules.[name] must match the file name in _data/schedules -->
-{% set schedule = schedules.my_new_schedule %}
-{% include "schedule.njk" %}
 ```

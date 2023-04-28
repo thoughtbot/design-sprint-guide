@@ -72,7 +72,7 @@ layout: 'layouts/base'
 
     <div class="tbds-inline-stack__item">
       <ul class="tbds-block-stack__item schedule__grid">
-        {% for key, schedule in schedules %}
+        {% for key, schedule in sprint_guide.schedules %}
          <li>
             <a href="/sprint-guide/schedules/{{ key }}">
               <div class="eyebrow">{{ schedule.duration }}</div>
