@@ -89,7 +89,7 @@ collections:
             - name: icon
               widget: image
               choose_url: false
-              media_folder: '/_includes/assets/images/resources'
+              media_folder: '/_includes/assets/images/sprint_guide/resources'
             - name: "tags"
               widget: "select"
               multiple: true
@@ -109,7 +109,7 @@ collections:
             - name: icon
               widget: image
               choose_url: false
-              media_folder: '/_includes/assets/images/resources'
+              media_folder: '/_includes/assets/images/sprint_guide/resources'
             - name: "tags"
               widget: "select"
               multiple: true
@@ -129,7 +129,7 @@ collections:
               - name: icon
                 widget: image
                 choose_url: false
-                media_folder: '/_includes/assets/images/resources'
+                media_folder: '/_includes/assets/images/sprint_guide/resources'
               - name: "tags"
                 widget: "select"
                 multiple: true
