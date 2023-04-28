@@ -1,5 +1,5 @@
 <section class="tab-collection">
-  {% for tab in tabs %}
+  {% for tab in sprint_guide.tabs %}
     <input type="radio" name="tab" value="{{ tab.slug }}" id="tab{{ tab.number }}" class="tab-radio" {{ 'checked' if loop.first }}>
     <label for="tab{{ tab.number }}" class="tab-label" id="{{ tab.slug }}">
       <div class="tab-label__title tab">
