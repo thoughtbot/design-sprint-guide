@@ -1,7 +1,7 @@
 ---
 tags: ['exercise', 'understand']
 title: Problem Statement
-image: '/images/exercises/problem-statement.png'
+image: '/images/sprint_guide/exercises/problem-statement.png'
 ---
 
 It is best to identify the job-to-be-done that the sprint is trying to solve as

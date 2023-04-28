@@ -1,7 +1,7 @@
 ---
 tags: ['exercise', 'converge']
 title: Final Storyboard
-image: '/images/exercises/final-storyboard.png'
+image: '/images/sprint_guide/exercises/final-storyboard.png'
 ---
 
 The final storyboard is the final Converge exercise and should be used to focus

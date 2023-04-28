@@ -2,7 +2,7 @@
 tags: ['exercise', 'diverge']
 title: Four-Step Sketches
 children: ['mind-mapping', 'idea-doodles', 'speedy-eights', '3-step-storyboards']
-image: '/images/exercises/3-step-storyboard.png'
+image: '/images/sprint_guide/exercises/3-step-storyboard.png'
 ---
 
 Using a guided ideas generation and sketching technique, individually generate

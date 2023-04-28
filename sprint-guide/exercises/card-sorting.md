@@ -1,7 +1,7 @@
 ---
 tags: ['exercise', 'understand']
 title: Card Sorting
-image: '/images/exercises/card-sorting.png'
+image: '/images/sprint_guide/exercises/card-sorting.png'
 ---
 
 Throughout the day we we have collected lots of [How Might We](/exercises/how-might-we) questions, the
@@ -37,4 +37,4 @@ By the end of this exercise we will have a list of the most useful, important, o
 ## Examples
 [![Ideas on digital sticky-notes organized by theme]({{ image }})]({{ image }})
 
-![A person quickly organizing Post-It notes. So fast!](/images/exercises/card-sorting.gif)
+![A person quickly organizing Post-It notes. So fast!](/images/sprint_guide/exercises/card-sorting.gif)

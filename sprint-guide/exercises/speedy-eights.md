@@ -2,7 +2,7 @@
 tags: ['exercise', 'diverge']
 title: Speedy Eights
 child: true
-image: ['/images/exercises/speedy-eights-remote.png', '/images/exercises/speedy-eights.jpeg']
+image: ['/images/sprint_guide/exercises/speedy-eights-remote.png', '/images/sprint_guide/exercises/speedy-eights.jpeg']
 ---
 
 The goal of this exercise is to push you outside your comfort zone, add more

@@ -2,7 +2,7 @@
 tags: ['exercise', 'converge']
 title: Art Museum
 children: ['heat-map', 'speed-crit', 'straw-poll', 'super-vote']
-image: '/images/exercises/art-museum.png'
+image: '/images/sprint_guide/exercises/art-museum.png'
 ---
 
 Individually review every sketch made the day before by heat map voting with
