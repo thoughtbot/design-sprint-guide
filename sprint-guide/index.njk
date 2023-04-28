@@ -176,7 +176,7 @@ layout: 'layouts/base'
       <p>If you're new to design sprints or just need a refresher to some less-than common terms we've got a list of the most common.</p>
     </div>
 
-    {% for term in glossary.terms.slice(0, 5) %}
+    {% for term in sprint_guide.glossary.terms.slice(0, 5) %}
       <dl class="dl | measure">
         <dt class="dl--title">{{ term.title }}</dt>
         <dd class="dl--description">{{ term.definition }}</dd>

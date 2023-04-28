@@ -64,7 +64,7 @@ collections:
     files:
       - name: glossary
         label: Glossary Terms
-        file: "_data/glossary.json"
+        file: "_data/sprint_guide/glossary.json"
         fields:
           - name: terms
             label: Terms

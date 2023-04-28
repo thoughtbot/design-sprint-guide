@@ -6,7 +6,7 @@ You can add new glossary terms using the CMS. See [Access the CMS](https://githu
 
 ### Option 2: Manually
 
-1. Open the `_data/faqs.json` file.
+1. Open the `_data/sprint_guide/glossary.json` file.
 2. Add a new FAQ in the following format:
 
 ```json
