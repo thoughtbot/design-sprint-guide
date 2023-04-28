@@ -77,7 +77,7 @@ collections:
     files:
       - name: resource_reading
         label: "Resources (Reading)"
-        file: "_data/resources/reading.json"
+        file: "_data/sprint_guide/resources/reading.json"
         fields:
           - name: resources
             label: Resources
@@ -97,7 +97,7 @@ collections:
               default: ["Book"]
       - name: resource_software
         label: "Resources (Software)"
-        file: "_data/resources/software.json"
+        file: "_data/sprint_guide/resources/software.json"
         fields:
           - name: resources
             label: Resources
@@ -117,7 +117,7 @@ collections:
               default: ["Whiteboard"]
       - name: resource_template
         label: "Resources (Template)"
-        file: "_data/resources/templates.json"
+        file: "_data/sprint_guide/resources/templates.json"
         fields:
           - name: resources
             label: Resources

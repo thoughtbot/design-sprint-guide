@@ -130,7 +130,7 @@ layout: 'layouts/base'
       <div class="tbds-inline-stack__item">
         <h4>Software</h4>
         <ul role="list">
-          {% for item in resources.software.resources %}
+          {% for item in sprint_guide.resources.software.resources %}
           {% if loop.index0 < 2 %}
           <li class="resource">
             <img class="software__logo" src="{{ item.icon | normalizeCMSImage }}" alt="Icon for {{ item.title }}" />
@@ -151,7 +151,7 @@ layout: 'layouts/base'
       <div class="tbds-inline-stack__item">
         <h4>Reading</h4>
         <ul role="list">
-          {% for item in resources.reading.resources %}
+          {% for item in sprint_guide.resources.reading.resources %}
           {% if loop.index0 < 2 %}
           <li class="resource">
             <img class="book__logo" src="{{ item.icon | normalizeCMSImage }}" alt="Icon for {{ item.title }}" />

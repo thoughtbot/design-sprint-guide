@@ -23,7 +23,7 @@ Finally add a new tag to the `options` array.
 
 ### Option 2: Manually
 
-1. Open the `_data/resources/[type].json` file. The resources are split by:
+1. Open the `_data/sprint_guide/resources/[type].json` file. The resources are split by:
     - Reading: Things that are mostly text based e.g. blog posts and books
     - Software: This can be either downloadable apps or web apps.
     - Templates: Things that people can base their own work on or modifiy freely.
