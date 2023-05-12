@@ -1,6 +1,6 @@
 # Adding a New FAQ
 
-1. Open the `_data/faqs.json` file.
+1. Open the `_data/sprint_guide/faqs.json` file.
 2. Add a new FAQ in the following format:
 
 ```json

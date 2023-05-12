@@ -1,0 +1,21 @@
+---js
+{
+     pagination: {
+        data: "sprint_guide.schedules",
+        size: 1,
+        alias: "schedule",
+        },
+    permalink: "/sprint-guide/schedules/{{ pagination.items[0] | slug }}/",
+    layout: "layouts/sprint-guide/base"
+}
+---
+
+<div class="eyebrow">{{ sprint_guide.schedules[schedule].duration }}</div>
+<h1>{{ sprint_guide.schedules[schedule].title }}</h1>
+
+<article class="measure">
+{{ sprint_guide.schedules[schedule].introduction | markdown | safe }}
+</article>
+
+{% set agenda = sprint_guide.schedules[schedule] %}
+{% include "sprint-guide/agenda.njk" %}

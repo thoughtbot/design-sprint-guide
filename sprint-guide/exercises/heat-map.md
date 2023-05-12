@@ -2,7 +2,7 @@
 tags: ['exercise', 'converge']
 title: Heat Map
 child: true
-image: '/images/exercises/heat-map.png'
+image: '/images/sprint_guide/exercises/heat-map.png'
 ---
 
 Heat map is an exercise to get a general feel for which of the ideas that have

@@ -2,7 +2,7 @@
 tags: ['exercise', 'diverge']
 title: 3-Step Storyboard
 child: true
-image: ['/images/exercises/storyboard-large.png', '/images/exercises/3-step-storyboard.png']
+image: ['/images/sprint_guide/exercises/storyboard-large.png', '/images/sprint_guide/exercises/3-step-storyboard.png']
 ---
 
 The goal is to take the ideas generated so far (in Speedy Eights , etc.) and

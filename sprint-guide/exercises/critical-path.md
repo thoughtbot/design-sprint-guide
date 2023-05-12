@@ -4,8 +4,8 @@ tags:
   - exercise
   - understand
 image:
-  - /images/exercises/critical-path.png
-  - /images/exercises/critical-path-1.jpeg
+  - /images/sprint_guide/exercises/critical-path.png
+  - /images/sprint_guide/exercises/critical-path-1.jpeg
 ---
 The Critical Path should be discussed after a Problem Statement has been agreed
 upon. Once completed, the Critical Path should give a step-by-step map of the

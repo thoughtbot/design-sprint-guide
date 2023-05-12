@@ -1,7 +1,7 @@
 ---
 tags: ['exercise', 'understand']
 title: Needs, Wants, Desires
-image: '/images/exercises/needs-wants-desires.png'
+image: '/images/sprint_guide/exercises/needs-wants-desires.png'
 ---
 
 Needs, Wants, Desires is a Card Sorting exercise to help figure out priorities

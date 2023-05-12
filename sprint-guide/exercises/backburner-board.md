@@ -1,7 +1,7 @@
 ---
 tags: ['exercise', 'understand']
 title: Backburner Board
-image: '/images/exercises/backburner-board.png'
+image: '/images/sprint_guide/exercises/backburner-board.png'
 ---
 
 A lot of ideas will be generated throughout the week. Some of the ideas will be

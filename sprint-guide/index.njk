@@ -1,5 +1,5 @@
 ---
-layout: 'layouts/base'
+layout: 'layouts/sprint-guide/base'
 ---
 
 <div id="home-page">
@@ -72,7 +72,7 @@ layout: 'layouts/base'
 
     <div class="tbds-inline-stack__item">
       <ul class="tbds-block-stack__item schedule__grid">
-        {% for key, schedule in schedules %}
+        {% for key, schedule in sprint_guide.schedules %}
          <li>
             <a href="/sprint-guide/schedules/{{ key }}">
               <div class="eyebrow">{{ schedule.duration }}</div>
@@ -130,7 +130,7 @@ layout: 'layouts/base'
       <div class="tbds-inline-stack__item">
         <h4>Software</h4>
         <ul role="list">
-          {% for item in resources.software.resources %}
+          {% for item in sprint_guide.resources.software.resources %}
           {% if loop.index0 < 2 %}
           <li class="resource">
             <img class="software__logo" src="{{ item.icon | normalizeCMSImage }}" alt="Icon for {{ item.title }}" />
@@ -151,7 +151,7 @@ layout: 'layouts/base'
       <div class="tbds-inline-stack__item">
         <h4>Reading</h4>
         <ul role="list">
-          {% for item in resources.reading.resources %}
+          {% for item in sprint_guide.resources.reading.resources %}
           {% if loop.index0 < 2 %}
           <li class="resource">
             <img class="book__logo" src="{{ item.icon | normalizeCMSImage }}" alt="Icon for {{ item.title }}" />
@@ -176,7 +176,7 @@ layout: 'layouts/base'
       <p>If you're new to design sprints or just need a refresher to some less-than common terms we've got a list of the most common.</p>
     </div>
 
-    {% for term in glossary.terms.slice(0, 5) %}
+    {% for term in sprint_guide.glossary.terms.slice(0, 5) %}
       <dl class="dl | measure">
         <dt class="dl--title">{{ term.title }}</dt>
         <dd class="dl--description">{{ term.definition }}</dd>
