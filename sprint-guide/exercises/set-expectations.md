@@ -9,7 +9,7 @@ Make it clear to everyone what to expect from the sprint.
 
 Without setting expectations before starting the sprint you may be presented
 with some very confused and concerned team members. Design sprints may not be
-familiar to the people on you team so it's important that they know what to
+familiar to the people on your team so it's important that they know what to
 expect before joining.
 
 ## Instructions
