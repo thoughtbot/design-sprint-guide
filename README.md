@@ -10,7 +10,7 @@ our [Contributing Guide](https://github.com/thoughtbot/design-sprint-guide/blob/
 Start by installing dependencies:
 
 ```
-npm install
+./bin/setup
 ```
 
 ### Run Eleventy
