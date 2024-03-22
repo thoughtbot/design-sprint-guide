@@ -21,15 +21,14 @@
   "author": "thoughtbot",
   "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.0",
-    "@thoughtbot/stylelint-config": "^3.0.0",
-    "eslint": "^8.36.0",
-    "npm-run-all": "^4.1.5",
-    "stylelint": "^14.14.0"
+    "@11ty/eleventy": "^2.0.1",
+    "@thoughtbot/stylelint-config": "^4.0.0",
+    "eslint": "^8.57.0",
+    "npm-run-all": "^4.1.5"
   },
   "dependencies": {
-    "@thoughtbot/design-system": "^0.7.2",
-    "sass": "^1.59.3"
+    "@thoughtbot/design-system": "github:thoughtbot/design-system",
+    "sass": "^1.72.0"
   },
   "stylelint": {
     "extends": "@thoughtbot/stylelint-config"
