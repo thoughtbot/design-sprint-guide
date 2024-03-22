@@ -4,7 +4,7 @@ title: Speed Critique
 child: true
 ---
 
-In speed critique the team will get a chance to discuss and summarise the [Heat Map](/exercises/heat-map),
+In speed critique the team will get a chance to discuss and summarise the [Heat Map](/sprint-guide/exercises/heat-map),
 making notes of the biggest ideas. The conversation
 will have both a structure and a time limit.
 
@@ -25,7 +25,7 @@ For each sketch:
 
 1. Set a timer for 3-5 minutes (you may find that you get faster towards the end).
 2. The facilitator starts narrating the sketch, describing what is going on.
-3. The facilitator calls out standout ideas that have lots of votes from the [Heat Map](/exercises/heat-map).
+3. The facilitator calls out standout ideas that have lots of votes from the [Heat Map](/sprint-guide/exercises/heat-map).
 4. The team calls out any ideas that the facilitator missed.
 5. The ideas get written down by the note-taker.
 6. Review the questions/concerns.

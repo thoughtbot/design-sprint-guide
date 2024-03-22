@@ -4,7 +4,7 @@ title: Straw Poll
 child: true
 ---
 
-Based on the [Heat Map](/exercises/heat-map), and the [Speed Critique](/exercises/speed-crit),
+Based on the [Heat Map](/sprint-guide/exercises/heat-map), and the [Speed Critique](/sprint-guide/exercises/speed-crit),
 we need to get a quick temperature check on the best ideas so far.
 
 ## Requirements
@@ -14,7 +14,7 @@ we need to get a quick temperature check on the best ideas so far.
 
 ## Why should we do this exercise?
 
-So far during [Art Museum](/exercises/art-museum), the team haven't had much of
+So far during [Art Museum](/sprint-guide/exercises/art-museum), the team haven't had much of
 a chance to stringly vote for a an idea, this is thier first oppurtunity to
 hone in on the ideas that they feel most strongly about.
 
@@ -22,7 +22,7 @@ hone in on the ideas that they feel most strongly about.
 
 1. Set a timer for 5 minutes.
 2. Each team member gets 1 or two votes.
-3. Ask each team member to review the [Problem Statement](/exercises/problem-statement), and other materials.
+3. Ask each team member to review the [Problem Statement](/sprint-guide/exercises/problem-statement), and other materials.
 3. Ask each team member to make a (private) note of which one or two ideas they think are best.
 4. At the same time everyone places thier votes.
 5. Ask each person to explain thier votes.

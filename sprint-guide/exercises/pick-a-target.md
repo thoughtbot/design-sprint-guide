@@ -12,8 +12,8 @@ At the end of your first phase take some time to review everything you've done s
 
 ## Instructions
 
-1. If you haven't ask move your most voted for [HMWs](/exercises/how-might-we) onto the [Critical Path](/exercises/critical-path), most of them will correspond with a step in your story.
-2. Ask everyone to review the [Problem Statement](/exercises/problem-statement), the [Critical Path](/exercises/critical-path), and the [Sprint Questions](/exercises/sprint-questions).
+1. If you haven't ask move your most voted for [HMWs](/sprint-guide/exercises/how-might-we) onto the [Critical Path](/sprint-guide/exercises/critical-path), most of them will correspond with a step in your story.
+2. Ask everyone to review the [Problem Statement](/sprint-guide/exercises/problem-statement), the [Critical Path](/sprint-guide/exercises/critical-path), and the [Sprint Questions](/sprint-guide/exercises/sprint-questions).
 3. Together agree to up to 3 areas of the map that seem the highest risk, yet highest reward areas to focus on.
 4. Circle those areas on the map.
 

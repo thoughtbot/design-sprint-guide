@@ -30,20 +30,20 @@ the journey than the beginning.
 
 ### Work with what you have
 
-Grab everything you've done far and use it as inspiration. The [Problem Statement](/exercises/problem-statement),
- [Sprint Questions](/exercises/sprint-questions), and [Critical Path](/exercises/critical-path) will be particularly helpful.
+Grab everything you've done far and use it as inspiration. The [Problem Statement](/sprint-guide/exercises/problem-statement),
+ [Sprint Questions](/sprint-guide/exercises/sprint-questions), and [Critical Path](/sprint-guide/exercises/critical-path) will be particularly helpful.
 
 Try to resist inventing new ideas, and refer to all the ideas you've collected
 earlier instead.
 
 ### Scrapbook
 
-If you ran the [Art Museum](/exercises/art-museum) exercises you've got a head start:
+If you ran the [Art Museum](/sprint-guide/exercises/art-museum) exercises you've got a head start:
 
 - Immediately bring over all the ideas with supervotes and straw poll votes.
 - Put the ideas in order of where they could happen in your storyboard.
 - If some things overlap break up the ideas into smaller chunks and combine them.
-- If you still have gaps bring some of the other ideas with lots of [Heat Map](/exercises/heat-map)
+- If you still have gaps bring some of the other ideas with lots of [Heat Map](/sprint-guide/exercises/heat-map)
   votes to fill in the gaps.
 
 You should eventually get a very scrappy looking storyboard ready to refine.

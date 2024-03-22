@@ -14,9 +14,9 @@ decide on the best ideas.
 
 ## Why should we do this exercise?
 
-We have building up a heirarchy of the best ideas so far. With the [Heat Map](/exercises/heat-map)
-and [Speed Critique](/exercises/speed-crit) we got a
-very general idea. Then the [Straw poll](/exercises/straw-poll) started
+We have building up a heirarchy of the best ideas so far. With the [Heat Map](/sprint-guide/exercises/heat-map)
+and [Speed Critique](/sprint-guide/exercises/speed-crit) we got a
+very general idea. Then the [Straw poll](/sprint-guide/exercises/straw-poll) started
 solifiying those thoughts, now the deciders will corwn the best ideas.
 
 ## Instructions

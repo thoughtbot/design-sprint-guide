@@ -26,10 +26,10 @@ the previous day of sketching.
 Prior to this exercise have each team member take photos of their Solution
 sketches and upload them to a shared folder or Miro board.
 
-1. [Heat Map](/exercises/heat-map): 20 Minutes
-2. [Speed Critique](/exercises/speed-crit): 3-5 Minutes (per sketch)
-3. [Straw poll](/exercises/straw-poll): 5 Minutes
-4. [Supervote](/exercises/super-vote): 5 Minutes
+1. [Heat Map](/sprint-guide/exercises/heat-map): 20 Minutes
+2. [Speed Critique](/sprint-guide/exercises/speed-crit): 3-5 Minutes (per sketch)
+3. [Straw poll](/sprint-guide/exercises/straw-poll): 5 Minutes
+4. [Supervote](/sprint-guide/exercises/super-vote): 5 Minutes
 
 ## Example
 [![A collection of storyboards with some dots from heat mapping]({{ image }})]({{ image }})
