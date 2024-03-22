@@ -23,7 +23,7 @@ had the idea to add any more detail to the thought.
 
 ## Instructions
 
-1. Everyone gathers around a sketch or [Story Board](/sprint-guide/exercises/3-step-storyboards.md)
+1. Everyone gathers around a sketch or [Story Board](/sprint-guide/exercises/3-step-storyboard)
 2. Ask people what they liked about it.
 3. Ask the person that had the idea to add any more explanation that
    they think hasn’t been covered or if something was misunderstood.
