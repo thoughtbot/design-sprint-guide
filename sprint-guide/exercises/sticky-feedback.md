@@ -22,4 +22,4 @@ In a digital whiteboard:
     - If you have a feature idea, question or insight beyond what the participant said, mark
       it in your notes as such.
 
-Consider combining this approach with a [Scorecard](/exercises/scorecard).
+Consider combining this approach with a [Scorecard](/sprint-guide/exercises/scorecard).

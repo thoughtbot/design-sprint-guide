@@ -3,7 +3,7 @@ tags: ['exercise', 'understand']
 title: Sprint Questions
 ---
 
-To support our [Problem Statement](/exercises/problem-statement) what questions
+To support our [Problem Statement](/sprint-guide/exercises/problem-statement) what questions
 do we need to answer? What would we have to do to fail in that goal?
 
 ## Requirements
@@ -13,7 +13,7 @@ do we need to answer? What would we have to do to fail in that goal?
 
 ## Why should we do this exercise?
 
-We should already have a very short [Problem Statement](/exercises/problem-statement),
+We should already have a very short [Problem Statement](/sprint-guide/exercises/problem-statement),
 when we write that we were dreaming big, and not letting the every-day
 realities get in the way now it's time to dig into that problem a bit more and
 write some questions that this sprint needs to answer.

@@ -33,10 +33,10 @@ many alternatives.
 
 Here we will go through a process of 4 steps:
 
-1. [Mind Mapping](/exercises/mind-mapping): 7 Minutes
-2. (Optional) [Idea Doodles](/exercises/idea-doodles): 7 Minutes
-3. (Optional) [Speedy Eights](/exercises/speedy-eights): 8 Minutes
-4. [3-Step Storyboard](/exercises/3-step-storyboards): 35 Minutes
+1. [Mind Mapping](/sprint-guide/exercises/mind-mapping): 7 Minutes
+2. (Optional) [Idea Doodles](/sprint-guide/exercises/idea-doodles): 7 Minutes
+3. (Optional) [Speedy Eights](/sprint-guide/exercises/speedy-eights): 8 Minutes
+4. [3-Step Storyboard](/sprint-guide/exercises/3-step-storyboards): 35 Minutes
 
 Repeat this process twice more focusing on different areas or aspects of the
 problem you are trying to solve or a different solution to the same problem.
@@ -63,4 +63,4 @@ feel intimidated by the thought of sketching.
 
 ## Example
 [![Example of a 3-step storyboard]({{ image }})]({{ image }})
-[3-Step Storyboard](/exercises/3-step-storyboards)
+[3-Step Storyboard](/sprint-guide/exercises/3-step-storyboards)

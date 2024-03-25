@@ -14,5 +14,5 @@ Throughout Diverge there should have been many conflicting ideas. A conflict is 
 
 ## Instructions
 
-1. Review the [Story Boards](/exercises/3-step-storyboards) and identify where there are multiple approaches to solving the same problem.
-2. Talk through the different approaches start determining which it the best approach as you move into creating the [Final Storyboard](/exercises/final-storyboard)
+1. Review the [Story Boards](/sprint-guide/exercises/3-step-storyboards) and identify where there are multiple approaches to solving the same problem.
+2. Talk through the different approaches start determining which it the best approach as you move into creating the [Final Storyboard](/sprint-guide/exercises/final-storyboard)

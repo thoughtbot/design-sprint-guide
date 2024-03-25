@@ -21,7 +21,7 @@ become a great idea later on.
 ## Instructions
 
 Now it is time to get visual. Look at the problem area or solution you have
-been [mind mapped](/exercises/mind-mapping) about. This time try not to write
+been [mind mapped](/sprint-guide/exercises/mind-mapping) about. This time try not to write
 anything about it but doodle interesting ideas or solutions instead. Ugly is
 OK, no one will see this!
 

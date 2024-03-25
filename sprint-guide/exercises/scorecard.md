@@ -32,4 +32,4 @@ Using a spreadsheet (or similar):
 - Add additional qualitative insights either as comments of elsewhere.
 - Repeat for each question.
 
-Consider combining this approach with [Sticky Feedback](/exercises/sticky-feedback).
+Consider combining this approach with [Sticky Feedback](/sprint-guide/exercises/sticky-feedback).
