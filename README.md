@@ -18,7 +18,10 @@ Start by installing dependencies:
 ```
 npm start
 ```
+
 This will start Eleventy, watch sass files, run the CMS locally, and reload the browser on changes.
+
+The application will be running on `localhost:8080`.
 
 ### Access the CMS
 
