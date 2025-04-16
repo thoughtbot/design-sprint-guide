@@ -44,7 +44,7 @@ Weaknesses are things that we consider the company or product to be lacking in o
 - What is something that performs badly?
 - What do the target audience complain about or criticise?
 
-For example: "Long waiting times", "lack of persoanlity", "Users complain about lost items" are all weaknesses.
+For example: "Long waiting times", "lack of personality", "Users complain about lost items" are all weaknesses.
 
 ### Opportunities
 
