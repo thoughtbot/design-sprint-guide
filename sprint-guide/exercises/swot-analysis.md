@@ -33,7 +33,7 @@ Strengths are things that we consider the company or product to be particularly 
 - What is something unique to them?
 - What do the target audience think of them?
 
-For example: "Simple onboarding", "personalised customer support", "seen as modern and innovative" are all strengths.
+For example: "Simple onboarding", "Personalised customer support", "Seen as modern and innovative" are all strengths.
 
 ### Weaknesses
 
@@ -44,7 +44,7 @@ Weaknesses are things that we consider the company or product to be lacking in o
 - What is something that performs badly?
 - What do the target audience complain about or criticise?
 
-For example: "Long waiting times", "lack of personality", "Users complain about lost items" are all weaknesses.
+For example: "Long waiting times", "Lack of personality", "Users complain about lost items" are all weaknesses.
 
 ### Opportunities
 
@@ -54,7 +54,7 @@ Opportunities are things that we think that the company or product could be taki
 - What do they lack?
 - What do the target audience ask for regularly?
 
-For example: "Opening registrations to everyone", "more transparent pricing", "People often request to be able to edit their posts" are all opportunities.
+For example: "Opening registrations to everyone", "More transparent pricing", "People often request to be able to edit their posts" are all opportunities.
 
 ### Threats
 
