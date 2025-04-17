@@ -14,7 +14,7 @@ to explain and understand for the whole team.
 
 ## Instructions
 
-1. Make a list of competitors, peers, and inspirational prodcuts or companies.
+1. Make a list of competitors, peers, and inspirational products or companies.
 2. Against each one list items against the following headings:
     - Strengths
     - Weaknesses
@@ -64,4 +64,4 @@ Threats are things that we think have the potential to cause problems for the co
 - Where are others out performing?
 - Who is their closest competitor?
 
-For example: "From next year it's going to be easier to start a new provider", "Their peer have been hiring aggresively", "A new competitor is growing fast" are all threats.
+For example: "From next year it's going to be easier to start a new provider", "Their peer have been hiring aggressively", "A new competitor is growing fast" are all threats.
