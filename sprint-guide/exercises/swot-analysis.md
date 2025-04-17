@@ -26,7 +26,7 @@ to explain and understand for the whole team.
 
 ### Strengths
 
-Strengths are things that we consider the company or product to be particularly good at. To help find these try asking these questions:
+Strengths are things that we consider the company or product to be particularly good at. To help find these try asking:
 
 - What do they do well?
 - What are they the best at?
@@ -37,7 +37,7 @@ For example: "Simple onboarding", "Personalised customer support", "Seen as mode
 
 ### Weaknesses
 
-Weaknesses are things that we consider the company or product to be lacking in or bad at. To help find these try asking these questions:
+Weaknesses are things that we consider the company or product to be lacking in or bad at. To help find these try asking:
 
 - What to they need to improve?
 - What is the weakest part of the experience?
@@ -48,7 +48,7 @@ For example: "Long waiting times", "Lack of personality", "Users complain about 
 
 ### Opportunities
 
-Opportunities are things that we think that the company or product could be taking advantage of. To help find these try asking these questions:
+Opportunities are things that we think that the company or product could be taking advantage of. To help find these try asking:
 
 - What could they do to improve their weaknesses?
 - What do they lack?
@@ -58,7 +58,7 @@ For example: "Opening registrations to everyone", "More transparent pricing", "P
 
 ### Threats
 
-Threats are things that we think have the potential to cause problems for the company or product. To help find these try asking these questions:
+Threats are things that we think have the potential to cause problems for the company or product. To help find these try asking:
 
 - What changes are coming to the industry that could cause a problem?
 - Where are others out performing?
